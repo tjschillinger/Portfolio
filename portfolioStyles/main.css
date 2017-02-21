@@ -1,4 +1,48 @@
-.container { padding: 25px; background: white; margin: 10px; }
-#nav {
-  background: red;color: white;
+body, html {
+   height:100%
+}
+body{
+    font-family: "American typewriter", "Times New Roman", Times, serif;
+    font-style: normal;
+}
+.container { 
+    padding: 25px; background: white; margin: 10px; 
+}
+
+
+.imageSmall {
+    width:70px;
+    height:70px;
+}
+
+.notFancyFont {
+    font-family: Poppins, "Times New Roman", Times, serif;
+}
+
+#about {
+    background-color: #D6665A;
+    text-align: center;
+    color: white;
+}
+
+#about a {
+    color: white;
+}
+
+#gallery {
+    background-color: #75A48B;
+    text-align: center;
+    color: white;
+}
+
+#gallery a {
+    color: white;
+}
+
+.contactRight{
+    text-align: center;
+    background-image: url(../images/bannerImage.png);
+    background-repeat: no-repeat;
+    width: 50%;
+    min-height:100%;
 }
