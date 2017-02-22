@@ -8,98 +8,98 @@
 </head>
 <body>
 <!-- Hero -->
-  <div class="container">
-    <ul style="list-style-type:none">
-      <a href="#"><li>About</li></a>
-      <a href="#"><li>Projects</li></a>
-      <a href="#"><li>Gallery</li></a>
-      <a href="#"><li>Contact</li></a>
-    </ul>
-  </div>
-  <div id="">    
-    <img src="images/Logo%20Image.png" alt="Personal Logo">
-    <h1> Tim Schillinger</h1>
-    <h4> Frontend Web Developer</h4>
+  <div class="hero">
+    <div class="hero-nav">
+        <ul>
+        <a href="#"><li>About</li></a>
+        <a href="#"><li>Projects</li></a>
+        <a href="#"><li>Gallery</li></a>
+        <a href="#"><li>Contact</li></a>
+        </ul>
+    </div>
+    <div class="hero-logo">    
+        <img src="images/Logo%20Image.png" alt="Personal Logo">
+        <div class="title">
+            <h1> Tim Schillinger</h1>
+            <h4> Frontend Web Developer</h4>
+        </div>
+    </div>
   </div>
 <!-- About Left Side -->
-  <div class="container" id="about">
-    <h1>About</h1>
-    <table>
-        <tr>
-            <td><img src="images/20150914_171540.jpg" class="imageSmall" alt="Attibutes Image" >
-            <a href="#"><h4>Attributes</h4></a></td>
-            <td><img src="images/14232414_10210467857678600_8082527301618809101_n.jpg" class="imageSmall" alt="Story Image">
-            <a href="#"><h4>Interests</h4></a></td>
-            <td><img src="images/20150905_133647.jpg" class="imageSmall" alt="Story Image">
-            <a href="#"><h4>Story</h4></a></td>
-        </tr>    
-    </table>    
-  </div>
+    <div class="container about">
+        <h1>About Me</h1>
+        <div class="about-nav">
+          <div>
+            <a href="#"><img src="images/Attributes%20Image.png" alt="Attibutes Image" ></a>
+            <a href="#"><img src="images/Interests%20Image.png" alt="Story Image"></a>
+            <a href="#"><img src="images/Story%20Image.png" alt="Story Image"></a> 
+          </div>
+          <div class="about-sections">
+            <h4>Attributes</h4>
+            <h4>Interests</h4>
+            <h4>Story</h4>
+          </div>
+      </div>
+    </div>
 <!-- Attributes -->
-  <div class="container" >
-    <table style="width:100%">
-      <tr>
-        <td><img src="images/Sketch_logo_frame.svg.png" class="imageSmall" alt="Sketch"></td>
-        <td><img src="images/ico-desktop-lg.png" class="imageSmall" alt="balsamiq"></td> 
-        <td><img src="images/adobe-illustrator-cc-icon-vector-720x340.png" class="imageSmall" alt="Illustrator"></td>
-        <td><img src="images/invision.svg" class="imageSmall" alt="Invision"></td> 
-        <td><img src="images/usertesting2.jpeg" class="imageSmall" alt="User Testing"></td>
-      </tr>
-      <tr>
-        <td><img src="images/HTML5_logo_and_wordmark.svg.png" class="imageSmall" alt="Html 5"></td>
-        <td><img src="images/CSS-Logo-214x300.png" class="imageSmall" alt="CSS 3"></td> 
-        <td><img src="images/js-logo-badge-256.png" class="imageSmall" alt="Javascript"></td>
-        <td><img src="images/jQurery.gif" class="imageSmall" alt="jQuery"></td> 
-        <td><img src="images/github-512.png" class="imageSmall" alt="github"></td>
-      </tr>
-    </table>
-    <ul class="notFancyFont" style="list-style-type:disc">
-      <li>Wireframes/Prototyping</li>
-      <li>User Testing/Surveys</li>
-      <li>Personas</li>
-      <li>Low and High Fidelity Mockups</li>
-      <li>Web Design and Development</li>
-      <li>jQuery</li>
-    </ul>    
-    <ul class="notFancyFont" style="list-style-type:disc">   
-      <li>Mobile and Responsive Design</li>
-      <li>Band Strategy</li>
-      <li>Logo Conceptualization</li>
-      <li>Style Guides</li>
-      <li>HTML/CSS</li>
-      <li>Javascript</li>
-    </ul>
-  </div>
+    <div class=" attribute-right" >
+      <div>
+        <img src="images/Sketch_logo_frame.svg.png" alt="Sketch">
+        <img src="images/ico-desktop-lg.png" alt="balsamiq"> 
+        <img src="images/Illustrator%20Image.png" alt="Illustrator">
+        <img src="images/invision.svg" alt="Invision">
+        <img src="images/usertesting2.jpeg" alt="User Testing">
+      </div>
+      <div>
+        <img src="images/HTML5_logo_and_wordmark.svg.png" alt="Html 5">
+        <img src="images/CSS-Logo-214x300.png" alt="CSS 3">
+        <img src="images/js-logo-badge-256.png" alt="Javascript">
+        <img src="images/jQurery.gif" alt="jQuery"> 
+        <img src="images/github-512.png" alt="github">
+      </div>
+      <div>
+        <ul class="notFancyFont list-left">
+            <li>Wireframes/Prototyping</li>
+            <li>User Testing/Surveys</li>
+            <li>Personas</li>
+            <li>Low and High Fidelity Mockups</li>
+            <li>Web Design and Development</li>
+            <li>jQuery</li>
+        </ul>    
+      </div>
+      <div>
+        <ul class="notFancyFont list-right">   
+            <li>Mobile and Responsive Design</li>
+            <li>Band Strategy</li>
+            <li>Logo Conceptualization</li>
+            <li>Style Guides</li>
+            <li>HTML/CSS</li>
+            <li>Javascript</li>
+        </ul>
+      </div>
+    </div>
 <!-- Interests -->  
-  <div>
+  <div class="interests-right hidden">
     <img src="images/Books.png" alt="Books">
-    <table style="width:100%">
-      <tr>
-        <td>Behavioral Science</td>
-        <td>Lifestyle Technology</td>
-      </tr>
-      <tr>
-        <td>Hiking</td>
-        <td>Gamification</td> 
-      </tr>
-      <tr>
-        <td>Visual Arts</td>
-        <td>Story Structure</td>
-      </tr>
-      <tr>
-        <td>Philosophy</td>
-        <td>Coffee</td> 
-      </tr>
-      <tr>
-        <td>Writing</td>
-        <td>The Great Courses</td> 
-      </tr>
-    </table>
+    <div class="list-left">
+        <p>Behavioral Science</p>
+        <p>Lifestyle Technology</p>
+        <p>Hiking</p>
+        <p>Gamification </p>
+        <p>Visual Arts</p>
+    </div> 
+    <div class="list-right">
+     <p>Story Structure</p>
+     <p>Philosophy</p>
+     <p>Coffee</p>
+     <p>Writing</p>
+     <p>The Great Courses</p>
+    </div>
     <img src="images/Mountain%20Image.png" alt="Mountain View">
   </div>
 <!-- Story -->
-  <div >
-    <h5 class="notFancyFont">
+  <div class="story-right hidden">
+    <p class="notFancyFont">
       In 2010, I graduated high school. I didn’t know how to write an essay. I knew nothing of finances. I couldn’t perform math beyond division. What I knew work -hard, dirty, never-ending work. 60+ hours a week in my father’s lawn maintenance business taught me that. <br> <br> 
       It was time for a change. <br> <br>
 
@@ -116,18 +116,17 @@
       Why did both my wife and I make the jump into a new career path together? Good question! We did so because we were both interested in the field, and we didn’t want separate career paths to act as a barrier to each others lives. If I’m frustrated with a design issue, I want to be able to have an intelligible conversation about it with her, and vice versa. We don’t want an unbridgeable gap between us.<br> <br>  
 
       That’s one thing I don’t plan to change :)
-    </h5>
+    </p>
   </div>
 <!-- Projects Left Side-->
-  <div>
+  <div class="projects-nav">
     <h1>Projects</h1>
     <a href="#"><h4>Tracks</h4></a>
     <a href="#"><h4>Bloc Jams</h4></a>
     <a href="#"><h4>Human Kind</h4></a>
   </div>
 <!-- Projects, Traks -->  
-  <div class="container notFancyFont">
-    <img src="images/Traks%20Image.png" alt="Traks Image">
+  <div class="container traks-right">
     <h1>
       Traks
     </h1>
@@ -140,8 +139,7 @@
   </div>
   
 <!-- Projects, Bloc Jams --> 
-  <div class="container notFancyFont">
-    <img src="images/Blocjams%20Image.png" alt="Bloc Jams Image">
+  <div class="container blocjams-right hidden">
     <h1>
       Bloc Jams
     </h1>
@@ -154,8 +152,7 @@
   </div>
   
 <!-- Projects, Human Kind --> 
-  <div class="container notFancyFont">
-    <img src="images/humankind%20Image.png" alt="Human Kind Image">
+  <div class="container humankind-right hidden">
     <h1>
       Human Kind
     </h1>
@@ -169,60 +166,55 @@
     </div>
   </div>
 <!-- Gallery Left Side -->  
-  <div class="container" id="gallery">
+  <div class="gallery-left">
     <h1>Gallery</h1>
-    <img src="images/Iconography%20Image.png" alt="Icon Image" >
-    <a href="#"><h4>Iconography</h4></a>
-    <img src="images/Laptop%20Image.png" alt="Wallpaper Image">
-    <a href="#"><h4>Illustrator Wallpapers</h4></a>
+    <div>
+        <img src="images/Iconography%20Image.png" alt="Icon Image" id="left-img" >
+        <img src="images/Laptop%20Image.png" alt="Wallpaper Image" id="right-img">
+    </div>
+    <div>
+        <a href="#"><h4 id="text-one">Iconography</h4></a>
+        <a href="#"><h4 id="text-two">Illustrator Wallpapers</h4></a>
+    </div>
   </div>
 <!-- Gallery, Icons --> 
-   <div class="container" >
-    <table style="width:100%">
-      <tr>
-        <td><img src="images/spartan%20Image.png" alt="Icon 1"></td>
-        <td><img src="images/Talk%20Image.png" alt="Icon 2"></td> 
-        <td><img src="images/book%20icon%20Image.png" alt="Icon 3"></td>
-      </tr>
-      <tr>
-        <td><img src="images/ship%20Image.png" alt="Icon 4"></td>
-        <td><img src="images/tent%20Image.png" alt="Icon 5"></td> 
-        <td><img src="images/canvas%20Image.png" alt="Icon 6"></td>
-      </tr>
-    </table>
+   <div class="container icon-right" >
+    <div class="icons">
+       <div>
+        <img src="images/spartan%20Image.png" alt="Icon 1">
+        <img src="images/Talk%20Image.png" alt="Icon 2"> 
+        <img src="images/book%20icon%20Image.png" alt="Icon 3">
+       </div> 
+       <div>
+        <img src="images/ship%20Image.png" alt="Icon 4">
+        <img src="images/tent%20Image.png" alt="Icon 5"> 
+        <img src="images/canvas%20Image.png" alt="Icon 6">
+       </div>
+    </div>       
     <button type="button" onclick="alert('Hello world!')">
         More
     </button>
   </div>
-<!-- Gallery, Icons --> 
-   <div class="container" >
-    <table style="width:100%">
-      <tr>
-        <td><img src="images/Colorado%20Image.png" alt="Galery Item 1"></td> 
-        <td><img src="images/church%20Image.png" alt="Galery Item 2"></td>
-      </tr>
-      <tr>
-        <td><img src="images/Fox%20Image.png" alt="Galery Item 3"></td>
-      </tr>
-    </table>
+<!-- Gallery, Wallpapers --> 
+   <div class="container wallpaper-right hidden" >
+        <img src="images/Colorado%20Image.png" alt="Galery Item 1" id="top-left-img"> 
+        <img src="images/church%20Image.png" alt="Galery Item 2" id="top-right-img">
+        <img src="images/Fox%20Image.png" alt="Galery Item 3" id="bottom-left-img">
     <button type="button" onclick="alert('Hello world!')">
         More
     </button>
   </div>
 <!-- Conact Left Side -->
-  <div class="container">
-    <h1>
-      Contact
-    </h1>
-    <ul style="list-style-type:none">
-      <li class="notFancyFont"><img src="pic_mountain.jpg" alt="Email Image">tjschillinger92@gmail.com</li>
-      <li class="notFancyFont"><img src="pic_mountain.jpg" alt="Phone Image">(309) 303-9750</li>
-      <li class="notFancyFont"><img src="pic_mountain.jpg" alt="LinkedIn Image"></li>
-    </ul>
-  </div>
-  <div>
-    <img src="images/Logo%20Image.png" alt="Personal Logo">
-    <h1> Tim Schillinger</h1>
+  <div class="container contact-left">
+    <div class="bottom-logo">
+        <img src="images/Logo%20Image.png" alt="Personal Logo">
+        <h1> Tim Schillinger</h1>
+    </div>
+    <div class="contact-info">
+        <img src="pic_mountain.jpg" alt="Email Image">   <p>tjschillinger92@gmail.com</p>
+        <img src="pic_mountain.jpg" alt="Phone Image"><p>(309)    303-9750</p>
+        <img src="pic_mountain.jpg" alt="LinkedIn Image">
+    </div>
   </div>
 <!-- Conact Right Side -->
   <div class="container contactRight">
@@ -230,6 +222,5 @@
       Let's Build Together
     </h1>
   </div>
-  
 </body>
 </html>

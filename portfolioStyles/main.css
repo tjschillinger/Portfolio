@@ -1,14 +1,68 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body, html {
    height:100%
 }
+
 body{
     font-family: "American typewriter", "Times New Roman", Times, serif;
     font-style: normal;
 }
-.container { 
-    padding: 25px; background: white; margin: 10px; 
+
+.hidden {
+    display: none;
 }
 
+.hero{
+    height: 100%;
+}
+
+.hero-nav{
+    width: 25%;
+    float:left;
+    margin-top: 20%;
+    position: relative;
+}
+
+.hero-nav li {
+    list-style-type: none;
+    color: black;
+    padding-left: 50%;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+
+.hero-nav a{
+    text-decoration: none;
+}
+
+.hero-logo{
+    margin-top: 13%;
+    float: left;
+    text-align: center;
+    margin-left: 13%;
+}
+
+.hero-logo h1 {
+    font-size: 64px;
+    font-weight: normal; 
+}
+
+.hero-logo h4{
+    font-weight: lighter;
+    font-size: 32px;
+    margin-top: -30px;
+    
+}
+
+.hero-logo img{
+    width: 300px;
+}
 
 .imageSmall {
     width:70px;
@@ -19,30 +73,295 @@ body{
     font-family: Poppins, "Times New Roman", Times, serif;
 }
 
-#about {
+.about{
+    height: 100%;
+    width: 50%;
     background-color: #D6665A;
     text-align: center;
     color: white;
+    display: inline-block;
 }
 
-#about a {
+.about-nav a {
+    text-decoration: none;
+}
+
+.about-nav h4 {
     color: white;
+    font-weight: lighter;
+    width: 33.3%;
+    float:left;
 }
 
-#gallery {
+.about-nav img {
+    width: 105px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.about h1{
+    padding-top: 40%;
+}
+
+.attribute-right {
+    padding-top: 5%;
+    height: 100%;
+    width: 50%;
+    float:right;
+    display: inline-block;
+}
+
+.attribute-right img{
+    width: 78px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.list-left{
+    float:left;
+    width: 50%;
+}
+.list-right{
+    float:right;
+    width: 50%;
+}
+
+.attribute-right li {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.interests-right {
+    height: 100%;
+    width: 50%;
+    float:right;
+}
+
+.interests-right p{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-size: 24px;
+    font-family: chalkduster, Poppins, "Times New Roman", Times, serif;
+}
+
+.story-right{
+    height: 100%;
+    width: 50%;
+    float:right;
+    overflow: hidden;
+}
+
+.story-right h5 {
+    font-weight: lighter;
+}
+
+.projects-nav {
+    height: 100%;
+    width: 50%;
+    float:left;
+}
+
+.projects-nav h4 {
+    color:black;
+    font-weight: lighter;
+    font-size: 24px;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.projects-nav a {
+    color: black;
+} 
+
+.projects-nav h1 {
+    padding-top: 10%;
+    padding-bottom: 15%;
+    text-align: center;
+    font-size: 48px;
+}
+
+.traks-right{
+    height: 100%;
+    width: 50%;
+    float:right;
+    background-image: url(../images/Traks%20Image.png);
+    color:white;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.traks-right h1 {
+    text-align: center;
+    margin-top: 40%;
+}
+
+.traks-right h4 {
+    text-align: center;
+    font-family: Poppins, "Times New Roman", Times, serif;
+    font-weight: lighter;
+}
+
+.blocjams-right {
+    height: 100%;
+    width: 50%;
+    float:right;
+    background-image: url(../images/Blocjams%20Image.png);
+    color:white;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.blocjams-right h1 {
+    text-align: center;
+    margin-top: 40%;
+}
+
+.blocjams-right h4 {
+    text-align: center;
+    font-family: Poppins, "Times New Roman", Times, serif;
+    font-weight: lighter;
+}
+
+.humankind-right {
+    height: 100%;
+    width: 50%;
+    float:right;
+    background-image: url(../images/humankind%20Image.png);
+    color:white;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.humankind-right h1 {
+    text-align: center;
+    margin-top: 40%;
+}
+
+.humankind-right h4 {
+    text-align: center;
+    font-family: Poppins, "Times New Roman", Times, serif;
+    font-weight: lighter;
+}
+
+.gallery-left {
     background-color: #75A48B;
     text-align: center;
     color: white;
+    height: 100%;
+    width: 50%;
+    float:left;
 }
 
-#gallery a {
+.gallery-left h1 {
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.gallery-left a {
     color: white;
+}
+
+.gallery-left img#left-img{
+    float: left;
+    padding-left: 210px;
+}
+
+.gallery-left img#right-img{
+    float: right;
+    padding-right: 155px;
+}
+
+.gallery-left h4#text-one {
+    width: 50%;
+    float: left;
+    padding-left: 130px
+    
+}
+.gallery-left h4#text-two {
+    width: 50%;
+    float: right;
+    padding-right: 85px;
+    
+}
+
+.icon-right{
+    height: 100%;
+    width: 50%;
+    float:right;
+    text-align: center;
+}
+
+.icons {
+    padding-top: 30%
+}
+
+.icon-right img {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.wallpaper-right{
+    height: 100%;
+    width: 50%;
+    float:right;
+}
+
+#top-left-img {
+    float: left;
+    padding-bottom: 27px;
+}
+
+#bottom-left-img {
+    float: left;
+}
+
+#top-right-img {
+    float: right;
+    padding-right: 135px
+}
+
+.contact-left{
+    height: 100%;
+    width: 50%;
+    float:left;
+    text-align: center
+}
+
+.contact-info{
+    margin-top: 10%
+}
+
+.contact-info img{
+    float:left;
+    clear: both;
+    padding-left: 200px;
+}
+.contact-info p{
+    position: relative;
+    left: 10px;
+    font-size: 24px;
+    text-align: left
 }
 
 .contactRight{
     text-align: center;
     background-image: url(../images/bannerImage.png);
     background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;
     width: 50%;
-    min-height:100%;
+    float:right;
+}
+
+.bottom-logo{
+    padding-top: 20%;
+    
+}
+
+.contactRight h1 {
+    padding-top: 50%;
+    color: white;
+    text-shadow: 0 2px 4px #000000;
+    font-weight: normal;
 }
