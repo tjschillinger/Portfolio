@@ -5,16 +5,17 @@
   <meta name="viewport" content="width=device-width">
   <title>Tim Schillinger's Portfolio</title>
   <link rel="stylesheet" type="text/css" href="portfolioStyles/main.css">
+  <link rel="stylesheet" href="portfolioStyles/font-awesome.css">
 </head>
 <body>
 <!-- Hero -->
   <div class="hero">
     <div class="hero-nav">
         <ul>
-        <a href="#"><li>About</li></a>
-        <a href="#"><li>Projects</li></a>
-        <a href="#"><li>Gallery</li></a>
-        <a href="#"><li>Contact</li></a>
+        <a href="#/"><li>About</li></a>
+        <a href="#/"><li>Projects</li></a>
+        <a href="#/"><li>Gallery</li></a>
+        <a href="#/"><li>Contact</li></a>
         </ul>
     </div>
     <div class="hero-logo">    
@@ -26,23 +27,24 @@
     </div>
   </div>
 <!-- About Left Side -->
-    <div class="container about">
+    <div class="about">
         <h1>About Me</h1>
         <div class="about-nav">
-          <div>
-            <a href="#"><img src="images/Attributes%20Image.png" alt="Attibutes Image" ></a>
-            <a href="#"><img src="images/Interests%20Image.png" alt="Story Image"></a>
-            <a href="#"><img src="images/Story%20Image.png" alt="Story Image"></a> 
+          <div id="AboutNav">
+            <a href="#/"><img src="images/Attributes%20Image.png" class="attributes" alt="Attibutes Image" ></a>
+            <a href="#/"><img src="images/Interests%20Image.png" class="interests" alt="Story Image"></a>
+            <a href="#/"><img src="images/Story%20Image.png" class="story" alt="Story Image"></a> 
           </div>
-          <div class="about-sections">
-            <h4>Attributes</h4>
-            <h4>Interests</h4>
-            <h4>Story</h4>
+            <div class="about-sections">
+            <a href="#/" class="attributes"><h4>Attributes</h4></a>
+            <a href="#/" class="interests"><h4>Interests</h4></a>
+            <a href="#/" class="story"><h4>Story</h4></a>
           </div>
       </div>
     </div>
-<!-- Attributes -->
-    <div class=" attribute-right" >
+  
+  <!-- Attributes -->
+    <div class="attribute-right hidden">
       <div>
         <img src="images/Sketch_logo_frame.svg.png" alt="Sketch">
         <img src="images/ico-desktop-lg.png" alt="balsamiq"> 
@@ -121,25 +123,25 @@
 <!-- Projects Left Side-->
   <div class="projects-nav">
     <h1>Projects</h1>
-    <a href="#"><h4>Tracks</h4></a>
-    <a href="#"><h4>Bloc Jams</h4></a>
-    <a href="#"><h4>Human Kind</h4></a>
+    <a href="#/" id="traks"><h4>Traks</h4></a>
+    <a href="#/" id="blocjams"><h4>Bloc Jams</h4></a>
+    <a href="#/" id="humankind"><h4>Human Kind</h4></a>
   </div>
 <!-- Projects, Traks -->  
-  <div class="container traks-right">
+  <div class="traks-right hidden">
     <h1>
       Traks
     </h1>
     <h4>
       Crowd-funding for Those with Emergencies 
     </h4>
-      <button type="button" onclick="alert('Hello world!')">
+    <button type="button" onclick="alert('Hello world!')">
         More
-      </button>
+    </button>
   </div>
   
 <!-- Projects, Bloc Jams --> 
-  <div class="container blocjams-right hidden">
+  <div class="blocjams-right hidden">
     <h1>
       Bloc Jams
     </h1>
@@ -152,7 +154,7 @@
   </div>
   
 <!-- Projects, Human Kind --> 
-  <div class="container humankind-right hidden">
+  <div class="humankind-right hidden">
     <h1>
       Human Kind
     </h1>
@@ -160,7 +162,7 @@
       Life Style App that Encourages Acts of Kindness 
     </h4>
     <div>
-      <button type="button" onclick="alert('Hello world!')">
+      <button id="hkstyle" type="button" onclick="alert('Hello world!')">
         More
       </button>
     </div>
@@ -169,16 +171,16 @@
   <div class="gallery-left">
     <h1>Gallery</h1>
     <div>
-        <img src="images/Iconography%20Image.png" alt="Icon Image" id="left-img" >
-        <img src="images/Laptop%20Image.png" alt="Wallpaper Image" id="right-img">
+        <a href="#/"><img src="images/Iconography%20Image.png" alt="Icon Image" id="left-img" class="text-one"></a>
+        <a href="#/"><img src="images/Laptop%20Image.png" alt="Wallpaper Image" id="right-img" class="text-two"></a>
     </div>
     <div>
-        <a href="#"><h4 id="text-one">Iconography</h4></a>
-        <a href="#"><h4 id="text-two">Illustrator Wallpapers</h4></a>
+        <a href="#/"><h4 id="text-one" class="text-one" >Iconography</h4></a>
+        <a href="#/"><h4 class="text-two" id="text-two" >Illustrator Wallpapers</h4></a>
     </div>
   </div>
 <!-- Gallery, Icons --> 
-   <div class="container icon-right" >
+   <div class="icon-right hidden" >
     <div class="icons">
        <div>
         <img src="images/spartan%20Image.png" alt="Icon 1">
@@ -191,36 +193,38 @@
         <img src="images/canvas%20Image.png" alt="Icon 6">
        </div>
     </div>       
-    <button type="button" onclick="alert('Hello world!')">
+    <button id="icon-button" type="button">
         More
     </button>
   </div>
 <!-- Gallery, Wallpapers --> 
-   <div class="container wallpaper-right hidden" >
+   <div class="wallpaper-right hidden" >
         <img src="images/Colorado%20Image.png" alt="Galery Item 1" id="top-left-img"> 
         <img src="images/church%20Image.png" alt="Galery Item 2" id="top-right-img">
         <img src="images/Fox%20Image.png" alt="Galery Item 3" id="bottom-left-img">
-    <button type="button" onclick="alert('Hello world!')">
+    <button type="button" id="gallery-button">
         More
     </button>
   </div>
 <!-- Conact Left Side -->
-  <div class="container contact-left">
+  <div class="contact-left">
     <div class="bottom-logo">
         <img src="images/Logo%20Image.png" alt="Personal Logo">
         <h1> Tim Schillinger</h1>
     </div>
     <div class="contact-info">
-        <img src="pic_mountain.jpg" alt="Email Image">   <p>tjschillinger92@gmail.com</p>
-        <img src="pic_mountain.jpg" alt="Phone Image"><p>(309)    303-9750</p>
-        <img src="pic_mountain.jpg" alt="LinkedIn Image">
+        <i class="fa-envelope"></i> <p>tjschillinger92@gmail.com</p>
+        <i class=" fa-phone"></i> <p>(309) 303-9750</p>
+        <i class=" fa-linkedin"></i>
     </div>
   </div>
 <!-- Conact Right Side -->
-  <div class="container contactRight">
+  <div class="contactRight">
     <h1>
       Let's Build Together
     </h1>
   </div>
+  <script src="scripts/jquery-3.1.0.min.js"></script>
+  <script src="scripts/home.js"></script>
 </body>
 </html>

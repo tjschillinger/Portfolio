@@ -14,6 +14,36 @@ body{
     font-style: normal;
 }
 
+button {
+    background-color: #D6665A; 
+    border: none;
+    color: white;
+    padding: 35px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 15px;
+    position: relative;
+    bottom: 25px;
+}
+
+#hkstyle {
+    background-color: #75A48B; 
+    border: none;
+    color: white;
+    padding: 35px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 15px;
+    position: relative;
+    bottom: 25px
+}
+
 .hidden {
     display: none;
 }
@@ -27,6 +57,10 @@ body{
     float:left;
     margin-top: 20%;
     position: relative;
+}
+
+.title h4 {
+    padding-top: 20px;
 }
 
 .hero-nav li {
@@ -108,7 +142,6 @@ body{
     height: 100%;
     width: 50%;
     float:right;
-    display: inline-block;
 }
 
 .attribute-right img{
@@ -131,6 +164,10 @@ body{
     padding-bottom: 25px;
 }
 
+.interests-right img{
+    width:100%
+}
+
 .interests-right {
     height: 100%;
     width: 50%;
@@ -139,9 +176,10 @@ body{
 
 .interests-right p{
     padding-top: 35px;
-    padding-bottom: 35px;
+    padding-bottom: 38.9px;
     font-size: 24px;
     font-family: chalkduster, Poppins, "Times New Roman", Times, serif;
+    padding-left: 20px;
 }
 
 .story-right{
@@ -149,6 +187,8 @@ body{
     width: 50%;
     float:right;
     overflow: hidden;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 .story-right h5 {
@@ -188,6 +228,7 @@ body{
     color:white;
     background-repeat:no-repeat;
     background-size:cover;
+    text-align: center
 }
 
 .traks-right h1 {
@@ -198,7 +239,10 @@ body{
 .traks-right h4 {
     text-align: center;
     font-family: Poppins, "Times New Roman", Times, serif;
-    font-weight: lighter;
+    font-weight: normal;
+    font-size: 24px;
+    position: relative;
+    bottom: 25px;
 }
 
 .blocjams-right {
@@ -209,6 +253,7 @@ body{
     color:white;
     background-repeat:no-repeat;
     background-size:cover;
+    text-align: center
 }
 
 .blocjams-right h1 {
@@ -220,6 +265,9 @@ body{
     text-align: center;
     font-family: Poppins, "Times New Roman", Times, serif;
     font-weight: lighter;
+    font-size: 24px;
+    position: relative;
+    bottom: 25px;
 }
 
 .humankind-right {
@@ -230,6 +278,7 @@ body{
     color:white;
     background-repeat:no-repeat;
     background-size:cover;
+    text-align: center
 }
 
 .humankind-right h1 {
@@ -241,6 +290,9 @@ body{
     text-align: center;
     font-family: Poppins, "Times New Roman", Times, serif;
     font-weight: lighter;
+    font-size: 24px;
+    position: relative;
+    bottom: 25px;
 }
 
 .gallery-left {
@@ -274,13 +326,15 @@ body{
 .gallery-left h4#text-one {
     width: 50%;
     float: left;
-    padding-left: 130px
+    padding-left: 130px;
+    font-weight: normal;
     
 }
 .gallery-left h4#text-two {
     width: 50%;
     float: right;
     padding-right: 85px;
+    font-weight: normal;
     
 }
 
@@ -289,6 +343,11 @@ body{
     width: 50%;
     float:right;
     text-align: center;
+}
+
+#icon-button{
+    position: relative;
+    top: 25px;
 }
 
 .icons {
@@ -310,15 +369,25 @@ body{
 #top-left-img {
     float: left;
     padding-bottom: 27px;
+    margin-top: 23%;
+    margin-left: 12%;
 }
 
 #bottom-left-img {
     float: left;
+    margin-left: 12%;
 }
 
 #top-right-img {
     float: right;
-    padding-right: 135px
+    padding-right: 12%;
+    margin-top: 23%;
+}
+
+#gallery-button{
+    top: 14px;
+    margin-left: 41.3%;
+    margin-top: 2%;
 }
 
 .contact-left{
@@ -329,7 +398,7 @@ body{
 }
 
 .contact-info{
-    margin-top: 10%
+    margin-top: 20%
 }
 
 .contact-info img{
@@ -341,7 +410,13 @@ body{
     position: relative;
     left: 10px;
     font-size: 24px;
-    text-align: left
+    text-align: left;
+}
+
+.contact-info i{
+    float:left;
+    padding-top: 6px;
+    margin-left: 230px;
 }
 
 .contactRight{
@@ -364,4 +439,5 @@ body{
     color: white;
     text-shadow: 0 2px 4px #000000;
     font-weight: normal;
+    font-size: 48px
 }
