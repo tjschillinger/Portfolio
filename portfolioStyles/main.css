@@ -18,17 +18,17 @@ body{
     padding-left: 1rem;
     padding-right: 1rem;
 }
- 
+
 .column.full { width: 100%; }
 .column.two-thirds { width: 66.7%; }
 .column.half { width: 50%; }
 .column.third { width: 33.3%; }
 .column.fourth { width: 25%; }
 .column.flow-opposite { float: right; }
-.column.fith { width: 20%; }
+.column.fifth { width: 20%; }
 
 button {
-    background-color: #D6665A; 
+    background-color: #D6665A;
     border: none;
     color: white;
     padding: 35px 25px;
@@ -41,7 +41,7 @@ button {
 }
 
 #hkstyle {
-    background-color: #75A48B; 
+    background-color: #75A48B;
     border: none;
     color: white;
     padding: 35px 25px;
@@ -122,43 +122,22 @@ button {
     text-decoration: none;
 }
 
+.about-nav img:hover, .about-nav h4:hover {
+  cursor: pointer;
+}
+
 .about-nav h4 {
     color: white;
     font-weight: lighter;
     margin: auto;
 }
 
-.selector-one{
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    margin-left: .2%;
-    margin-top: -1%;
-    background-color: rgba(217,207,176,0.3);
-    border-radius: 15px;
+.about-nav .column.third {
+  background-color: #D6665A;
+  border-radius: 15px;
 }
-
-.selector-two{
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    margin-left: 15.6%;
-    margin-top: -1%;
-    background-color: rgba(217,207,176,0.3);
-    border-radius: 15px;
-}
-
-.selector-three{
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    margin-left: 31%;
-    margin-top: -1%;
-    background-color: rgba(217,207,176,0.3);
-    border-radius: 15px;
-}
-
-.about-nav img {
+.about-nav .column.third.selected {
+  background-color: rgba(217,207,176,0.3);
 }
 
 .about h1{
@@ -219,7 +198,7 @@ button {
     text-align: center;
 }
 
-.story-length{ 
+.story-length{
     margin-top: 10%;
     margin-left: 2%;
     height: 85%;
@@ -256,7 +235,7 @@ button {
 
 .projects-nav a {
     color: black;
-} 
+}
 
 .projects-nav h1 {
     padding-top: 10%;
@@ -392,12 +371,12 @@ button {
 h4#text-one {
     margin-left: 25%;
     font-weight: lighter;
-    
+
 }
 .text-two {
     margin-right: 28%;
     font-weight: lighter;
-    margin-top: 
+    margin-top:
 }
 
 .icon-right{
@@ -479,7 +458,7 @@ h4#text-one {
 
 .bottom-logo{
     padding-top: 20%;
-    
+
 }
 
 .contactRight h1 {
@@ -491,7 +470,7 @@ h4#text-one {
 }
 
  @media (min-width: 640px) {
-     html { font-size: 112%; } 
+     html { font-size: 112%; }
  }
 
  /* Large screens (1024px) */

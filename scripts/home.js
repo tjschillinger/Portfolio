@@ -2,9 +2,9 @@ $(".interests").on("click", function() {
         $(".interests-right").removeClass("hidden");
         $(".attribute-right").addClass("hidden");
         $(".story-right").addClass("hidden");
-        $("#selector-one").removeClass("selector-one");
-        $("#selector-two").addClass("selector-two");
-        $("#selector-three").removeClass("selector-three");
+        $("#selector-one").removeClass('selected');
+        $("#selector-two").addClass("selected");
+        $("#selector-three").removeClass('selected');
         $(".interests").css("font-weight","bold");
         $(".story").css("font-weight","lighter");
         $(".attributes").css("font-weight","lighter");
@@ -14,9 +14,9 @@ $(".story").on("click", function() {
         $(".interests-right").addClass("hidden");
         $(".attribute-right").addClass("hidden");
         $(".story-right").removeClass("hidden");
-        $("#selector-one").removeClass("selector-one");
-        $("#selector-two").removeClass("selector-two");
-        $("#selector-three").addClass("selector-three");
+        $("#selector-one").removeClass('selected');
+        $("#selector-two").removeClass("selected");
+        $("#selector-three").addClass("selected");
         $(".story").css("font-weight","bold");
         $(".interests").css("font-weight","lighter");
         $(".attributes").css("font-weight","lighter");
@@ -26,9 +26,9 @@ $(".attributes").on("click", function() {
         $(".interests-right").addClass("hidden");
         $(".attribute-right").removeClass("hidden");
         $(".story-right").addClass("hidden");
-        $("#selector-one").addClass("selector-one");
-        $("#selector-two").removeClass("selector-two");
-        $("#selector-three").removeClass("selector-three");
+        $("#selector-one").addClass("selected");
+        $("#selector-two").removeClass("selected");
+        $("#selector-three").removeClass('selected');
         $(".attributes").css("font-weight","bold");
         $(".interests").css("font-weight","lighter");
         $(".story").css("font-weight","lighter");
@@ -73,12 +73,12 @@ $("#humankind").on("click", function() {
 $(".text-one").on("click", function() {
         $(".icon-right").removeClass("hidden");
         $(".wallpaper-right").addClass("hidden");
-}); 
+});
 
 $(".text-two").on("click", function() {
         $(".icon-right").addClass("hidden");
         $(".wallpaper-right").removeClass("hidden");
-}); 
+});
 
 $(".icon-select").on("click", function() {
     $("#selector-four").addClass("selector-four");
@@ -96,7 +96,7 @@ $(".gallery-select").on("click", function() {
     $("#icon-text").css("text-decoration", "underline");
     $(".text-one").css("font-weight","lighter");
     $(".text-two").css("font-weight","normal");
-    
+
 });
 
 $(".about-scroll").click(function() {
