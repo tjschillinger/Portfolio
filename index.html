@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Tim Schillinger's Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Tim Schillinger's Portfolio</title>
   <link rel="stylesheet" type="text/css" href="portfolioStyles/main.css">
   <link rel="stylesheet" href="portfolioStyles/font-awesome.css">
 </head>
 <body>
 <!-- Hero -->
   <div class="hero">
-    <div class="hero-nav">
+    <div class="hero-nav column third">
         <ul>
         <a href="#/"><li>About</li></a>
         <a href="#/"><li>Projects</li></a>
@@ -18,7 +18,7 @@
         <a href="#/"><li>Contact</li></a>
         </ul>
     </div>
-    <div class="hero-logo">    
+    <div class="hero-logo column two-thirds">    
         <img src="images/Logo%20Image.png" alt="Personal Logo">
         <div class="title">
             <h1> Tim Schillinger</h1>
@@ -28,80 +28,99 @@
   </div>
 <!-- About Left Side -->
     <div class="about">
-        <h1>About Me</h1>
+        <div class="column full">
+            <h1>About Me</h1>
+        </div>
         <div class="about-nav">
-          <div id="AboutNav">
-            <a href="#/"><img src="images/Attributes%20Image.png" class="attributes" alt="Attibutes Image" ></a>
-            <a href="#/"><img src="images/Interests%20Image.png" class="interests" alt="Story Image"></a>
-            <a href="#/"><img src="images/Story%20Image.png" class="story" alt="Story Image"></a> 
-          </div>
-            <div class="about-sections">
-            <a href="#/" class="attributes"><h4>Attributes</h4></a>
-            <a href="#/" class="interests"><h4>Interests</h4></a>
-            <a href="#/" class="story"><h4>Story</h4></a>
-          </div>
+            <div class="column full">
+            <div class="column third img-center">
+                <a href="#/"><img src="images/Attributes%20Image.png" class="attributes column one-third" alt="Attibutes Image" ></a></div>
+                <div id="selector-one"></div>
+             <div class="column third">
+                 <a href="#/"><img src="images/Interests%20Image.png" class="interests column one-third center" alt="Story Image"></a>
+                </div>
+              <div id="selector-two"></div>
+              <div class="column third">     <a href="#/">
+                  <img src="images/Story%20Image.png" class="story column one-third" alt="Story Image"></a>
+              </div>
+             <div id="selector-three"></div>
+            </div>
+                <div class="column full about-text">
+                    <div class="column third">
+                    <a href="#/" class=" attributes"><h4 class="about-categories">Attributes</h4></a>
+                </div>
+                <div class="column third">
+                    <a href="#/" class="interests"><h4>Interests</h4></a>
+                </div>
+                <div class="column third">
+                    <a href="#/" class="story"><h4>Story</h4></a>
+                </div>
+             </div>        
+          
       </div>
     </div>
   
   <!-- Attributes -->
     <div class="attribute-right hidden">
-      <div>
-        <img src="images/Sketch_logo_frame.svg.png" alt="Sketch">
-        <img src="images/ico-desktop-lg.png" alt="balsamiq"> 
-        <img src="images/Illustrator%20Image.png" alt="Illustrator">
-        <img src="images/invision.svg" alt="Invision">
+      <div class="column full">
+        <img class="column fith" src="images/Sketch_logo_frame.svg.png" alt="Sketch">
+        <img class="column fith" src="images/ico-desktop-lg.png" alt="balsamiq"> 
+        <img class="column fith"     src="images/Illustrator%20Image.png" alt="Illustrator">
+        <img class="column fith" src="images/invision.svg" alt="Invision">
         <img src="images/usertesting2.jpeg" alt="User Testing">
       </div>
-      <div>
-        <img src="images/HTML5_logo_and_wordmark.svg.png" alt="Html 5">
-        <img src="images/CSS-Logo-214x300.png" alt="CSS 3">
-        <img src="images/js-logo-badge-256.png" alt="Javascript">
-        <img src="images/jQurery.gif" alt="jQuery"> 
-        <img src="images/github-512.png" alt="github">
+      <div class="column full">
+        <img id="img-icon" class="column fith" src="images/HTML5_logo_and_wordmark.svg.png" alt="Html 5">
+        <img class="column fith" src="images/CSS-Logo-214x300.png" alt="CSS 3">
+        <img class="column fith" src="images/js-logo-badge-256.png" alt="Javascript">
+        <img class="column fith" src="images/jQurery.gif" alt="jQuery"> 
+        <img class="column fith" src="images/github-512.png" alt="github">
       </div>
-      <div>
-        <ul class="notFancyFont list-left">
-            <li>Wireframes/Prototyping</li>
-            <li>User Testing/Surveys</li>
-            <li>Personas</li>
+      <div class="column full interests-content">
+        <ul class="notFancyFont  list-left column half">
+            <li>Wireframes/Prototyping<br><br></li>
+            <li>User Testing/Surveys<br><br></li>
+            <li>Personas<br><br></li>
             <li>Low and High Fidelity Mockups</li>
             <li>Web Design and Development</li>
-            <li>jQuery</li>
+            <li>jQuery<br><br></li>
         </ul>    
-      </div>
-      <div>
-        <ul class="notFancyFont list-right">   
+        <ul class="notFancyFont list-right column half">   
             <li>Mobile and Responsive Design</li>
-            <li>Band Strategy</li>
-            <li>Logo Conceptualization</li>
-            <li>Style Guides</li>
-            <li>HTML/CSS</li>
-            <li>Javascript</li>
+            <li>Band Strategy<br><br></li>
+            <li>Logo Conceptualization<br><br></li>
+            <li>Style Guides<br><br></li>
+            <li>HTML/CSS<br><br></li>
+            <li>Javascript<br><br></li>
         </ul>
       </div>
     </div>
 <!-- Interests -->  
   <div class="interests-right hidden">
     <img src="images/Books.png" alt="Books">
-    <div class="list-left">
-        <p>Behavioral Science</p>
-        <p>Lifestyle Technology</p>
-        <p>Hiking</p>
-        <p>Gamification </p>
-        <p>Visual Arts</p>
-    </div> 
-    <div class="list-right">
-     <p>Story Structure</p>
-     <p>Philosophy</p>
-     <p>Coffee</p>
-     <p>Writing</p>
-     <p>The Great Courses</p>
+      <div class="interests-content column full">
+        <div class="list-left column half">
+            <p>Behavioral Science<br><br></p>
+            <p>Lifestyle Technology</p>
+            <p>Hiking<br><br></p>
+            <p>Gamification<br><br></p>
+            <p>Visual Arts<br><br></p>
+         </div> 
+         <div class="list-right column half">
+            <p>Story Structure<br><br></p>
+            <p>Philosophy<br><br></p>
+            <p>Coffee<br><br></p>
+            <p>Writing<br><br></p>
+            <p>The Great Courses<br><br></p>
+         </div>
     </div>
-    <img src="images/Mountain%20Image.png" alt="Mountain View">
+   <div>
+      <img  src="images/Mountain%20Image.png" alt="Mountain View">
+   </div>
   </div>
 <!-- Story -->
   <div class="story-right hidden">
-    <p class="notFancyFont">
+    <p class="story-length notFancyFont">
       In 2010, I graduated high school. I didn’t know how to write an essay. I knew nothing of finances. I couldn’t perform math beyond division. What I knew work -hard, dirty, never-ending work. 60+ hours a week in my father’s lawn maintenance business taught me that. <br> <br> 
       It was time for a change. <br> <br>
 
@@ -122,107 +141,146 @@
   </div>
 <!-- Projects Left Side-->
   <div class="projects-nav">
-    <h1>Projects</h1>
-    <a href="#/" id="traks"><h4>Traks</h4></a>
-    <a href="#/" id="blocjams"><h4>Bloc Jams</h4></a>
-    <a href="#/" id="humankind"><h4>Human Kind</h4></a>
+    <div class="column full">
+        <h1>Projects</h1>
+      </div>
+      <div class="column full">
+          <a href="#/" id="traks"><h4>Traks</h4></a>
+      </div>
+    <div class="column full">
+        <a href="#/" id="blocjams"><h4>Bloc Jams</h4></a>
+     </div>
+     <div class="column full">
+        <a href="#/" id="humankind"><h4>Human Kind</h4></a>
+     </div>
   </div>
 <!-- Projects, Traks -->  
   <div class="traks-right hidden">
-    <h1>
-      Traks
-    </h1>
-    <h4>
-      Crowd-funding for Those with Emergencies 
-    </h4>
-    <button type="button" onclick="alert('Hello world!')">
-        More
-    </button>
+      <div class="column full">
+          <h1>Traks</h1>
+      </div>
+      <div class="column full">
+          <h4>Crowd-funding for Those with Emergencies </h4>
+      </div>
+      <div class="column full">
+          <button type="button">More</button>
+      </div>
   </div>
   
 <!-- Projects, Bloc Jams --> 
   <div class="blocjams-right hidden">
-    <h1>
-      Bloc Jams
-    </h1>
-    <h4>
-      Music Player 
-    </h4>
-      <button type="button" onclick="alert('Hello world!')">
-        More
-      </button>
+      <div class="column full">
+          <h1>Bloc Jams</h1>
+      </div>
+      <div class="column full">
+          <h4>Music Player</h4>
+      </div>
+      <div class="column full">
+          <button type="button">More</button>
+      </div>
   </div>
   
 <!-- Projects, Human Kind --> 
   <div class="humankind-right hidden">
-    <h1>
-      Human Kind
-    </h1>
-    <h4>
-      Life Style App that Encourages Acts of Kindness 
-    </h4>
-    <div>
-      <button id="hkstyle" type="button" onclick="alert('Hello world!')">
-        More
-      </button>
+      <div class="column full">
+          <h1>Human Kind</h1>
+      </div>
+      <div class="column full">
+          <h4>Life Style App that Encourages Acts of Kindness</h4>
+      </div>
+      <div class="column full">
+          <button id="hkstyle" type="button">More</button>
+      </div>
     </div>
-  </div>
 <!-- Gallery Left Side -->  
   <div class="gallery-left">
-    <h1>Gallery</h1>
-    <div>
-        <a href="#/"><img src="images/Iconography%20Image.png" alt="Icon Image" id="left-img" class="text-one"></a>
-        <a href="#/"><img src="images/Laptop%20Image.png" alt="Wallpaper Image" id="right-img" class="text-two"></a>
+    <div class="column full">
+        <h1>Gallery</h1>
     </div>
-    <div>
-        <a href="#/"><h4 id="text-one" class="text-one" >Iconography</h4></a>
-        <a href="#/"><h4 class="text-two" id="text-two" >Illustrator Wallpapers</h4></a>
+    <div class="column half">
+        <a href="#/"><img src="images/Iconography%20Image.png" alt="Icon Image" id="left-img" class="icon-select text-one"></a>
     </div>
+    <div id="selector-four"></div>
+    <div class="column half">
+        <a href="#/"><img src="images/Laptop%20Image.png" alt="Wallpaper Image" id="right-img" class="text-two gallery-select"></a>
+    </div>
+    <div class="column half">
+        <a href="#/" id="icon-text"><h4 id="text-one" class="text-one icon-select" >Iconography</h4></a>
+    </div>
+    <div class="column half">
+        <a href="#/" id="gallery-text"><h4 class="text-two gallery-select" >Illustrator Wallpapers</h4></a>
+    </div>
+     <div id="selector-five"></div>  
   </div>
 <!-- Gallery, Icons --> 
    <div class="icon-right hidden" >
-    <div class="icons">
-       <div>
-        <img src="images/spartan%20Image.png" alt="Icon 1">
-        <img src="images/Talk%20Image.png" alt="Icon 2"> 
-        <img src="images/book%20icon%20Image.png" alt="Icon 3">
+    <div class="icons column full">
+       <div class="column full">
+           <div class="column third">
+               <img src="images/spartan%20Image.png" alt="Icon 1">
+           </div>
+           <div class="column third">
+               <img src="images/Talk%20Image.png" alt="Icon 2"> 
+           </div>
+           <div class="column third">
+               <img src="images/book%20icon%20Image.png" alt="Icon 3"> 
+           </div>
        </div> 
-       <div>
-        <img src="images/ship%20Image.png" alt="Icon 4">
-        <img src="images/tent%20Image.png" alt="Icon 5"> 
-        <img src="images/canvas%20Image.png" alt="Icon 6">
-       </div>
-    </div>       
-    <button id="icon-button" type="button">
-        More
-    </button>
+       <div class="column full">
+           <div class="column third">
+               <img src="images/ship%20Image.png" alt="Icon 4">
+           </div>
+           <div class="column third">
+               <img src="images/tent%20Image.png" alt="Icon 5">  
+           </div>
+           <div class="column third">
+               <img src="images/canvas%20Image.png" alt="Icon 6">
+           </div>
+       </div> 
+    </div>
+    <div class="column full">
+        <button id="icon-button" type="button">More</button>
+    </div>   
   </div>
 <!-- Gallery, Wallpapers --> 
    <div class="wallpaper-right hidden" >
-        <img src="images/Colorado%20Image.png" alt="Galery Item 1" id="top-left-img"> 
-        <img src="images/church%20Image.png" alt="Galery Item 2" id="top-right-img">
-        <img src="images/Fox%20Image.png" alt="Galery Item 3" id="bottom-left-img">
-    <button type="button" id="gallery-button">
-        More
-    </button>
+        <div class="column half">
+            <img src="images/Colorado%20Image.png" alt="Galery Item 1" id="top-left-img"> 
+            <img src="images/Fox%20Image.png" alt="Galery Item 3" id="bottom-left-img">
+       </div>
+       <div class="column half">
+            <img src="images/church%20Image.png" alt="Galery Item 2" id="top-right-img">
+       </div>
+       <div class="column full">
+            <button type="button" id="gallery-button">More</button>
+       </div>
+        
+        
+    
   </div>
 <!-- Conact Left Side -->
   <div class="contact-left">
-    <div class="bottom-logo">
-        <img src="images/Logo%20Image.png" alt="Personal Logo">
-        <h1> Tim Schillinger</h1>
-    </div>
+        <div class=" bottom-logo column full">
+          <img src="images/Logo%20Image.png" alt="Personal Logo">
+      </div>
+      <div class="column full">
+          <h1> Tim Schillinger</h1>
+      </div>
     <div class="contact-info">
-        <i class="fa-envelope"></i> <p>tjschillinger92@gmail.com</p>
-        <i class=" fa-phone"></i> <p>(309) 303-9750</p>
-        <i class=" fa-linkedin"></i>
+        <div class="column full">
+            <i class="fa-envelope"><p>tjschillinger92@gmail.com</p></i>
+        </div>
+            
+        <i class="fa-phone"></i> <p>(309) 303-9750</p>
+        <i class="fa-linkedin"></i>
     </div>
   </div>
 <!-- Conact Right Side -->
   <div class="contactRight">
-    <h1>
-      Let's Build Together
-    </h1>
+      <div class="column full">
+          <h1>Let's Build Together</h1>
+      </div>
+    
   </div>
   <script src="scripts/jquery-3.1.0.min.js"></script>
   <script src="scripts/home.js"></script>
