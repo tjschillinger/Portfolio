@@ -99,6 +99,30 @@ $(".gallery-select").on("click", function() {
     
 });
 
+$(".about-scroll").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".about").offset().top
+    }, 1000);
+});
+
+$(".projects-scroll").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".projects-nav").offset().top
+    }, 800);
+});
+
+$(".gallery-scroll").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".gallery-left").offset().top
+    }, 1000);
+});
+
+$(".contact-scroll").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".contact-left").offset().top
+    }, 1000);
+});
+
 
 $(document).ready(function() {
      $(".attribute-right").toggleClass("hidden");
