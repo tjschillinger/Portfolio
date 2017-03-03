@@ -1,10 +1,12 @@
+
+
 $(".interests").on("click", function() {
         $(".interests-right").removeClass("hidden");
         $(".attribute-right").addClass("hidden");
         $(".story-right").addClass("hidden");
-        $("#selector-one").removeClass('selected');
-        $("#selector-two").addClass("selected");
-        $("#selector-three").removeClass('selected');
+        $("#attributes-selector").removeClass('selected');
+        $("#interests-selector").addClass("selected");
+        $("#story-selector").removeClass('selected');
         $(".interests").css("font-weight","bold");
         $(".story").css("font-weight","lighter");
         $(".attributes").css("font-weight","lighter");
@@ -14,9 +16,9 @@ $(".story").on("click", function() {
         $(".interests-right").addClass("hidden");
         $(".attribute-right").addClass("hidden");
         $(".story-right").removeClass("hidden");
-        $("#selector-one").removeClass('selected');
-        $("#selector-two").removeClass("selected");
-        $("#selector-three").addClass("selected");
+        $("#attributes-selector").removeClass('selected');
+        $("#interests-selector").removeClass("selected");
+        $("#story-selector").addClass("selected");
         $(".story").css("font-weight","bold");
         $(".interests").css("font-weight","lighter");
         $(".attributes").css("font-weight","lighter");
@@ -26,9 +28,9 @@ $(".attributes").on("click", function() {
         $(".interests-right").addClass("hidden");
         $(".attribute-right").removeClass("hidden");
         $(".story-right").addClass("hidden");
-        $("#selector-one").addClass("selected");
-        $("#selector-two").removeClass("selected");
-        $("#selector-three").removeClass('selected');
+        $("#attributes-selector").addClass("selected");
+        $("#interests-selector").removeClass("selected");
+        $("#story-selector").removeClass('selected');
         $(".attributes").css("font-weight","bold");
         $(".interests").css("font-weight","lighter");
         $(".story").css("font-weight","lighter");
@@ -70,32 +72,33 @@ $("#humankind").on("click", function() {
         $("#humankind").css("text-decoration","none");
 });
 
-$(".text-one").on("click", function() {
+$(".icon-category").on("click", function() {
         $(".icon-right").removeClass("hidden");
         $(".wallpaper-right").addClass("hidden");
 });
 
-$(".text-two").on("click", function() {
+$(".wallpaper-category").on("click", function() {
         $(".icon-right").addClass("hidden");
         $(".wallpaper-right").removeClass("hidden");
 });
 
-$(".icon-select").on("click", function() {
-    $("#selector-four").addClass("selector-four");
-    $("#selector-five").removeClass("selector-five");
-    $("#gallery-text").css("text-decoration", "underline");
+$(".icon-category").on("click", function() {
+    $("#icon-selector").addClass("selected");
+    $("#wallpaper-selector").removeClass("selected");
+    $("#wallpaper-text").css("text-decoration", "underline");
     $("#icon-text").css("text-decoration", "none");
-    $(".text-one").css("font-weight","normal");
-    $(".text-two").css("font-weight","lighter");
+    $("#icon-text").css("font-weight","normal");
+    $("#wallpaper-text").css("font-weight","lighter");
 });
 
-$(".gallery-select").on("click", function() {
-    $("#selector-five").addClass("selector-five");
-    $("#selector-four").removeClass("selector-four");
-    $("#gallery-text").css("text-decoration", "none");
+$(".wallpaper-category").on("click", function() {
+    $("#wallpaper-selector").addClass("selected");
+    $("#icon-selector").removeClass("selected");
+    
+    $("#wallpaper-text").css("text-decoration", "none");
     $("#icon-text").css("text-decoration", "underline");
-    $(".text-one").css("font-weight","lighter");
-    $(".text-two").css("font-weight","normal");
+    $("#icon-text").css("font-weight","lighter");
+    $("#wallpaper-text").css("font-weight","normal");
 
 });
 
@@ -123,16 +126,29 @@ $(".contact-scroll").click(function() {
     }, 1000);
 });
 
+$(function(){
+    $(".flip").flip({
+        trigger: 'hover'
+    });
+});
 
 $(document).ready(function() {
      $(".attribute-right").toggleClass("hidden");
-     $("#selector-one").addClass("selector-one");
+     $("#attributes-selector").addClass("selected");
      $(".attributes").css("font-weight","bold");
+    
      $(".traks-right").toggleClass("hidden");
      $(".icon-right").toggleClass("hidden");
      $("#traks").css("font-weight","900");
      $("#traks").css("text-decoration","none");
-     $("#selector-four").addClass("selector-four");
+    
+     $("#icon-selector").addClass("selected");
+    
      $("#icon-text").css("text-decoration", "none");
-     $(".text-one").css("font-weight","normal");
+     $("#icon-text").css("font-weight","normal");
+    var wheel = new wheelnav("divWheel");
+    wheel.createWheel(["0", "1", "2", "3"]);
+    
 });
+
+

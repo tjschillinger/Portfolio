@@ -12,17 +12,18 @@
   <div class="hero">
     <div class="hero-nav column third">
         <ul>
-        <a href="#/" class="about-scroll"><li>About</li></a>
-        <a href="#/" class="projects-scroll" ><li>Projects</li></a>
-        <a href="#/" class="gallery-scroll" ><li>Gallery</li></a>
-        <a href="#/" class="contact-scroll" ><li>Contact</li></a>
+        <li class="about-scroll">About</li>
+        <li  class="projects-scroll">Projects</li>
+        <li class="gallery-scroll">Gallery</li>
+        <li class="contact-scroll">Contact</li>
         </ul>
     </div>
     <div class="hero-logo column two-thirds">
         <img src="images/Logo%20Image.png" alt="Personal Logo">
         <div class="title">
-            <h1> Tim Schillinger</h1>
-            <h4> Frontend Web Developer</h4>
+            <h1 id="name">Tim Schillinger</h1>
+            <h4 id="subtitle">Frontend Web Designer</h4>  
+           
         </div>
     </div>
   </div>
@@ -33,22 +34,24 @@
         </div>
         <div class="about-nav">
             <div class="column full">
-                <div id="selector-one" class="column third">
+                <div id="attributes-selector" class="column third">
                   <div class="attributes">
                       <img src="images/Attributes%20Image.png" class="column full" alt="Attributes Image" >
-                      <h4 class="about-categories column full">Attributes</h4>
+                      <h4 class="column full">Attributes</h4>
                   </div>
                 </div>
-             <div class="column third">
-                 <a href="#/"><img src="images/Interests%20Image.png" class="interests column one-third center" alt="Story Image"></a>
-                 <a href="#/" class="interests"><h4>Interests</h4></a>
+                <div id="interests-selector" class="column third">
+                  <div class="interests">
+                      <img src="images/Interests%20Image.png" class=" column full center" alt="interests Image">
+                      <h4 class="column full">Interests</h4>
+                  </div>
                 </div>
-              <div id="selector-two"></div>
-              <div class="column third">     <a href="#/">
-                  <img src="images/Story%20Image.png" class="story column one-third" alt="Story Image"></a>
-                  <a href="#/" class="story"><h4>Story</h4></a>
-              </div>
-             <div id="selector-three"></div>
+                <div id="story-selector" class="column third">
+                  <div class="story">
+                      <img src="images/Story%20Image.png" class="column full" alt="Story Image">
+                      <h4 class="column full">Story</h4>
+                  </div>
+                </div>
             </div>
       </div>
     </div>
@@ -56,6 +59,13 @@
   <!-- Attributes -->
     <div class="attribute-right hidden">
       <div class="column full">
+        <div id="divWheel" data-wheelnav 
+             data-wheelnav-wheelradius="100"
+             data-wheelnav-navangle="90"
+             data-wheelnav-slicepath="DonutSlice" 
+             data-wheelnav-colors="#E34C26,#F06529" 
+             data-wheelnav-rotateoff>
+        </div>  
         <img class="column fifth" src="images/Sketch_logo_frame.svg.png" alt="Sketch">
         <img class="column fifth" src="images/ico-desktop-lg.png" alt="balsamiq">
         <img class="column fifth" src="images/Illustrator%20Image.png" alt="Illustrator">
@@ -90,27 +100,109 @@
     </div>
 <!-- Interests -->
   <div class="interests-right hidden">
-    <img src="images/Books.png" alt="Books">
-      <div class="interests-content column full">
-        <div class="list-left column half">
-            <p>Behavioral Science<br><br></p>
-            <p>Lifestyle Technology</p>
-            <p>Hiking<br><br></p>
-            <p>Gamification<br><br></p>
-            <p>Visual Arts<br><br></p>
-         </div>
-         <div class="list-right column half">
-            <p>Story Structure<br><br></p>
-            <p>Philosophy<br><br></p>
-            <p>Coffee<br><br></p>
-            <p>Writing<br><br></p>
-            <p>The Great Courses<br><br></p>
-         </div>
+    <div class="full">
+        <H1>
+            If you want to kill 15mins, <br>ask me about one of these topics:
+        
+        </H1>
+      
+    </div>  
+    <div class="full">
+        <div class="flip">
+        <div class="front">
+            <img src="images/visual%20art.jpg" alt="visual arts">
+        </div>
+        <div class="back orange-background">
+            <h4>
+                Visual Arts
+            </h4>
+        </div>
     </div>
-   <div>
-      <img  src="images/Mountain%20Image.png" alt="Mountain View">
-   </div>
-  </div>
+    <div class="flip">
+        <div class="front">
+            <img src="images/coffee.jpg" alt="coffee">
+        </div>
+        <div class="back orange-background">
+            <h4>
+                Coffee
+            </h4>
+        </div>
+    </div>
+    <div class="flip">
+        <div class="front">
+            <img src="images/hiking.jpg" alt="Hiking">
+        </div>
+        <div class="back orange-background">
+            <h4>
+                Hiking
+            </h4>
+        </div>  
+    </div>
+    <div class="flip">
+        <div class="front ">
+            <img src="images/Story%20structure.jpg" alt="Story Structure">
+        </div>
+        <div class="back dark-background">
+            <h4>
+                Story Structure
+            </h4>
+        </div>  
+    </div>
+    <div class="flip">
+        <div class="front">
+            <img src="images/philosphy.jpg" alt="Philosophy">
+        </div>
+        <div class="back dark-background">
+            <h4>
+                Philosophy
+            </h4>
+        </div>
+    </div>
+    <div class="flip">
+        <div class="front">
+            <img src="images/writing.jpg" alt="Writing">
+        </div>
+        <div class="back dark-background">
+            <h4>
+                Writing
+            </h4>
+        </div>  
+    </div>
+    <div class="flip">
+        <div class="front">
+            <img src="images/behavioral%20Science.png" alt="behavioral Science">
+        </div>
+        <div class="back green-background">
+            <h4>
+                Behavioral Science
+            </h4>
+        </div>
+    </div>
+     <div class="flip">
+        <div class="front">
+            <img src="images/gamification.jpg" alt="Gamification">
+        </div>
+        <div class="back green-background">
+            <h4>
+                Gamification
+            </h4>
+        </div>  
+    </div>  
+    <div class="flip">
+        <div class="front">
+            <img src="images/the%20great%20courses.jpg" alt="The Great Courses">
+        </div>
+        <div class="back green-background">
+            <h4>
+                The Great Courses
+            </h4>
+        </div>  
+    </div>
+    </div>  
+      
+      
+      
+  </div>      
 <!-- Story -->
   <div class="story-right hidden">
     <p class="story-length notFancyFont">
@@ -138,13 +230,13 @@
         <h1>Projects</h1>
       </div>
       <div class="column full">
-          <a href="#/" id="traks"><h4>Traks</h4></a>
+          <h4 id="traks">Traks</h4>
       </div>
     <div class="column full">
-        <a href="#/" id="blocjams"><h4>Bloc Jams</h4></a>
+        <h4 id="blocjams">Bloc Jams</h4>
      </div>
      <div class="column full">
-        <a href="#/" id="humankind"><h4>Human Kind</h4></a>
+         <h4 id="humankind">Human Kind</h4>
      </div>
   </div>
 <!-- Projects, Traks -->
@@ -186,25 +278,23 @@
       </div>
     </div>
 <!-- Gallery Left Side -->
-  <div class="gallery-left">
-    <div class="column full">
-        <h1>Gallery</h1>
+    <div class="gallery-left">
+        <div class="column full">
+            <h1>Gallery</h1>
+        </div>
+        <div id="icon-selector" class="column half">
+            <div class="icon-category">
+                <img src="images/Iconography%20Image.png" alt="Icon Image" class="">
+                <h4 class="column full" id="icon-text">Iconography</h4>
+            </div>
+        </div>
+        <div id="wallpaper-selector" class="column half">
+            <div class="wallpaper-category">
+                <img src="images/Laptop%20Image.png" alt="Wallpaper Image" class= "wallpaper-left-category">
+                <h4 class="column full" id="wallpaper-text">Wallpapers</h4>
+            </div>
+        </div>
     </div>
-    <div class="column half">
-        <a href="#/"><img src="images/Iconography%20Image.png" alt="Icon Image" id="left-img" class="icon-select text-one"></a>
-    </div>
-    <div id="selector-four"></div>
-    <div class="column half">
-        <a href="#/"><img src="images/Laptop%20Image.png" alt="Wallpaper Image" id="right-img" class="text-two gallery-select"></a>
-    </div>
-    <div class="column half">
-        <a href="#/" id="icon-text"><h4 id="text-one" class="text-one icon-select" >Iconography</h4></a>
-    </div>
-    <div class="column half">
-        <a href="#/" id="gallery-text"><h4 class="text-two gallery-select" >Illustrator Wallpapers</h4></a>
-    </div>
-     <div id="selector-five"></div>
-  </div>
 <!-- Gallery, Icons -->
    <div class="icon-right hidden" >
     <div class="icons column full">
@@ -261,11 +351,11 @@
       </div>
     <div class="contact-info">
         <div class="column full">
-            <i class="fa-envelope"><p>tjschillinger92@gmail.com</p></i>
+            <i class="fa fa-envelope"><p>tjschillinger92@gmail.com</p></i>
         </div>
 
-        <i class="fa-phone"></i> <p>(309) 303-9750</p>
-        <i class="fa-linkedin"></i>
+        <i class="fa fa-phone"></i> <p>(309) 303-9750</p>
+        <i class="fa fa-linkedin"></i>
     </div>
   </div>
 <!-- Conact Right Side -->
@@ -276,6 +366,8 @@
 
   </div>
   <script src="scripts/jquery-3.1.0.min.js"></script>
-  <script src="scripts/home.js"></script>
+  <script src="scripts/jquery.flip.min.js"></script>
+  <script src="scripts/wheelnav.js"></script>      
+  <script src="scripts/home.js"></script>    
 </body>
 </html>
