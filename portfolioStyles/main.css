@@ -508,6 +508,15 @@ button {
 
 }
 
+.contact-content{
+    margin-top: 5%;
+}
+
+.contact-info a{
+    color: black;
+    margin: 5%;
+}
+
 .contactRight h1 {
     padding-top: 60%;
     color: white;
