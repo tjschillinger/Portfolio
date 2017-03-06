@@ -10,15 +10,15 @@
 <body>
 <!-- Hero -->
   <div class="hero">
-    <div class="hero-nav column third">
+    <div class="hero-nav">
         <ul>
-        <li class="about-scroll">About</li>
-        <li  class="projects-scroll">Projects</li>
-        <li class="gallery-scroll">Gallery</li>
-        <li class="contact-scroll">Contact</li>
+            <li class="about-scroll">About</li>
+            <li  class="projects-scroll">Projects</li>
+            <li class="gallery-scroll">Gallery</li>
+            <li class="contact-scroll">Contact</li>
         </ul>
     </div>
-    <div class="hero-logo column two-thirds">
+    <div class="hero-logo column full">
         <img src="images/Logo%20Image.png" alt="Personal Logo">
         <div class="title">
             <h1 id="name">Tim Schillinger</h1>
@@ -29,50 +29,40 @@
   </div>
 <!-- About Left Side -->
     <div class="about">
-        <div class="column full">
-            <h1>About Me</h1>
-        </div>
         <div class="about-nav">
             <div class="column full">
-                <div id="attributes-selector" class="column third">
+                <h1>About Me</h1>
+            </div>
+            <div class="column full ">
+                <div id="attributes-selector" class="column half">
                   <div class="attributes">
-                      <img src="images/Attributes%20Image.png" class="column full" alt="Attributes Image" >
+                      <img src="images/Business%20Photo.png" class="column full" alt="Attributes Image" >
                       <h4 class="column full">Attributes</h4>
                   </div>
                 </div>
-                <div id="interests-selector" class="column third">
+                <div id="interests-selector" class="column half">
                   <div class="interests">
-                      <img src="images/Interests%20Image.png" class=" column full center" alt="interests Image">
+                      <img src="images/Professional%20photo%202.png" class=" column full center" alt="interests Image">
                       <h4 class="column full">Interests</h4>
                   </div>
                 </div>
-                <div id="story-selector" class="column third">
-                  <div class="story">
-                      <img src="images/Story%20Image.png" class="column full" alt="Story Image">
-                      <h4 class="column full">Story</h4>
-                  </div>
-                </div>
+            </div>
+            <div class="column full">
+                <button id="resume-button" type="button">Resume</button>
             </div>
       </div>
     </div>
 
   <!-- Attributes -->
     <div class="attribute-right hidden">
-      <div class="column full">
-        <div id="divWheel" data-wheelnav 
-             data-wheelnav-wheelradius="100"
-             data-wheelnav-navangle="90"
-             data-wheelnav-slicepath="DonutSlice" 
-             data-wheelnav-colors="#E34C26,#F06529" 
-             data-wheelnav-rotateoff>
-        </div>  
+      <div class="column full logos"> 
         <img class="column fifth" src="images/Sketch_logo_frame.svg.png" alt="Sketch">
         <img class="column fifth" src="images/ico-desktop-lg.png" alt="balsamiq">
         <img class="column fifth" src="images/Illustrator%20Image.png" alt="Illustrator">
         <img class="column fifth" src="images/invision.svg" alt="Invision">
         <img class="column fifth" src="images/usertesting2.jpeg" alt="User Testing">
       </div>
-      <div class="column full">
+      <div class="column full logos">
         <img id="img-icon" class="column fifth" src="images/HTML5_logo_and_wordmark.svg.png" alt="Html 5">
         <img class="column fifth" src="images/CSS.jpg" alt="CSS 3">
         <img class="column fifth" src="images/js-logo-badge-256.png" alt="Javascript">
@@ -80,21 +70,19 @@
         <img class="column fifth" src="images/github-512.png" alt="github">
       </div>
       <div class="column full interests-content">
-        <ul class="notFancyFont  list-left column half">
+        <ul class="column half">
             <li>Wireframes/Prototyping</li>
             <li>User Testing/Surveys</li>
             <li>Personas</li>
-            <li>Low and High Fidelity Mockups</li>
-            <li>Web Design and Development</li>
-            <li>jQuery</li>
+            <li>Mockups</li>
+            <li>Web Design & Development</li>
         </ul>
-        <ul class="notFancyFont list-right column half">
-            <li>Mobile and Responsive Design</li>
+        <ul class="column half">
+            <li>Mobile-Responsive Design</li>
             <li>Brand Strategy</li>
-            <li>Logo Conceptualization</li>
-            <li>Style Guides</li>
             <li>HTML/CSS</li>
             <li>Javascript</li>
+            <li>jQuery</li>
         </ul>
       </div>
     </div>
@@ -102,114 +90,26 @@
   <div class="interests-right hidden">
     <div class="column full">
         <H1>
-            If you want to kill 15mins, <br>ask me about one of these topics:
-        
+            Hello! I'm a front-end web designer from Colorado Springs, who builds with intuitive and aesthetic design in mind. I'm a workaholic with other interests that include:
         </H1>
-      
     </div>
     <div class="column full">
         <div class="column full">
-                <div class="flip">
-                <div class="front">
-                <img src="images/visual%20art.jpg" alt="visual arts">
-            </div>
-            <div class="back orange-background">
-                <h4>
-                    Visual Arts
-                </h4>
-            </div>
-        </div>
-            
-        <div class="flip">
-            <div class="front">
-                <img src="images/coffee.jpg" alt="coffee">
-            </div>
-            <div class="back orange-background">
-                <h4>
-                    Coffee
-                </h4>
-            </div>
-        </div>
-    <div class="flip">
-        <div class="front">
-            <img src="images/hiking.jpg" alt="Hiking">
-        </div>
-        <div class="back orange-background">
-            <h4>
-                Hiking
-            </h4>
-        </div>  
-    </div>
-    </div>  
-    <div class="column full">
-        <div class="flip">
-        <div class="front ">
-            <img src="images/Story%20structure.jpg" alt="Story Structure">
-        </div>
-        <div class="back dark-background">
-            <h4>
-                Story Structure
-            </h4>
-        </div>  
-    </div>
-    <div class="flip">
-        <div class="front">
-            <img src="images/philosphy.jpg" alt="Philosophy">
-        </div>
-        <div class="back dark-background">
-            <h4>
-                Philosophy
-            </h4>
-        </div>
-    </div>
-    <div class="flip">
-        <div class="front">
-            <img src="images/writing.jpg" alt="Writing">
-        </div>
-        <div class="back dark-background">
-            <h4>
-                Writing
-            </h4>
-        </div>  
-    </div>
-    </div>
-    <div class="column full">
-         <div class="flip">
-        <div class="front">
-            <img src="images/behavioral%20Science.png" alt="behavioral Science">
-        </div>
-        <div class="back green-background">
-            <h4>
-                Behavioral Science
-            </h4>
-        </div>
-    </div>
-     <div class="flip">
-        <div class="front">
-            <img src="images/gamification.jpg" alt="Gamification">
-        </div>
-        <div class="back green-background">
-            <h4>
-                Gamification
-            </h4>
-        </div>  
-    </div>  
-    <div class="flip">
-        <div class="front">
-            <img src="images/the%20great%20courses.jpg" alt="The Great Courses">
-        </div>
-        <div class="back green-background">
-            <h4>
-                The Great Courses
-            </h4>
-        </div>  
-    </div>
-    </div>
-    </div>  
-      
-      
-      
-  </div>      
+        <ul class="notFancyFont interests-right list-left column half">
+            <li>Coffee</li>
+            <li>Hiking</li>
+            <li>Story Structure</li>
+            <li>Philosophy</li>
+        </ul>
+        <ul class="notFancyFont list-right interests-right column half">
+            <li>Behavioral Science</li>
+            <li>Gamification</li>
+            <li>The Great Courses</li>
+            <li>Writing</li>
+        </ul>
+      </div>
+  </div> 
+ </div>
 <!-- Story -->
   <div class="story-right hidden">
     <p class="story-length notFancyFont">
@@ -245,6 +145,12 @@
      <div class="column full">
          <h4 id="humankind">Human Kind</h4>
      </div>
+     <div class="column full">
+         <h4 id="open-hand">Open Hand</h4>
+     </div> 
+     <div class="column full">
+         <h4 id="collabormate">Collabormate</h4>
+     </div>   
   </div>
 <!-- Projects, Traks -->
   <div class="traks-right hidden">
@@ -252,7 +158,7 @@
           <h1>Traks</h1>
       </div>
       <div class="column full">
-          <h4>Crowd-funding for Those with Emergencies </h4>
+          <h4>Platform to Save and Share Travel Experiences</h4>
       </div>
       <div class="column full">
           <button type="button">More</button>
@@ -281,26 +187,52 @@
           <h4>Life Style App that Encourages Acts of Kindness</h4>
       </div>
       <div class="column full">
-          <button id="hkstyle" type="button">More</button>
+          <button type="button">More</button>
       </div>
     </div>
+<!-- Projects, Open Hand -->
+    <div class="open-hand-right hidden">
+      <div class="column full">
+          <h1>Open Hand</h1>
+      </div>
+      <div class="column full">
+          <h4>Crowd-funding for Those with Emergencies</h4>
+      </div>
+      <div class="column full">
+          <button type="button">More</button>
+      </div>
+  </div>
+<!-- Projects, Collabormate -->    
+  <div class="collabormate-right hidden">
+      <div class="column full">
+          <h1>Collabormate</h1>
+      </div>
+      <div class="column full">
+          <h4>Platform to Store and Save Media Files for Projects</h4>
+      </div>
+      <div class="column full">
+          <button type="button">More</button>
+      </div>
+  </div>    
 <!-- Gallery Left Side -->
     <div class="gallery-left">
         <div class="column full">
             <h1>Gallery</h1>
         </div>
-        <div id="icon-selector" class="column half">
-            <div class="icon-category">
-                <img src="images/Iconography%20Image.png" alt="Icon Image" class="">
-                <h4 class="column full" id="icon-text">Iconography</h4>
+        <div class="gallery-left-resize column full">
+            <div id="icon-selector" class="column half">
+                <div class="icon-category">
+                    <img src="images/Iconography%20Image.png" alt="Icon Image" class="">
+                    <h4 class="column full" id="icon-text">Iconography</h4>
+                </div>
             </div>
-        </div>
-        <div id="wallpaper-selector" class="column half">
-            <div class="wallpaper-category">
-                <img src="images/Laptop%20Image.png" alt="Wallpaper Image" class= "wallpaper-left-category">
-                <h4 class="column full" id="wallpaper-text">Wallpapers</h4>
+            <div id="wallpaper-selector" class="gallery-left-resize column half">
+                <div class="wallpaper-category">
+                    <img src="images/Laptop%20Image.png" alt="Wallpaper Image" class= "wallpaper-left-category">
+                    <h4 class="column full" id="wallpaper-text">Wallpapers</h4>
+                </div>
             </div>
-        </div>
+        </div>    
     </div>
 <!-- Gallery, Icons -->
    <div class="icon-right hidden" >
@@ -355,18 +287,19 @@
           <h1> Tim Schillinger</h1>
       </div>
     <div class="contact-info">
-        <div class="column full contact-content">
-            <a href="mailto:schillinger.designers@gmail.com"><i class="fa fa-envelope fa-2x"><p>schillinger.designers@gmail.com</p></i></a>
-        </div>
-        <div class="column full contact-content">
-            <i class="fa fa-phone-square fa-2x"></i><p>(309) 303-9750</p>
+        <div class="column full">
+                <button id="contact-button" type="button">Message Me</button>
         </div>
         <div class="column full contact-content">
             <a href="http://linkedin.com/in/timothy-schillinger"> <i class="fa fa-linkedin-square fa-4x"></i></a>
         <a href="https://github.com/tjschillinger"> <i class="fa fa-github-square fa-4x"></i></a>
         </div>
-        
-        
+        <div class="column full contact-content">
+            <i class="fa fa-phone-square fa-2x contact-icon"></i><p>(309) 303-9750</p>
+        </div>
+        <div class="column full contact-content">
+            <a href="mailto:schillinger.designers@gmail.com"><i class="fa fa-envelope fa-2x"><p>schillinger.designers@gmail.com</p></i></a>
+        </div>
     </div>
   </div>
 <!-- Conact Right Side -->
@@ -376,9 +309,7 @@
       </div>
 
   </div>
-  <script src="scripts/jquery-3.1.0.min.js"></script>
-  <script src="scripts/jquery.flip.min.js"></script>
-  <script src="scripts/wheelnav.js"></script>      
+  <script src="scripts/jquery-3.1.0.min.js"></script>      
   <script src="scripts/home.js"></script>    
 </body>
 </html>

@@ -1,5 +1,3 @@
-
-
 $(".interests").on("click", function() {
         $(".interests-right").removeClass("hidden");
         $(".attribute-right").addClass("hidden");
@@ -10,6 +8,7 @@ $(".interests").on("click", function() {
         $(".interests").css("font-weight","bold");
         $(".story").css("font-weight","lighter");
         $(".attributes").css("font-weight","lighter");
+        $("#interest-shake").effect( "shake", {times:4}, 1000 );
 });
 
 $(".story").on("click", function() {
@@ -28,6 +27,9 @@ $(".attributes").on("click", function() {
         $(".interests-right").addClass("hidden");
         $(".attribute-right").removeClass("hidden");
         $(".story-right").addClass("hidden");
+        $(".collabormate-right").addClass("hidden");
+        $(".open-hand-right").addClass("hidden");
+    
         $("#attributes-selector").addClass("selected");
         $("#interests-selector").removeClass("selected");
         $("#story-selector").removeClass('selected');
@@ -40,36 +42,70 @@ $("#traks").on("click", function() {
         $(".humankind-right").addClass("hidden");
         $(".traks-right").removeClass("hidden");
         $(".blocjams-right").addClass("hidden");
-        $("#traks").css("font-weight","900");
-        $("#blocjams").css("font-weight","lighter");
-        $("#humankind").css("font-weight","lighter");
-        $("#traks").css("text-decoration","none");
-        $("#blocjams").css("text-decoration","underline");
-        $("#humankind").css("text-decoration","underline");
+        $(".collabormate-right").addClass("hidden");
+        $(".open-hand-right").addClass("hidden");
+    
+        $("#traks").css({"font-weight": "900", "color": "#D6665A"});
+        $("#blocjams").css({"font-weight": "lighter", "color": "black"});
+        $("#collabormate").css({"font-weight": "lighter", "color": "black"});
+        $("#humankind").css({"font-weight": "lighter", "color": "black"});
+        $("#open-hand").css({"font-weight": "lighter", "color": "black"});
 });
 
 $("#blocjams").on("click", function() {
         $(".humankind-right").addClass("hidden");
         $(".traks-right").addClass("hidden");
         $(".blocjams-right").removeClass("hidden");
-        $("#blocjams").css("font-weight","900");
-        $("#humankind").css("font-weight","lighter");
-        $("#traks").css("font-weight","lighter");
-        $("#traks").css("text-decoration","underline");
-        $("#blocjams").css("text-decoration","none");
-        $("#humankind").css("text-decoration","underline");
+        $(".collabormate-right").addClass("hidden");
+        $(".open-hand-right").addClass("hidden");
+    
+        $("#blocjams").css({"font-weight": "900", "color": "#D6665A"});
+        $("#collabormate").css({"font-weight": "lighter", "color": "black"});
+        $("#traks").css({"font-weight": "lighter", "color": "black"});
+        $("#humankind").css({"font-weight": "lighter", "color": "black"});
+        $("#open-hand").css({"font-weight": "lighter", "color": "black"});
 });
 
 $("#humankind").on("click", function() {
         $(".humankind-right").removeClass("hidden");
         $(".traks-right").addClass("hidden");
         $(".blocjams-right").addClass("hidden");
-        $("#humankind").css("font-weight","900");
-        $("#blocjams").css("font-weight","lighter");
-        $("#traks").css("font-weight","lighter");
-        $("#traks").css("text-decoration","underline");
-        $("#blocjams").css("text-decoration","underline");
-        $("#humankind").css("text-decoration","none");
+        $(".collabormate-right").addClass("hidden");
+        $(".open-hand-right").addClass("hidden");
+    
+        $("#humankind").css({"font-weight": "900", "color": "#D6665A"});
+        $("#blocjams").css({"font-weight": "lighter", "color": "black"});
+        $("#traks").css({"font-weight": "lighter", "color": "black"});
+        $("#collabormate").css({"font-weight": "lighter", "color": "black"});
+        $("#open-hand").css({"font-weight": "lighter", "color": "black"});
+});
+
+$("#open-hand").on("click", function() {
+        $(".humankind-right").addClass("hidden");
+        $(".traks-right").addClass("hidden");
+        $(".blocjams-right").addClass("hidden");
+        $(".collabormate-right").addClass("hidden");
+        $(".open-hand-right").removeClass("hidden");
+    
+        $("#open-hand").css({"font-weight": "900", "color": "#D6665A"});
+        $("#blocjams").css({"font-weight": "lighter", "color": "black"});
+        $("#traks").css({"font-weight": "lighter", "color": "black"});
+        $("#humankind").css({"font-weight": "lighter", "color": "black"});
+        $("#collabormate").css({"font-weight": "lighter", "color": "black"});
+});
+
+$("#collabormate").on("click", function() {
+        $(".humankind-right").addClass("hidden");
+        $(".traks-right").addClass("hidden");
+        $(".blocjams-right").addClass("hidden");
+        $(".collabormate-right").removeClass("hidden");
+        $(".open-hand-right").addClass("hidden");
+    
+        $("#collabormate").css({"font-weight": "900", "color": "#D6665A"});
+        $("#blocjams").css({"font-weight": "lighter", "color": "black"});
+        $("#traks").css({"font-weight": "lighter", "color": "black"});
+        $("#humankind").css({"font-weight": "lighter", "color": "black"});
+        $("#open-hand").css({"font-weight": "lighter", "color": "black"});
 });
 
 $(".icon-category").on("click", function() {
@@ -111,7 +147,7 @@ $(".about-scroll").click(function() {
 $(".projects-scroll").click(function() {
     $('html, body').animate({
         scrollTop: $(".projects-nav").offset().top
-    }, 800);
+    }, 1000);
 });
 
 $(".gallery-scroll").click(function() {
@@ -126,12 +162,6 @@ $(".contact-scroll").click(function() {
     }, 1000);
 });
 
-$(function(){
-    $(".flip").flip({
-        trigger: 'hover'
-    });
-});
-
 $(document).ready(function() {
      $(".attribute-right").toggleClass("hidden");
      $("#attributes-selector").addClass("selected");
@@ -139,16 +169,12 @@ $(document).ready(function() {
     
      $(".traks-right").toggleClass("hidden");
      $(".icon-right").toggleClass("hidden");
-     $("#traks").css("font-weight","900");
-     $("#traks").css("text-decoration","none");
+     $("#traks").css({"font-weight": "900", "color": "#D6665A"});
     
      $("#icon-selector").addClass("selected");
     
      $("#icon-text").css("text-decoration", "none");
      $("#icon-text").css("font-weight","normal");
-    var wheel = new wheelnav("divWheel");
-    wheel.createWheel(["0", "1", "2", "3"]);
-    
 });
 
 
