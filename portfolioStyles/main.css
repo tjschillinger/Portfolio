@@ -1417,13 +1417,13 @@ button:hover {
    }
 
    i.fa.fa-arrow-circle-right{
-     font-size: 3em;
+     font-size: 5em;
      margin-top: 5%;
      right: 5%;
    }
 
    i.fa.fa-arrow-circle-left{
-     font-size: 3em;
+     font-size: 5em;
      margin-top: 5%;
      left: 5%;
    }
