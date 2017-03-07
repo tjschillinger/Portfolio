@@ -297,7 +297,33 @@ function checkWidth() {
   }
 }
 
+function mobileWidth() {
+  if ($(window).width() < 740) {
+      $('.trak-right-arrow').removeClass('hidden');
+      $('.blocjams-right-arrow').removeClass('hidden');
+      $('.humankind-right-arrow').removeClass('hidden');
+      $('.open-hand-right-arrow').removeClass('hidden');
+
+      $('.blocjams-left-arrow').removeClass('hidden');
+      $('.humankind-left-arrow').removeClass('hidden');
+      $('.open-hand-left-arrow').removeClass('hidden');
+      $('.collabormate-left-arrow').removeClass('hidden');
+  } else {
+      $('.trak-right-arrow').addClass('hidden');
+      $('.blocjams-right-arrow').addClass('hidden');
+      $('.humankind-right-arrow').addClass('hidden');
+      $('.open-hand-right-arrow').addClass('hidden');
+
+      $('.blocjams-left-arrow').addClass('hidden');
+      $('.humankind-left-arrow').addClass('hidden');
+      $('.open-hand-left-arrow').addClass('hidden');
+      $('.collabormate-left-arrow').addClass('hidden');
+  }
+}
+
 $(window).resize(checkWidth);
+
+$(window).width(mobileWidth);
 
 
 $(document).ready(function() {
