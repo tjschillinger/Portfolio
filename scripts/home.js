@@ -8,7 +8,6 @@ $(".interests").on("click", function() {
         $(".interests").css("font-weight","bold");
         $(".story").css("font-weight","lighter");
         $(".attributes").css("font-weight","lighter");
-        $("#interest-shake").effect( "shake", {times:4}, 1000 );
 });
 
 $(".story").on("click", function() {

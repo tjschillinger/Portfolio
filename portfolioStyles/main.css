@@ -763,7 +763,7 @@ button:hover {
     padding-top: 2%;
     padding-bottom: 0%;
     line-height: 140%;
-    margin-top: 4%;
+    margin-top: 3%;
     }
 
     .attribute-right img{
@@ -773,6 +773,10 @@ button:hover {
 
      .interests-right .column.half {
          width: 100%;
+     }
+
+     .logos img{
+       padding: 3% 3% 0% 3%;
      }
 
     .interests-right li{
@@ -856,7 +860,7 @@ button:hover {
      }
 }
 
-@media (max-width: 740px) {
+@media (max-width: 740px)  {
      html { font-size: 112%; }
 
      .hero-logo img{
@@ -897,7 +901,7 @@ button:hover {
           margin-top: 1%;
           padding-top: 0%;
           font-weight: normal;
-          margin-bottom: 0%;
+          margin-bottom: 5%;
       }
 
       .about-nav h4 {
@@ -1000,13 +1004,12 @@ button:hover {
       }
 
       .projects-nav h4 {
-          font-size: 12px;
+          font-size: 16px;
           padding-left: 10%;
           text-align: center;
           margin-left: 0%;
           margin-right: 0%;
           margin-top: 0%;
-
       }
 
       div.projects-nav .column.full {
@@ -1255,9 +1258,17 @@ button:hover {
           font-size: 24px;
           margin-top: -3%;
       }
+
+      h4#blocjams{
+        margin-left: -25%;
+      }
  }
 
  @media (max-width: 540px) {
+
+   .projects-nav h4 {
+       font-size: 12px;
+     }
 
    .interests-right .column.full{
      padding: 2%;
@@ -1291,23 +1302,37 @@ button:hover {
 
  }
 
- @media (max-width: 740px) {
+ @media (max-width: 400px) {
+   .hero-logo h1{
+     font-size: 48px;
+     margin-bottom: 20%;
+   }
+
+   .hero-logo h1{
+     font-size: 32px;
+     margin-top: 5%;
+   }
+
    .hero-logo img{
-      width: 300px;
+      width: 200px;
       margin-top: 5%;
    }
 
    #resume-button {
-       margin-top: 2%;
+       margin-top: 4%;
        padding: 5px 20px;
        font-size: 18px;
    }
 
+   .interests-right h1{
+     line-height: 18px;
+     font-size: 12px;
+  }
+
    .attribute-right li {
        padding-top: 1%;
        padding-bottom: 1%;
-       line-height: 120%;
-       margin-bottom: 18%;
+       margin-bottom: 8%;
        margin-left: 0%;
        font-size: 12px;
        width: 135%;
@@ -1315,7 +1340,7 @@ button:hover {
    }
 
    img.column.fifth{
-     padding: 3%;
+     padding:3% 3% 0% 3%;
    }
 
    ul.column.half{
@@ -1334,13 +1359,39 @@ button:hover {
      font-size: 12px;
    }
 
+   .about-nav h1{
+     font-size: 18px:
+   }
+
    .icons img{
      width: 80px;
      height: 80px;
    }
 
+   .about-nav .column.half{
+     padding-top: 0%;
+   }
+
+  .attributes h4{
+    font-size: 12px;
+  }
+
+  .about-nav .column.half:hover{
+    border: 0px;
+  }
+
+  .interests-right li{
+      margin-top: 0%;
+      font-size: 11px;
+      padding-right: 0%;
+  }
+
+  .interests h4{
+    font-size: 12px;
+  }
+
    .icons{
-     margin-top: 5%;
+     margin-top: 10%;
    }
 
    .bottom-logo img{
@@ -1357,9 +1408,61 @@ button:hover {
      font-size: 12px;
    }
 
-   .fa-arrow-circle-right{
-     font-size: 2em;
+   .projects-nav h4{
+     font-size: 8px;
    }
+
+   h4#blocjams{
+     margin-left: -5%;
+   }
+
+   i.fa.fa-arrow-circle-right{
+     font-size: 2em;
+     margin-top: 5%;
+     right: 5%;
+   }
+
+   i.fa.fa-arrow-circle-left{
+     font-size: 2em;
+     margin-top: 5%;
+     left: 5%;
+   }
+
+   #gallery-button{
+     margin-top: 1%;
+     padding: 20px 10px;
+     margin-top: 10%;
+   }
+
+   #icon-button{
+     margin-top: 10%;
+     padding: 20px 10px;
+   }
+
+   .icon-row{
+     padding: 0%;
+   }
+
+   #top-left-img {
+       padding-bottom: 0%;
+       margin-top: 20%;
+       margin-left: 0%;
+       width: 120px;
+       object-fit: contain;
+   }
+
+   #bottom-left-img {
+       margin-left: 0%;
+       width: 120px;
+       object-fit: contain;
+   }
+
+   #top-right-img {
+       padding-right: 0%;
+       margin-top: 20%;
+       height: 160px;
+       object-fit: contain;
+
 
  }
 
