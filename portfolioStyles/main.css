@@ -368,7 +368,7 @@ button:hover {
 
 .traks-right h1 {
     text-align: center;
-    margin-top: 45%;
+    margin-top: 70%;
 }
 
 .traks-right h4 {
@@ -394,7 +394,7 @@ button:hover {
 
 .blocjams-right h1 {
     text-align: center;
-    margin-top: 45%;
+    margin-top: 70%;
 }
 
 .blocjams-right h4 {
@@ -420,7 +420,7 @@ button:hover {
 
 .humankind-right h1 {
     text-align: center;
-    margin-top: 45%;
+    margin-top: 70%;
 }
 
 .humankind-right h4 {
@@ -446,7 +446,7 @@ button:hover {
 
 .open-hand-right h1 {
     text-align: center;
-    margin-top: 45%;
+    margin-top: 70%;
 }
 
 .open-hand-right h4 {
@@ -472,7 +472,7 @@ button:hover {
 
 .collabormate-right h1 {
     text-align: center;
-    margin-top: 45%;
+    margin-top: 70%;
 }
 
 .collabormate-right h4 {
@@ -856,7 +856,7 @@ button:hover {
      }
 }
 
-@media (max-width: 740px) and (min-width: 340px) {
+@media (max-width: 740px) {
      html { font-size: 112%; }
 
      .hero-logo img{
@@ -1257,7 +1257,7 @@ button:hover {
       }
  }
 
- @media (max-width: 540px) and (min-width: 340px) {
+ @media (max-width: 540px) {
 
    .interests-right .column.full{
      padding: 2%;
@@ -1288,6 +1288,78 @@ button:hover {
        font-size: 14px;
        ine-height: 18px;
      }
+
+ }
+
+ @media (max-width: 740px) {
+   .hero-logo img{
+      width: 300px;
+      margin-top: 5%;
+   }
+
+   #resume-button {
+       margin-top: 2%;
+       padding: 5px 20px;
+       font-size: 18px;
+   }
+
+   .attribute-right li {
+       padding-top: 1%;
+       padding-bottom: 1%;
+       line-height: 120%;
+       margin-bottom: 18%;
+       margin-left: 0%;
+       font-size: 12px;
+       width: 135%;
+       margin-top: 1%;
+   }
+
+   img.column.fifth{
+     padding: 3%;
+   }
+
+   ul.column.half{
+     padding: 0%;
+   }
+
+   .gallery-left h1{
+     margin-top: 2%;
+     margin-bottom: 2%;
+     font-size: 24px;
+   }
+
+   h4#icon-text{
+     margin-top: 0%;
+     margin-bottom: 3%;
+     font-size: 12px;
+   }
+
+   .icons img{
+     width: 80px;
+     height: 80px;
+   }
+
+   .icons{
+     margin-top: 5%;
+   }
+
+   .bottom-logo img{
+     height: 100px;
+   }
+
+   .bottom-logo h1{
+     font-size: 24px;
+   }
+
+   h4#wallpaper-text{
+     margin-top: 0%;
+     margin-bottom: 3%;
+     font-size: 12px;
+   }
+
+   .fa-arrow-circle-right{
+     font-size: 2em;
+   }
 
  }
 
