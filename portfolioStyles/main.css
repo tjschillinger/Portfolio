@@ -1000,7 +1000,7 @@ button:hover {
       }
 
       .projects-nav h4 {
-          font-size: 14px;
+          font-size: 12px;
           padding-left: 10%;
           text-align: center;
           margin-left: 0%;
@@ -1017,6 +1017,7 @@ button:hover {
           padding-top: 0%;
           padding-bottom: 0%;
           font-size: 36px;
+          margin-bottom: 3%;
       }
 
       .trak-right-arrow .hidden{
@@ -1108,6 +1109,10 @@ button:hover {
           width: 100%;
       }
 
+      #icon-text{
+        padding: 0%;
+      }
+
       .gallery-left .column.half{
           padding-top: 1%
       }
@@ -1116,6 +1121,16 @@ button:hover {
           padding-top: 0%;
           padding-bottom: 0%;
           font-size: 36px;
+          margin: 0%;
+      }
+
+      .wallpaper-category img{
+        height: 100px;
+        width: 100px;
+        object-fit: contain;
+      }
+
+      #wallpaper-selector{
       }
 
       .icon-right{
@@ -1134,7 +1149,7 @@ button:hover {
 
       .icon-right img {
           padding: 10%;
-          height: 113px;
+          height: 100px;
       }
 
       .wallpaper-right{
@@ -1253,7 +1268,7 @@ button:hover {
        padding-bottom: 10%;
        line-height: 20%;
        margin-top: 5%;
-       font-size: 14px;
+       font-size: 12px;
        float: none;
        padding-right: 1%;
    }
@@ -1264,7 +1279,7 @@ button:hover {
        line-height: 120%;
        margin-bottom: 18%;
        margin-left: 0%;
-       font-size: 16px;
+       font-size: 14px;
        width: 135%;
        margin-top: 1%;
    }
