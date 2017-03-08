@@ -636,7 +636,7 @@ button:hover {
     font-size: 24px;
     margin-top: 0%;
     margin-bottom: 15%;
-    margin-right: 10%;
+    margin-right: 0%;
 }
 
 .contact-content{
@@ -931,8 +931,8 @@ button:hover {
 
       #resume-button {
           margin-top: 3%;
-          padding: 10px 40px;
-          font-size: 18px;
+          padding: 8px 30px;
+          font-size: 14px;
       }
 
       .attribute-right {
@@ -1134,7 +1134,7 @@ button:hover {
           padding-top: 0%;
           padding-bottom: 0%;
           font-size: 36px;
-          margin: 0%;
+          margin: 5%;
       }
 
       .wallpaper-category img{
@@ -1157,7 +1157,8 @@ button:hover {
       }
 
       .icons {
-          padding-top: 1%
+          padding-top: 1%;
+          margin-top: 5%;
       }
 
       .icon-right img {
