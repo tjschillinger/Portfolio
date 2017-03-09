@@ -241,37 +241,42 @@ h4{
 
 @media (max-width: 400px) {
      .img-background p{
-        font-size: .3rem;
+        font-size: .5rem;
      }
     
      p{
-        font-size: .4rem;
+        font-size: .6rem;
         font-weight: normal;
         font-family: didot;
      }
 
      h3{
-        font-size: .8rem;
+        font-size: .10rem;
         color: #F99186;
      }
 
      h1{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
      }
 
      h2{
-        font-size: .6rem;
+        font-size: .8rem;
      }
 
      h4{
         text-align: left;
-        font-size: .6em;
+        font-size: .8em;
         margin-bottom:0%;
      }
      
      .nav-container h4{
-        font-size: .4rem;
+        font-size: .5rem;
      }
     
-     
+    .logo{
+        position:absolute;
+        left: 2%;
+        top: 2%;
+        width: 10%;
+    }
 }
