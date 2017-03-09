@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>heartbeatz Case Study</title>
+  <link rel= "stylesheet" href="portfolioStyles/heartbeatz-cs.css">
+</head>
+<body>
+     <div class="hero">
+        <div class="logo column full">
+            <div class="logo">
+                <a href="index.html"><img src="images/Logo%20Image.png"></a>
+            </div>
+            <div class="nav-tabs column full">
+                <div class="nav-container">
+                    <h4><a href="index.html#about">About</a></h4> 
+                    <h4><a href="index.html#projects">Projects</a></h4>
+                    <h4><a href="index.html#gallery">Gallery</a></h4>
+                    <h4><a href="index.html#contact">Contanct</a></h4>
+                </div>
+            </div>
+        </div>
+    <div class="column full">
+        <img class="hero-img " src= "images/heartbeatz%20laptop.png">
+        <div class="column full">
+            <h1>heartbeatz</h1>
+            <h2>2016 - UX/UI Designer & Front-End Developer</h2>        
+        </div>
+        </div>
+    </div>
+    <div class = "Introduction column full">
+        <h3>The Introduction</h3>
+        <p> Traks is all about stories so it seems best to tell you the story of how we, my husThe Introduction: heartbeatz gave my team and me the opportunity to explore Javascript and jQuery through the medium of a music app. The functionality of the project is simple in concept: it consists of a homepage, a collection page, and an album page, but it’s the engine of this site that carries its complexity. Under the hood, we programed blocs of code to generate the collection page’s content, cycle through albums for the album page, and present information for the player bar. In addition to these features, we gave the site a slick coat of paint by rebranding it from its original direction. 
+        </p>
+    </div>
+    <div class = "column half half-text-left">
+        <h4>The Task</h4>
+        <p>We were tasked with programing a fexible web application to play music, using minimal reliance on HTML. This project was important to us because we wanted to explore dexterity of Javascript and jQuery.</p>
+    </div>
+    <div class = "column half half-text-right">
+        <h4> The Problem </h4>
+        <p>We needed to create a site that could update content without constant maintenance to the html. Such maintenance would cost too much time and energy. We needed a site with flexible content.</p>
+    </div>
+    <div class = "column full">
+        <h4> The Solution </h4>
+        <p>The key to our solution placed a heavy emphasis on using Javascript to reduce our dependency on html. Moreover, we reduced the labor of Javascript by employing jQuery. The result amounted to a malleable library within our Javascript files that could insert content into our static HTML files.</p>
+    </div>
+    <div class = "column full">
+        <h3>Technical Side</h3>
+        <h4>Generating Collection Page Content</h4>
+        <p>We kept to a minimum the code for our Collection HTML page by leaving the content between our section tags bare.</p>
+    </div>
+    <div class = "img-background column full">
+      <div class = "one-img column full"> 
+        <img src = "images/firstphoto.png">
+        <p>Future Content Would Fill This Free Space in the Section Tag</p>  
+      </div>
+    </div>
+    <div class = "column full">
+        <p>In our collection.js, we generated content for our collection page by using a variable to create an object that would be our album and a for loop to customize the number of album objects for our collection.html.</p>
+    </div>
+    <div class = "img-background column full">
+      <div class = "one-img column full"> 
+        <img src = "images/techsidephoto2.png">
+        <p>Future Content Would Fill This Free Space</p>  
+      </div>
+    </div> 
+    <div class = "Competition column full">
+        <p>This Javascript made the content easily malleable, reducing the labor when needing to implement an update.  
+        </p>
+    </div>
+    <div class = "img-background column full">
+      <div class = "two-img column half">   
+        <img src = "images/techsidebefore.png">
+         <p>HTML Without the Use of Javascript</p>   
+      </div> 
+      <div class = "two-img column half">   
+        <img src = "images/techsideafter.png">
+        <p class = "Center">HTML With the Use of Javascript</p>   
+      </div> 
+    </div>
+    <div class = "column full">
+        <h4>Generating Play Bar Content</h4>
+        <p>The content for our play bar required maximum flexibility, using Javascript to produce most of its content. Our Album HTML page, which hosted the placement of our play bar, was coded similarly to our collection.html, in that we coded tags without content.</p>
+    </div>
+    <div class = "img-background column full">
+      <div class = "one-img column full"> 
+        <img src = "images/Techsidephoto3.png">
+        <p>Future Content Would Fill This Free Space</p>  
+      </div>
+    </div>
+    <div class = "column full">
+        <p>To fill those areas with content, we used many variables, functions, conditional statements, and objects within our album.js file to insert and remove information for our player bar while allowing the user to adjust settings (such as volume and seek bar).</p>
+    </div>
+    
+    
+    <div class="img-background column full">
+      <div class ="one-img column full">
+        <img src ="images/techsidephoto4.png">
+      </div>
+      <div class ="two-img column half">
+        <img src ="images/techsidephoto5.png">
+      </div>
+      <div class ="two-img column half bottom-pic">
+        <img src ="images/techsidephoto6.png">
+      </div>     
+    </div>
+    <div class = "column full">
+        <p>Refactoring with jQuery: With the main goal of our project being to reduce amount of code required to make a simple music player, we employed jQuery to reduce the amount of space taken up by our Javascript. The space reduced by refactoring our Javascript is self evident. 
+        </p>
+    </div>
+    <div class = "img-background column full">
+      <div class = "two-img column half">
+          <img src="images/techsidephoto7.png" alt="Mockup 1">
+          <p>Before</p>
+      </div>  
+      <div class = "two-img column half">
+          <img src="images/techsidephoto8.png" alt="Mockup 2">
+          <p class="Center">After</p>
+      </div> 
+    </div> 
+    <div class= "reflections column full">
+       <h3>Reflections</h3>
+       <div>
+            <h4>What We Learned</h4>
+            <p>Going in, we didn’t expect to discover so many ways to program the effect we wanted to produce with Javascript. After programing a solution, we would show our code to a third party for feedback, only to discovery an even more succinct way to code our solution. We enjoyed this process of discovery.</p>
+    </div>
+    <div>
+            <h4>What We Would Do Differently</h4>
+            <p>Going in, we didn’t expect to discover so many ways to program the effect we wanted to produce with Javascript. After programing a solution, we would show our code to a third party for feedback, only to discovery an even more succinct way to code our solution. We enjoyed this process of discovery.</p>
+    </div> 
+    <div>
+            <h4>Takeaways</h4>
+            <p>Collaboration is essential to filing down a finely-toned solution. No matter how much you think you know about Javascript and jQuery, there will always be more to learn.</p>
+    </div>     
+   </div>
+<div class = "column full">
+        <h3>Rebranding</h3>
+        <h4>Creative Brief</h4>
+        <p>Music is passion and life without it is void of happiness. That’s why when my design team and I had an opportunity to work on a rebrand design for a responsive music site I was ecstatic! Music is what makes work seem like play and I couldn’t wait to play with the colors and designs of this site. The majority of the content would be staying the same but the colors, logo, hero image, and name were up for grabs! The site was antiquated and it needed to be rebranded to bring it back to life.<br><br>My team and I immediately began brainstorming themes for the rebrand so we would know what direction to take our design. We ended up determining our rebrand theme based on our mutual feeling that music = passion and passion inspires life.<br><br>Bloc Jams, the previous site name, no longer made sense with our narrative of passion. Bloc implies something that is blocky, or clunky which can be some peoples love story but not ours! We needed a name that got to the heart of what we’re about-passion and music.  Sound Waves, FreeStyle, SongRise, and Pump were all initial brainstorming contenders but we landed on heartbeatz to portray the interlay of music and passion.</p>
+    </div>
+     <div class = "img-background column full">
+      <div class = "column third originals">
+          <img src="images/original%20home%20page.png" alt="Mockup 3">
+          <p>Original Home Page</p>
+      </div>  
+      <div class = "column third originals">
+          <img src="images/original%20collection%20page.png" alt="Mockup 3">
+          <p>Original Collection Page</p>
+      </div>
+      <div class = "column third originals">
+          <img src="images/original%20album%20page.png" alt="Mockup 3">
+          <p>Original Album Page</p>
+      </div>     
+     </div>
+    <div class = "column full">
+        <h4>Logo</h4>
+        <p>From there we brainstormed ideas for a logo. We considered headphones, music notes, record machines and vinyl. Vinyl was exciting but we determined it would not help the site shake off it’s antiquated feel. Nothing was sticking and then BOOM-we came up with a design that struck a chord in each of us! We would design a heart that would hint at a B design as well for heartbeatz. We decided to put the heart in a line from a heart beat but the logo wasn’t as scalable as we would have preferred and the combination of the logo and site name would have been too much for a navigation bar. We dropped the line from the heartbeat but kept the B heart. The heart isn’t closed at the bottom but it spreads out on both sides. This passion is not contained but it reaches out to others!</p>
+    </div>
+     <div class = "img-background column full">
+      <div class = "column fourth">
+          <img src="images/logo1.png" alt="Mockup 3">
+          <p>Not Enough Passion</p>
+      </div>  
+      <div class = "column fourth">
+          <img src="images/logo2.png" alt="Mockup 3">
+          <p>Not Scalable Enough</p>
+      </div>
+      <div class = "column fourth">
+          <img src="images/logo3.png" alt="Mockup 3">
+          <p>Almost, But Not Quite</p>
+      </div>
+      <div class = "column fourth">
+          <img src="images/logo5.png" alt="Mockup 3">
+          <p>Just Right</p>
+      </div>     
+     </div>
+    <div class = "column full">
+        <h4>Color Palette</h4>
+        <p>Colors were up next! We wanted to insinuate passion and love without coming across as sappy or overly feminine. We played around with a variety of reds but the colors were too bright and we were afraid that our desire for passion would turn into a giant red stop sign instead! As a result we started adding some white to the mix and entered the realm of the pinks! We didn’t want cotton candy to be on the mind so we started heading for more peachy tones and voila! From the peachy tones were were able to come up with the complementary mint greens and tans.</p>
+    </div>
+    <div class = "img-background column full">
+      <div class = "column third color-palette">
+          <img src="images/Primary%20color%201.png" alt="Mockup 3">
+          <p>Primary Color</p>
+      </div>  
+      <div class = "column third color-palette">
+          <img src="images/Secondary%20Color.png" alt="Mockup 3">
+          <p>Secondary Color</p>
+      </div>
+      <div class = "column third color-palette">
+          <img src="images/terciary%20color.png" alt="Mockup 3">
+          <p>Tertiary Color</p>
+      </div>     
+     </div>
+    <div class = "column full">
+        <h4>Landing Page Image</h4>
+        <p>The final thing that needed rebranding was the hero image but that was easy with the new foundation we had finished laying for the site. We found an image of a woman, listening to music (of course) her hair vibrantly colored and in motion to show a streak of rebellion.</p>
+    </div>
+    <div class = "img-background column full">
+      <div class = "column half">
+          <img class="front-page-img" src="images/Runner%20up%20landing%20page%20photo.jpg" alt="Mockup 3">
+          <p>Runner Up</p>
+      </div>  
+      <div class = "column half">
+          <img class="front-page-img" src="images/Winner%20landing%20page%20photo.png" alt="Mockup 3">
+          <p>Winner</p>
+      </div>     
+     </div>
+    <div class= "reflections column full">
+       <h3> Reflections</h3>
+        <p>Standing back from the project my design team and I smiled. Sometimes working gets mundane and we end up with projects that are less exciting than others. Working on a project that intended to build passion in others had consequently built the passion in us as well. It reminded us why we love design. Design is about friendly functionality above all else but it’s also about bringing life to projects that are dying. We spend a lot of time pumping energy into designs that may or may not thank us later on for birthing them but the satisfying ones are the ones that give back to you as much as you pour into them. And that was this rebrand design. 
+        </p>
+    </div>
+    <div class = "link column full">
+      <a href = "#">Back to Top</a> 
+    </div>
+</body>
+</html>
