@@ -35,7 +35,7 @@ body, html {
 
 h4 a{
     text-decoration: none;
-    color: black;
+    color: black
 }
 
 .nav-container{
@@ -81,6 +81,10 @@ h4 a{
     text-align: center;
 }
 
+p{
+    text-align: left;
+}
+
 .img-background{
     background-color:#FBF7EF;
 }
@@ -90,25 +94,65 @@ h4 a{
     margin-top:1%;
     font-size: 1rem;
 }
+
+#single-img{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+#single-img img{
+    width: 95%;
+}
  
+.phone-screen img{
+    width: 50%;
+}
+
 img{
     margin-top: 4%;
 }
 
-.column.third img{
+.logo-img img{
     width: 100%;
     height: 215px;
-    object-fit:cover;
+    object-fit:contain;
+}
+
+.SWOT-img img{
+    width: 100%;
+    height: auto;
 }
 
 .one-img img{
+    width: auto;
+    height: 600px;
+}
+
+.FAQ-img{
     width: 100%;
+}
+
+.hifi-mock{
     height: auto;
+    width: 60%;
+}
+
+.survey-img img{
+    width: 100%;
+    height:200px;
+    object-fit:contain;
 }
 
 .two-img img{
-    width: 100%;
+    width: 50%;
     height: auto;
+}
+
+.two-img{
+    width: 50%;
+    float: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .bottom-pic{
@@ -121,7 +165,7 @@ img{
     object-fit:scale-down;
 }
 
-.column.third.color-palette img{
+.color-palette img{
          height: 100%;
          width: 100%;
      }
@@ -135,28 +179,33 @@ img{
 p{
     font-size: 1.2rem;
     font-weight: normal;
-    text-align: left;
     Font-family: Ubuntu, Helvetica, Arial, sans-serif;
 }
 
+.logo-img img{
+        width: 150px;
+        height: 150px;
+        object-fit:cover;
+     }
+
 h3{
     font-size: 2rem;
-    color: #F99186;
-    Font-family: Arvo, Helvetica, Arial, sans-serif;
+    color: #CD5360;
+    font-family: Arvo, Helvetica, Arial, sans-serif;
 }
 
 h1{
     font-size: 2.3rem;
-    color: #F99186;
+    color: #CD5360;
     margin: 0%;
-    Font-family: Arvo, Helvetica, Arial, sans-serif; 
+    font-family: Arvo, Helvetica, Arial, sans-serif;
 }
 
 h2{
     font-size: 1.5rem;
     color: black;
     font-weight: lighter;
-    Font-family: Arvo, Helvetica, Arial, sans-serif; 
+    font-family: Arvo, Helvetica, Arial, sans-serif;
 }
 
 h4{
@@ -191,7 +240,7 @@ h4{
         font-size: .8rem;
     }
     
-    .column.half { width: 100%; }
+    .surveys.column.half { width: 100%; }
     
     .half-text-left{
         padding-right: 10%;
@@ -208,7 +257,6 @@ h4{
 
      h3{
         font-size: 1.7rem;
-        color: #F99186;
      }
 
      h1{
@@ -225,33 +273,72 @@ h4{
         margin-bottom:0%;
      }
      
-     .column.fourth { width: 100%; }
      .column.fourth img{
-         height: 40%;
-        width: 40%;
+         height: 1000%;
+        width: 100%;
      }
      
      .nav-container h4{
         font-size: .8rem;
      }
     
+     .home-page.column.third{
+         width: 100%;
+     }
      
+     .home-page.column.third img{
+         height: 1000px;
+         width: auto
+     }
+     
+     .SWOT-img.column.third { width: 100%; padding-left: 0%; padding-right: 0%; }
+     
+     
+     .phone-screen.column.fourth { width: 50%; }
+     .column.fourth img{
+         width: 70%;
+         height: auto;
+     }
+}
+
+@media (max-width: 740px) {
+    .color-palette.column.fourth { width: 50%; }
+    .logo-img img{
+        width: 100px;
+        height: 100px;
+        object-fit:cover;
+     }
+    
+    .column.half { width: 100%; }
+    
+    .survey-img img {
+        height: auto;
+    }
 }
 
 @media (max-width: 400px) {
      .img-background p{
         font-size: .5rem;
      }
+     
+     .one-img img{
+        width: auto;
+        height: 500px;
+    }
+    
+     .logo-img img{
+        width: 50px;
+        height: 50px;
+        object-fit:cover;
+     }
     
      p{
-        font-size: .6rem;
+        font-size: .7rem;
         font-weight: normal;
-        font-family: Raleway, Helvetica, Arial, sans-serif;
      }
 
      h3{
         font-size: 1rem;
-        color: #F99186; 
      }
 
      h1{
@@ -266,7 +353,6 @@ h4{
         text-align: left;
         font-size: .8em;
         margin-bottom:0%;
-        font-family: Raleway, Helvetica, Arial, sans-serif;
      }
      
      .nav-container h4{
@@ -279,4 +365,15 @@ h4{
         top: 2%;
         width: 10%;
     }
+    
+    .phone-screen.column.fourth { width: 100%; }
+     .phone-screen.column.fourth img{
+         width: 70%;
+         height: auto;
+     }
+    
+        .link {
+        font-size: .3rem;
+    }
+    
 }
