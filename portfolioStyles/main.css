@@ -270,6 +270,17 @@ button:hover {
     color: #D6665A;
 }
 
+.project-content{
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.project-elements{
+    display: table-cell;
+    vertical-align: middle;
+}
+
 .projects-nav h4 {
     color:black;
     font-weight: lighter;
@@ -368,7 +379,6 @@ button:hover {
 
 .traks-right h1 {
     text-align: center;
-    margin-top: 70%;
 }
 
 .traks-right h4 {
@@ -394,7 +404,6 @@ button:hover {
 
 .blocjams-right h1 {
     text-align: center;
-    margin-top: 70%;
 }
 
 .blocjams-right h4 {
@@ -420,7 +429,6 @@ button:hover {
 
 .humankind-right h1 {
     text-align: center;
-    margin-top: 70%;
 }
 
 .humankind-right h4 {
@@ -446,7 +454,6 @@ button:hover {
 
 .open-hand-right h1 {
     text-align: center;
-    margin-top: 70%;
 }
 
 .open-hand-right h4 {
@@ -472,7 +479,6 @@ button:hover {
 
 .collabormate-right h1 {
     text-align: center;
-    margin-top: 70%;
 }
 
 .collabormate-right h4 {
@@ -1307,7 +1313,7 @@ button:hover {
 
    .interests-right h1{
        font-size: 14px;
-       ine-height: 18px;
+       line-height: 18px;
      }
 
  }
@@ -1475,6 +1481,17 @@ button:hover {
 
 
  }
+     
+     #contact-button {
+          padding: 10px 20px;
+          font-size: 18px;
+          margin-top: 2%;
+          margin-bottom: 10%;
+      }
+
+}
+     
+     
 
  /*Large screens (1024px)
  @media (min-width: 1041px) {
