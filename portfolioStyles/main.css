@@ -145,6 +145,7 @@ button:hover {
 
 .about-nav .column.half.selected {
   background-color: rgba(217,207,176,0.3);
+    border: 3px solid white;
 }
 
 .about-nav .column.half:hover {
@@ -1498,6 +1499,9 @@ button:hover {
      
      
 
- /*Large screens (1024px)
- @media (min-width: 1041px) {
-     html { font-size: 120%; }*/
+@media (min-width: 1260px) {
+    .about-nav .column.half img{
+    height: 275px;
+    object-fit:contain;
+}
+}

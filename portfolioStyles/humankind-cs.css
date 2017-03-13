@@ -219,8 +219,27 @@ h4{
     margin-bottom: 10%
 }
 
-.link {
-    font-size: 1.3rem;
+.reflections{
+    margin-bottom: 5%
+}
+
+button {
+    background-color: #D6665A;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 15px;
+    margin-bottom: 5%;
+}
+
+button:hover {
+    cursor: pointer;
+    padding: 1.5x 1.5x;
+    font-weight: 600;
 }
 
  @media (min-width: 640px){
@@ -371,9 +390,5 @@ h4{
          width: 70%;
          height: auto;
      }
-    
-        .link {
-        font-size: .3rem;
-    }
     
 }
