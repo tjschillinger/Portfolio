@@ -331,9 +331,9 @@ $(document).ready(function() {
      $("#attributes-selector").addClass("selected");
      $(".attributes").css("font-weight","bold");
 
-     $(".traks-right").toggleClass("hidden");
+     $(".humankind-right").toggleClass("hidden");
      $(".icon-right").toggleClass("hidden");
-     $("#traks").css({"font-weight": "900", "color": "#D6665A"});
+     $("#humankind").css({"font-weight": "900", "color": "#D6665A"});
 
      $("#icon-selector").addClass("selected");
 

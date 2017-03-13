@@ -35,7 +35,7 @@ body, html {
 
 h4 a{
     text-decoration: none;
-    color: black;
+    color: black
 }
 
 .nav-container{
@@ -51,7 +51,6 @@ h4 a{
 .nav-container h4{
     display: table-cell;
     vertical-align: middle;
-    color: black;
     padding-right: 8%;
     text-decoration: none;
     font-size: 1.5rem;
@@ -61,7 +60,6 @@ h4 a{
 .nav-container a:hover{
     color: #D6665A;
 }
-
 
 .hero-img{
     margin-top: 12%;
@@ -85,89 +83,118 @@ h4 a{
     text-align: center;
 }
 
-.img-background{
+p{
+    text-align: left;
+}
+
+ol li{
+    font-size:1.5rem;
+    text-align:left;
+    font-family:didot;
+}
+
+.TextLeft{
+    padding-left:10%;
+}
+
+.TextRight{
+    padding-right:10%;
+}
+
+.Background{
     background-color:#FBF7EF;
 }
 
-.img-background p{
-    text-align:center;
+.Background p{
+    text-align: center;
     margin-top:1%;
-    font-size: 1rem;
-}
- 
-img{
-    margin-top: 4%;
+    margin-bottom:4%;
+    font-size: 18px;
 }
 
-.column.third img{
-    width: 100%;
-    height: 215px;
-    object-fit:cover;
+.Text{
+    padding-top:2%;
+    padding-bottom:2%;
 }
 
-.one-img img{
-    width: 100%;
-    height: auto;
+.Image{
+    margin-top:4%;
+    margin-bottom:2%;
 }
 
-.two-img img{
-    width: 100%;
-    height: auto;
-}
-
-.bottom-pic{
-    margin-bottom: 2%;
-}
-
-.column.fourth img{
-    width: 100%;
+.survey-Image{
+    margin-top:4%;
+    margin-bottom:2%;
+    display: table;
     height: 250px;
-    object-fit:scale-down;
+    text-align: center;
 }
 
-.column.third.color-palette img{
-         height: 100%;
-         width: 100%;
-     }
-
-.front-page-img{
-    height: 400px;
-    width: 100%;
-    object-fit:cover;
+.survey-content{
+    
 }
 
-p{
-    font-size: 1.2rem;
+.SizeImg img{
+    height:auto;
+    width:75%;
+}
+
+.SizeImg1 img{
+    height:auto;
+    width:72%;
+}
+
+.Image2{
+    margin-top:5%;
+}
+
+.Image3{
+    padding-bottom:.5%;
+}
+
+.Image4{
+    padding-top:.5%;
+    padding-bottom:.5%
+}
+
+.Image5 img{
+    margin-top:25%
+}
+
+.ImageNoCaption{
+    margin-top:4%;
+    margin-bottom:4%;
+}
+
+.OtherUX p{
+    text-align:center;
+}
+
+p {
+    font-size: 25px;
     font-weight: normal;
-    text-align: left;
-    Font-family: Ubuntu, Helvetica, Arial, sans-serif;
+    font-family: didot;
+    text-align:left;
 }
 
-h3{
+h3 {
     font-size: 2rem;
-    color: #F99186;
-    Font-family: Arvo, Helvetica, Arial, sans-serif;
+    color: #28A9BF;
 }
 
-h1{
-    font-size: 2.3rem;
-    color: #F99186;
-    margin: 0%;
-    Font-family: Arvo, Helvetica, Arial, sans-serif; 
-}
-
-h2{
+.Black{
+    text-align:left;
+    color:black;
     font-size: 1.5rem;
-    color: black;
-    font-weight: lighter;
-    Font-family: Arvo, Helvetica, Arial, sans-serif; 
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #F3B040;
 }
 
 h4{
-    text-align: left;
-    font-size: 1.5em;
-    margin-bottom:0%;
-    Font-family: Ubuntu, Helvetica, Arial, sans-serif;
+    font-size:25px;
 }
 
 .reflections{
@@ -193,24 +220,48 @@ button:hover {
     font-weight: 600;
 }
 
- @media (min-width: 640px){
-   html { font-size: 112%; }
-
- }
-
-
- @media (max-width: 1024px) {
+@media (max-width: 1024px) {
    html { font-size: 120%; }
-   .column.third.originals { width: 100%; }
-   .column.third.originals img{
-        height: 100%;
-        width: 100%;
+   .column.third { width: 100%; }
+   .column.third img{
+        height: auto;
+        width: 70%;
+    
     }
+    
+    .logo{
+        position:absolute;
+        left: 2%;
+        top: 2%;
+        width: 10%;
+    }
+    
+     .size img{
+        position:absolute;
+        height:auto;
+        width:80%;  
+    }
+    
     .img-background p{
         font-size: .8rem;
     }
     
+    .TextLeft{
+    padding-right:10%;
+    }
+
+    .TextRight{
+    padding-left:10%;
+    }
+    
+    .Extra{
+        width:80%;
+        height:auto;
+    }
+    
     .column.half { width: 100%; }
+    
+    
     
     .half-text-left{
         padding-right: 10%;
@@ -223,11 +274,11 @@ button:hover {
      p{
         font-size: 1rem;
         font-weight: normal;
+        font-family: didot;
      }
 
      h3{
         font-size: 1.7rem;
-        color: #F99186;
      }
 
      h1{
@@ -254,8 +305,38 @@ button:hover {
         font-size: .8rem;
      }
     
+     .Image5 img {
+    margin-top: 0%;
+    }
+    
+    .link a{
+    font-size: 1rem;
+    }
+    
+    ol li{
+        font-size:1rem;
+        text-align:left;
+    }
+    
+    .survey-Image{
+    margin-top:4%;
+    margin-bottom:2%;
+    display: table;
+    height: 250px;
+    
+}
      
 }
+
+@media (max-width: 700px) {
+    .survey-Image{
+        margin-top:4%;
+        margin-bottom:2%;
+        display: table;
+        height: 200px;
+    }
+}
+
 
 @media (max-width: 400px) {
      .img-background p{
@@ -265,12 +346,20 @@ button:hover {
      p{
         font-size: .6rem;
         font-weight: normal;
-        font-family: Raleway, Helvetica, Arial, sans-serif;
+        font-family: didot;
      }
+    
+    ol li{
+        font-size:.5rem;
+        text-align: left;
+    }
+    
+    .Black{
+        font-size: .6rem;
+    }
 
      h3{
-        font-size: 1rem;
-        color: #F99186; 
+        font-size: .8rem;
      }
 
      h1{
@@ -278,18 +367,18 @@ button:hover {
      }
 
      h2{
-        font-size: .8rem;
+        font-size: 1rem;
      }
 
      h4{
         text-align: left;
         font-size: .8em;
         margin-bottom:0%;
-        font-family: Raleway, Helvetica, Arial, sans-serif;
      }
      
      .nav-container h4{
         font-size: .5rem;
+        padding-right:20px;
      }
     
     .logo{
@@ -298,4 +387,27 @@ button:hover {
         top: 2%;
         width: 10%;
     }
+    
+     .size img{
+        position:absolute;
+        height:auto;
+        width:80%;  
+    }
+    
+    .survey-Image{
+        margin-top:4%;
+        margin-bottom:2%;
+        display: table;
+        height: 200px;
+    }
+    
+    .survey-content{
+        vertical-align: bottom;
+        padding-top: 0%;
+    }
+    
+    .Background p{
+        font-size: .6rem;
+    }
+    
 }

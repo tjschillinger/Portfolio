@@ -58,6 +58,9 @@ h4 a{
     font-weight: bold;
 }
 
+.nav-container a:hover{
+    color: #D6665A;
+}
 
 .hero-img{
     margin-top: 12%;

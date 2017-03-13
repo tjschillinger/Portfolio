@@ -58,6 +58,9 @@ body, html {
     color: black;
 }
 
+.nav-container a:hover{
+    color: #D6665A;
+}
 
 .hero-img{
     margin-top: 12%;

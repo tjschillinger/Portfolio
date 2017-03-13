@@ -1159,9 +1159,6 @@ button:hover {
         object-fit: contain;
       }
 
-      #wallpaper-selector{
-      }
-
       .icon-right{
           height: 60%;
           width: 100%;
@@ -1501,7 +1498,18 @@ button:hover {
 
 @media (min-width: 1260px) {
     .about-nav .column.half img{
-    height: 275px;
-    object-fit:contain;
-}
+        height: 275px;
+        object-fit:contain;
+    }
+    
+    .wallpaper-category img{
+        height: 175px;
+        object-fit: contain;
+      }
+    
+    .icon-category img{
+        height: 175px;
+        object-fit: contain;
+    }
+    
 }

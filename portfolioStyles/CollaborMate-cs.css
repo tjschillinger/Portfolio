@@ -143,6 +143,10 @@ h4{
     height: 400px;
 }
 
+.nav-container a:hover{
+    color: #D6665A;
+}
+
 .Persona img{
     height: auto;
     width: 90%;
