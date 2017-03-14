@@ -110,32 +110,18 @@ $("#collabormate").on("click", function() {
 $(".trak-right-arrow").on("click", function(){
     $(".humankind-right").addClass("hidden");
     $(".traks-right").addClass("hidden");
-    $(".blocjams-right").removeClass("hidden");
+    $(".blocjams-right").addClass("hidden");
     $(".collabormate-right").addClass("hidden");
-    $(".open-hand-right").addClass("hidden");
+    $(".open-hand-right").removeClass("hidden");
 
-    $("#blocjams").css({"font-weight": "900", "color": "#D6665A"});
+    $("#open-hand ").css({"font-weight": "900", "color": "#D6665A"});
     $("#collabormate").css({"font-weight": "lighter", "color": "black"});
     $("#traks").css({"font-weight": "lighter", "color": "black"});
     $("#humankind").css({"font-weight": "lighter", "color": "black"});
-    $("#open-hand").css({"font-weight": "lighter", "color": "black"});
+    $("#blocjams").css({"font-weight": "lighter", "color": "black"});
 });
 
 $(".blocjams-right-arrow").on("click", function(){
-    $(".humankind-right").removeClass("hidden");
-    $(".traks-right").addClass("hidden");
-    $(".blocjams-right").addClass("hidden");
-    $(".collabormate-right").addClass("hidden");
-    $(".open-hand-right").addClass("hidden");
-
-    $("#humankind").css({"font-weight": "900", "color": "#D6665A"});
-    $("#blocjams").css({"font-weight": "lighter", "color": "black"});
-    $("#traks").css({"font-weight": "lighter", "color": "black"});
-    $("#collabormate").css({"font-weight": "lighter", "color": "black"});
-    $("#open-hand").css({"font-weight": "lighter", "color": "black"});
-});
-
-$(".blocjams-left-arrow").on("click", function(){
     $(".humankind-right").addClass("hidden");
     $(".traks-right").removeClass("hidden");
     $(".blocjams-right").addClass("hidden");
@@ -144,26 +130,40 @@ $(".blocjams-left-arrow").on("click", function(){
 
     $("#traks").css({"font-weight": "900", "color": "#D6665A"});
     $("#blocjams").css({"font-weight": "lighter", "color": "black"});
-    $("#collabormate").css({"font-weight": "lighter", "color": "black"});
     $("#humankind").css({"font-weight": "lighter", "color": "black"});
+    $("#collabormate").css({"font-weight": "lighter", "color": "black"});
+    $("#open-hand").css({"font-weight": "lighter", "color": "black"});
+});
+
+$(".blocjams-left-arrow").on("click", function(){
+    $(".humankind-right").removeClass("hidden");
+    $(".traks-right").addClass("hidden");
+    $(".blocjams-right").addClass("hidden");
+    $(".collabormate-right").addClass("hidden");
+    $(".open-hand-right").addClass("hidden");
+
+    $("#humankind").css({"font-weight": "900", "color": "#D6665A"});
+    $("#blocjams").css({"font-weight": "lighter", "color": "black"});
+    $("#collabormate").css({"font-weight": "lighter", "color": "black"});
+    $("#traks").css({"font-weight": "lighter", "color": "black"});
     $("#open-hand").css({"font-weight": "lighter", "color": "black"});
 });
 
 $(".humankind-right-arrow").on("click", function(){
   $(".humankind-right").addClass("hidden");
   $(".traks-right").addClass("hidden");
-  $(".blocjams-right").addClass("hidden");
+  $(".blocjams-right").removeClass("hidden");
   $(".collabormate-right").addClass("hidden");
-  $(".open-hand-right").removeClass("hidden");
+  $(".open-hand-right").addClass("hidden");
 
-  $("#open-hand").css({"font-weight": "900", "color": "#D6665A"});
-  $("#blocjams").css({"font-weight": "lighter", "color": "black"});
+  $("#blocjams").css({"font-weight": "900", "color": "#D6665A"});
+  $("#open-hand").css({"font-weight": "lighter", "color": "black"});
   $("#traks").css({"font-weight": "lighter", "color": "black"});
   $("#humankind").css({"font-weight": "lighter", "color": "black"});
   $("#collabormate").css({"font-weight": "lighter", "color": "black"});
 });
 
-$(".humankind-left-arrow").on("click", function(){
+$(".traks-left-arrow").on("click", function(){
   $(".humankind-right").addClass("hidden");
   $(".traks-right").addClass("hidden");
   $(".blocjams-right").removeClass("hidden");
@@ -192,15 +192,15 @@ $(".open-hand-right-arrow").on("click", function(){
 });
 
 $(".open-hand-left-arrow").on("click", function(){
-  $(".humankind-right").removeClass("hidden");
-  $(".traks-right").addClass("hidden");
+  $(".humankind-right").addClass("hidden");
+  $(".traks-right").removeClass("hidden");
   $(".blocjams-right").addClass("hidden");
   $(".collabormate-right").addClass("hidden");
   $(".open-hand-right").addClass("hidden");
 
-  $("#humankind").css({"font-weight": "900", "color": "#D6665A"});
+  $("#traks").css({"font-weight": "900", "color": "#D6665A"});
   $("#blocjams").css({"font-weight": "lighter", "color": "black"});
-  $("#traks").css({"font-weight": "lighter", "color": "black"});
+  $("#humankind").css({"font-weight": "lighter", "color": "black"});
   $("#collabormate").css({"font-weight": "lighter", "color": "black"});
   $("#open-hand").css({"font-weight": "lighter", "color": "black"});
 });
@@ -281,7 +281,7 @@ function checkWidth() {
       $('.open-hand-right-arrow').removeClass('hidden');
 
       $('.blocjams-left-arrow').removeClass('hidden');
-      $('.humankind-left-arrow').removeClass('hidden');
+      $('.traks-left-arrow').removeClass('hidden');
       $('.open-hand-left-arrow').removeClass('hidden');
       $('.collabormate-left-arrow').removeClass('hidden');
   } else {
@@ -291,7 +291,7 @@ function checkWidth() {
       $('.open-hand-right-arrow').addClass('hidden');
 
       $('.blocjams-left-arrow').addClass('hidden');
-      $('.humankind-left-arrow').addClass('hidden');
+      $('.traks-left-arrow').addClass('hidden');
       $('.open-hand-left-arrow').addClass('hidden');
       $('.collabormate-left-arrow').addClass('hidden');
   }
@@ -305,7 +305,7 @@ function mobileWidth() {
       $('.open-hand-right-arrow').removeClass('hidden');
 
       $('.blocjams-left-arrow').removeClass('hidden');
-      $('.humankind-left-arrow').removeClass('hidden');
+      $('.traks-left-arrow').removeClass('hidden');
       $('.open-hand-left-arrow').removeClass('hidden');
       $('.collabormate-left-arrow').removeClass('hidden');
   } else {
@@ -315,7 +315,7 @@ function mobileWidth() {
       $('.open-hand-right-arrow').addClass('hidden');
 
       $('.blocjams-left-arrow').addClass('hidden');
-      $('.humankind-left-arrow').addClass('hidden');
+      $('.traks-left-arrow').addClass('hidden');
       $('.open-hand-left-arrow').addClass('hidden');
       $('.collabormate-left-arrow').addClass('hidden');
   }

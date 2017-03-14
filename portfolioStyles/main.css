@@ -338,7 +338,7 @@ button:hover {
   right: 3%;
 }
 
-.humankind-left-arrow i{
+.traks-left-arrow i{
   font-size: 72px;
   position: absolute;
   margin-top: 3%;
@@ -500,6 +500,7 @@ button:hover {
     position: relative;
     bottom: 25px;
     margin-top: 1%;
+    
 }
 
 .gallery-left {
@@ -1059,7 +1060,6 @@ button:hover {
       }
 
       .traks-right h1 {
-          margin-top: 35%;
           font-size: 36px;
       }
 
@@ -1067,6 +1067,7 @@ button:hover {
           font-size: 18px;
           bottom: 25px;
           margin-top: 1%;
+          line-height: 24px;
       }
 
       .blocjams-right {
@@ -1075,7 +1076,7 @@ button:hover {
       }
 
       .blocjams-right h1 {
-        margin-top: 35%;
+       
         font-size: 36px;
       }
 
@@ -1083,6 +1084,7 @@ button:hover {
         font-size: 18px;
         bottom: 25px;
         margin-top: 1%;
+        line-height: 24px;
       }
 
       .humankind-right {
@@ -1091,7 +1093,6 @@ button:hover {
       }
 
       .humankind-right h1 {
-        margin-top: 35%;
         font-size: 36px;
       }
 
@@ -1099,6 +1100,7 @@ button:hover {
         font-size: 18px;
         bottom: 25px;
         margin-top: 1%;
+        line-height: 24px;
       }
 
       .open-hand-right {
@@ -1107,7 +1109,6 @@ button:hover {
       }
 
       .open-hand-right h1 {
-        margin-top: 35%;
         font-size: 36px;
       }
 
@@ -1115,6 +1116,7 @@ button:hover {
         font-size: 18px;
         bottom: 25px;
         margin-top: 1%;
+        line-height: 24px;
       }
 
       .collabormate-right {
@@ -1123,7 +1125,7 @@ button:hover {
       }
 
       .collabormate-right h1 {
-        margin-top: 35%;
+        
         font-size: 36px;
       }
 
@@ -1131,6 +1133,7 @@ button:hover {
         font-size: 18px;
         bottom: 25px;
         margin-top: 1%;
+        line-height: 24px;
       }
 
       .gallery-left {
