@@ -736,7 +736,12 @@ button:hover {
 
  @media (max-width: 1040px) and (min-width: 741px) {
      html { font-size: 112%; }
-
+     
+     .bottom-logo img{
+        height: 150px;
+          width: auto;
+      }
+     
      .hero-logo h1 {
         font-size: 2rem;
          font-weight: normal;
@@ -1403,7 +1408,6 @@ button:hover {
   .attributes h4{
     font-size: 12px;
   }
-     
   .interests-right li{
       margin-top: 0%;
       font-size: 11px;
