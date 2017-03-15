@@ -61,6 +61,11 @@ h4{
     Font-family: Ubuntu, Helvetica, Arial, sans-serif;
 }
 
+a {
+    color: white;
+    text-decoration: none
+}
+
 .nav-bar{
     background-color: #438496;
     background: -webkit-linear-gradient(left top, #438496, rgba(67, 132, 150, .7));

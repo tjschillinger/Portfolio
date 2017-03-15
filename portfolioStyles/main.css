@@ -1424,6 +1424,7 @@ button:hover {
 
    .bottom-logo img{
      height: 100px;
+       width: auto;
        margin-top: 15%;
    }
 

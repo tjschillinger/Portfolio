@@ -68,7 +68,3 @@ $("#answer-seven").on("click", function() {
         $("#question-seven").toggleClass("hidden");
         $(this).toggleClass("hidden");
 });
-
-$(document).ready(function() {
-     $("#question-field").focus();
-});

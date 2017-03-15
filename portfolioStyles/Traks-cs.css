@@ -87,12 +87,6 @@ p{
     text-align: left;
 }
 
-ol li{
-    font-size:1.5rem;
-    text-align:left;
-    font-family:didot;
-}
-
 .TextLeft{
     padding-left:10%;
 }
@@ -168,13 +162,13 @@ ol li{
 
 h3{
     font-size: 2rem;
-    color: #CD5360;
+    color: #F3B040;
     font-family: Arvo, Helvetica, Arial, sans-serif;
 }
 
 h1{
     font-size: 2.3rem;
-    color: #CD5360;
+    color: #F3B040;
     margin: 0%;
     font-family: Arvo, Helvetica, Arial, sans-serif;
 }
@@ -195,7 +189,7 @@ h4{
 
 .Black{
     text-align:left;
-    color:black;
+    color:F3B040;
     font-size: 1.5rem;
 }
 
