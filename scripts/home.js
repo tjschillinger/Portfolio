@@ -339,4 +339,5 @@ $(document).ready(function() {
 
      $("#icon-text").css("text-decoration", "none");
      $("#icon-text").css("font-weight","normal");
+     $("#question-field").focus();
 });

@@ -1,0 +1,307 @@
+*, *::before, *::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body, html {
+   height:100%
+}
+
+.column {
+         float: left;
+     }
+
+.column.full { width: 100%;}
+.column.two-thirds { width: 66.7%; }
+.column.half { width: 50%;}
+.column.third { width: 33.3%; }
+.column.fourth { width: 25%; }
+.column.three-fourths { width: 75%; }
+.column.flow-opposite { float: right; }
+
+p{
+    text-align: left;
+    line-height: 29px;
+    font-size: 1.2rem;
+    font-weight: normal;
+    Font-family: Ubuntu, Helvetica, Arial, sans-serif;
+}
+
+h3{
+    font-size: 1.7rem;
+    Font-family: 'Arima Madurai', Helvetica, Arial, sans-serif;
+}
+
+h1{
+    font-size: 2.3rem;
+    color: white;
+    margin: 0%;
+    Font-family: 'Arima Madurai', Helvetica, Arial, sans-serif; 
+}
+
+h2{
+    font-size: 2rem;
+    Font-family: 'Arima Madurai', Helvetica, Arial, sans-serif;
+    color: #438496;
+    text-align: center;
+    margin-top: 5%;
+}
+
+h4{
+    font-size: 1.5em;
+    margin-bottom:0%;
+    Font-family: Ubuntu, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+
+.hidden{
+    display: none;
+}
+
+.nav-bar{
+    background-color: #438496;
+    background: -webkit-linear-gradient(left top, #438496, rgba(67, 132, 150, .7));
+    
+    text-align: center;
+    color: white;
+}
+
+.nav-bar h2{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+.logo{
+    text-align: left;
+}
+
+.FAQ {
+    height: 70px;
+    display: table;
+}
+
+.FAQ h2{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.logo img{
+    height: 60px;
+    width: auto;
+    padding: 1%;
+    margin-top: 1%
+}
+
+.hero-image{
+    width: 100%;
+    padding: 0%;
+    position: absolute;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero.column{
+    padding: 0%;
+}
+
+.hero h1{
+    position: relative;
+    font-size: 48px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.hero{
+    position: relative;
+    height: 300px;
+    display: table;
+    text-align: center;
+}
+
+.container{
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.expand p{
+    text-align: right;
+    Font-family: 'Arima Madurai', Helvetica, Arial, sans-serif;
+    color: #CD5360;
+}
+
+.expand p:hover{
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.question {
+    height: 70px;
+    border-bottom: 2px black solid;
+    display: table;
+}
+
+.answer {
+    height: 70px;
+    display: table;
+}
+
+.answer h4{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 1.5em;
+    Font-family: Ubuntu, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #438496;
+}
+
+.answer-box{
+    border-bottom: 2px black solid;
+}
+
+.question h4{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 1.5em;
+    Font-family: Ubuntu, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+
+.plus{
+    text-align: right;
+}
+
+.plus i{
+    display: table-cell;
+    vertical-align: middle;
+    color: #CD5360;
+}
+
+.ask{
+    text-align: center;
+    height: 70px;
+    display: table;
+}
+
+.ask h4{
+    Font-family: 'Arima Madurai', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #438496;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+form{
+    display: table;
+    width: 100%;
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    height: 100%;
+    font-size: 24px;
+    text-align: left;
+    font-size: 1.5em;
+    Font-family: Ubuntu, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    border: 3px solid  #D6665A;
+}
+
+.question-field{
+    margin-bottom: 20%;
+}
+
+.question-box{
+    height: 70px;
+    display: table;
+}
+
+.fa.fa-send{
+    padding-top: 2%;
+    color: white;
+    font-size: 36px;
+    text-align: right;
+}
+
+.question:hover {
+    cursor: pointer;
+}
+
+.answer:hover {
+    cursor: pointer;
+}
+
+p:hover {
+    cursor: pointer;
+}
+
+.footer{
+    background-color: #438496;
+    background: -webkit-linear-gradient(left top, #438496, rgba(67, 132, 150, .7));
+    
+    text-align: center;
+    color: white;
+}
+
+.footer h2{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+.footer p{
+    font-size: .7rem;
+    text-align:center; 
+    vertical-align: middle;
+    display: table-cell; 
+}
+
+.copyright{
+    height:60px;  
+    display: table;
+}
+
+.faq{
+    height:60px;  
+    display: table;
+}
+
+.faq h2{
+    vertical-align: middle;
+    display: table-cell; 
+}
+
+.icon{
+    height:60px;  
+    display: table;
+}
+
+.icon i{
+    text-align:center; 
+    vertical-align: middle;
+    display: table-cell; 
+    font-size: 36px;
+}
+
+
+
+button {
+    background-color: #D6665A;
+    border: 1px solid #D6665A;
+    color: white;
+    padding: 13px 2px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 36px;
+}
+
+button:hover {
+    cursor: pointer;
+    font-weight: 600;
+}

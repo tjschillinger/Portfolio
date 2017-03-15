@@ -524,6 +524,7 @@ button:hover {
 .gallery-left .column.half.selected {
   background-color: rgba(217,207,176,0.3);
   border-radius: 15px;
+  border: 3px solid white;
 }
 
 .gallery-left .column.half:hover {
@@ -645,7 +646,10 @@ button:hover {
 .bottom-logo{
     padding-top: 5%;
     padding-bottom: 0%;
+}
 
+.bottom-logo img{
+    width: 350px;
 }
 
 .bottom-logo h1{
@@ -1250,6 +1254,7 @@ button:hover {
 
       .bottom-logo img{
         height: 150px;
+          width: auto;
       }
 
       #contact-button {
@@ -1285,6 +1290,7 @@ button:hover {
           font-size: 24px;
           margin-top: -3%;
       }
+    
  }
 
  @media (max-width: 540px) {
@@ -1397,11 +1403,7 @@ button:hover {
   .attributes h4{
     font-size: 12px;
   }
-
-  .about-nav .column.half:hover{
-    border: 0px;
-  }
-
+     
   .interests-right li{
       margin-top: 0%;
       font-size: 11px;
@@ -1418,6 +1420,7 @@ button:hover {
 
    .bottom-logo img{
      height: 100px;
+       margin-top: 15%;
    }
 
    .bottom-logo h1{

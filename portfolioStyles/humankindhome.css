@@ -36,19 +36,19 @@ p{
 
 h3{
     font-size: 1.7rem;
-    Font-family: Arvo, Helvetica, Arial, sans-serif;
+    Font-family: 'Arima Madurai', Helvetica, Arial, sans-serif;
 }
 
 h1{
     font-size: 2.3rem;
     color: #F99186;
     margin: 0%;
-    Font-family: Arvo, Helvetica, Arial, sans-serif; 
+    Font-family: 'Arima Madurai', Helvetica, Arial, sans-serif; 
 }
 
 h2{
     font-size: 2rem;
-    Font-family: Arvo, Helvetica, Arial, sans-serif;
+    Font-family: 'Arima Madurai', Helvetica, Arial, sans-serif;
     color: #438496;
     text-align: center;
     margin-top: 5%;
@@ -470,7 +470,7 @@ button {
 }
 
 .download-stickers{
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .try-it-now {
