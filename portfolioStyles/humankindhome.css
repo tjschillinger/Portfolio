@@ -121,6 +121,7 @@ a {
     position: absolute;
     height: 100%;
     object-fit: cover;
+    background-color: rgba(248, 247, 216, 1);
 }
 
 .hero.column{
@@ -933,24 +934,70 @@ button {
 }
 
 @media (max-width: 400px) {
+    
+    .copyright.column.third{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    
+    .faq.column.third{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    
+    .icon-groups.column.third{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    
+    .sponsor h2{
+        font-size: .6em;
+    }
+
+    .FAQ h2{
+        font-size: .6em;
+    }
+    
+    .logo img{
+        height: 30px;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    
+    .logo{
+        text-align: left;
+        height: 50px;
+        display: table;
+    }
+
+    .sponsor{
+        height: 50px;
+        display: table;
+    }
+
     .FAQ {
         height: 50px;
         display: table;
     }
     
-    .logo img{
-        width: 75%;
-        height: auto;
-        margin: 5%;
+    .footer p{
+        font-size: .2rem;
+        line-height: .7rem;
     }
-
-    .sponsor {
-        font-size: 8px;
-        height: 50px;
+    
+    .icon i{
+        text-align:center; 
+        vertical-align: middle;
+        display: table-cell; 
+        font-size: 24px;
+    }
+    
+    .faq h2{
+       font-size: 18px;  
     }
     
     .center-logo img{
-        width:150px;
+        width:250px;
     }
     
     .hero-download img {
@@ -1015,6 +1062,13 @@ button {
     
     .icon-number {
         height: 40px;
+    }
+    
+    .hero-image{
+        width: 100%;
+        position: absolute;
+        height: 100%;
+        object-fit:cover;
     }
     
 }
