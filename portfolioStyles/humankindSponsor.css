@@ -168,6 +168,7 @@ h4{
     background-image: url(../images/Want%20to%20Join%20Background.png);
     background-size: 100% 100%;
     margin-top: 5%;
+    position: relative;
 }
 
 .paper{
@@ -193,9 +194,9 @@ h4{
 .paper h1{
     position: absolute;
     color: rgba(205,83,96, .7);
-    top: 3%;
+    top: 2.5%;
     left: 33%;
-    font-size: 72px;
+    font-size: 68px;
 }
 
 .paper h3{
@@ -326,7 +327,7 @@ h4{
 
 .center-text h1{
     margin-top: 5%;
-    line-height: 1.5;
+    line-height: 1.2;
     font-weight: lighter;
     opacity: .8;
 }
@@ -338,7 +339,7 @@ h4{
 
 .person-one{
     height: 100%;
-    padding-left: 15%;
+    padding-left: 5%;
     padding-bottom: 20%;
     padding-top: 0%;
 }
@@ -353,7 +354,7 @@ h4{
     height: 400px;
     right: 3%;
     text-align: center;
-    top: 35%;
+    top: 30%;
 }
 
 .button-one{
@@ -481,24 +482,6 @@ h4{
     font-size: 36px;
 }
 
-
-
-
-button {
-    background-color: #D6665A;
-    border: 1px solid #D6665A;
-    color: white;
-    padding: 13px 2px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 36px;
-}
-
-button:hover {
-    cursor: pointer;
-    font-weight: 600;
-}
-
 @media (max-width: 1410px) {
 
     .paper{
@@ -550,6 +533,49 @@ button:hover {
 
 @media (max-width: 1300px) {
 
+    .contact h3{
+        left: 15%;
+    }
+
+    .card{
+        margin-top: 10%;
+        width:  75%;
+    }
+
+    .contact p{
+        left: 15%;
+    }
+
+    .contact h4{
+        font-size: 28px;
+    }
+
+    .phone-number{
+        left: 55%;
+    }
+
+    .email{
+        left: 55%;
+    }
+
+    .twitter{
+        position: absolute;
+        left: 55%;
+        top: 56%;
+    }
+    
+    .first-checkmark img{
+        width: 35px;
+        margin-top: 150%;
+        margin-left: 20%;
+    }
+
+    .feature-right .first-feature h3{
+        margin-top: 17%;
+        padding-right: 10%;
+        line-height: 1.2;
+    }
+    
     .paper img{
         float: right;
         height: 100%;
@@ -616,9 +642,243 @@ button:hover {
         line-height: 1.5;
     }
     
+    .person-one{
+        height: 90%;  
+        padding-left: 5%;
+        padding-bottom: 20%;
+        padding-top: 10%;
+    }
+    
+    .others{
+        height: 700px;
+        background-color: rgba(40,109,168, .7);
+        position: relative;
+    }
+
+
+    .center-text h1{
+        font-size: 36px;
+        
+    }
+
+    .person-box{
+        height: 80%;
+        text-align: center;
+    }
+
+    .others h2{
+        text-align: left;
+        color: white;
+        font-size: 28px;
+    }
+    
+    .testimony p{
+        font-size: 18px;
+        line-height: 24px;
+        padding-right: 30%;
+    }
+    
 }
 
 @media (max-width: 1020px) {
+    
+    .testimonial-section{
+        position: absolute;;
+        height: 400px;
+        right: 3%;
+        text-align: center;
+        top: 30%;
+    }
+
+    .button-one{
+        font-size: 28px;
+        margin-top: 30px;
+        color: rgba(255,255,255, .7);
+    }
+
+    .button-two{
+        font-size: 28px;
+        margin-top: 30px;
+        color: rgba(255,255,255, .7);
+    }
+
+    .button-three{
+        font-size: 28px;
+        margin-top: 30px;
+        color: rgba(255,255,255, .7);
+    }
+
+    .selected{
+        color: rgba(205,83, 96, .8);
+        font-size: 30px;
+    }
+
+    .button-one:hover{
+        font-size: 30px;
+        color: white;
+    }
+
+    .button-two:hover{
+        font-size: 30px;
+        color: white;
+    }
+
+    .button-three:hover{
+        font-size: 3opx;
+        color: white;
+    }
+
+    .button-one.selected:hover{
+        font-size: 30px;
+        color: rgba(205,83, 96, .8);
+    }
+
+    .button-two.selected:hover{
+        font-size: 30px;
+        color: rgba(205,83, 96, .8);
+    }
+
+    .button-three.selected:hover{
+        font-size: 30px;
+        color: rgba(205,83, 96, .8);
+    }
+
+    .testimonial-nav{
+        display: table;
+        height: 100%;
+    }
+
+    .testimonial-nav i{
+        height: 50px;
+        width: 40px;
+        padding-top: 3%;
+    }
+    
+    .center-text{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    .person-one{
+        height: 75%;  
+        padding-left: 5%;
+        padding-bottom: 20%;
+        padding-top: 10%;
+    }
+    
+    .others{
+        height: 600px;
+        background-color: rgba(40,109,168, .7);
+        position: relative;
+    }
+
+
+    .center-text h1{
+        font-size: 32px;
+        margin-bottom: 0%;
+        
+    }
+
+    .person-box{
+        height: 100%;
+        text-align: center;
+    }
+
+    .others h2{
+        text-align: left;
+        color: white;
+        font-size: 28px;
+        margin-bottom: 0%;
+    }
+    
+    .testimony p{
+        font-size: 16px;
+        line-height: 20px;
+        padding-right: 30%;
+    }
+    
+    .contact h3{
+        left: 12%;
+        top: 25%;
+    }
+
+    .card{
+        margin-top: 18%;
+        height: 55%;
+        width:  80%;
+    }
+
+    .contact p{
+        width: 300px;
+        left: 12%;
+        top: 35%;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .phone-icon{
+        width: 50px;
+        left: 55%;
+        top: 30%;
+    }
+
+    .mail-icon{
+        width: 50px;
+        left: 55%;
+        top: 45%;
+    }
+
+    .twitter-icon{
+        width: 50px;
+        left: 55%;
+        top: 60%;
+    }
+
+    .contact h4{
+        font-size: 18px;
+    }
+
+    .phone-number{
+        left: 62%;
+        top: 28.5%;
+    }
+
+    .email{
+        left: 62%;
+        top: 43.5%;
+    }
+
+    .twitter{
+        left: 62%;
+        top: 58.5%;
+    }
+    
+    .first-checkmark img{
+        width: 25px;
+        margin-top: 155%;
+        margin-left: 20%;
+    }
+
+    .checkmark img{
+        width: 25px;
+        margin-top: 75%;
+        margin-left: 20%;
+    }
+
+    .feature-right .first-feature h3{
+        margin-top: 17%;
+        padding-right: 10%;
+        line-height: 1.5;
+        font-size: 20px;
+    }
+
+    .feature-right .following-feature h3{
+        margin-top: 8%;
+        padding-right: 10%;
+        line-height: 1.5;
+        font-size: 20px;
+    }
+    
     .paper img{
         float: right;
         height: 100%;
@@ -628,8 +888,8 @@ button:hover {
 
     .paper .icon{
         position: absolute;
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         left: 4%;
         top: 2%;
     }
@@ -637,7 +897,7 @@ button:hover {
     .paper h1{
         position: absolute;
         color: rgba(205,83,96, .7);
-        top: 3%;
+        top: 2.5%;
         left: 18%;
         font-size: 48px;
     }
@@ -705,6 +965,257 @@ button:hover {
 
 }
 
+@media (max-width: 830px) {
+    
+    .others{
+        height: 700px;
+        background-color: rgba(40,109,168, .7);
+        position: relative;
+    }
+    
+    .center-text{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    .testimonial-section{
+        position: absolute;;
+        height: 400px;
+        right: 3%;
+        text-align: right;
+        top: 20%;
+    }
+
+    .button-one{
+        font-size: 28px;
+        margin-top: 30px;
+        color: rgba(255,255,255, .7);
+    }
+
+    .button-two{
+        font-size: 28px;
+        margin-top: 30px;
+        color: rgba(255,255,255, .7);
+    }
+
+    .button-three{
+        font-size: 28px;
+        margin-top: 30px;
+        color: rgba(255,255,255, .7);
+    }
+
+    .selected{
+        color: rgba(205,83, 96, .8);
+        font-size: 30px;
+    }
+
+    .button-one:hover{
+        font-size: 30px;
+        color: white;
+    }
+
+    .button-two:hover{
+        font-size: 30px;
+        color: white;
+    }
+
+    .button-three:hover{
+        font-size: 3opx;
+        color: white;
+    }
+
+    .button-one.selected:hover{
+        font-size: 30px;
+        color: rgba(205,83, 96, .8);
+    }
+
+    .button-two.selected:hover{
+        font-size: 30px;
+        color: rgba(205,83, 96, .8);
+    }
+
+    .button-three.selected:hover{
+        font-size: 30px;
+        color: rgba(205,83, 96, .8);
+    }
+
+    .testimonial-nav{
+        display: table;
+        height: 100%;
+    }
+
+    .testimonial-nav i{
+        height: 50px;
+        width: 40px;
+        padding-top: 3%;
+    }
+    
+    .center-text h1{
+        font-size: 24px;
+        margin-bottom: 0%;
+        line-height: 28px;
+    }
+
+    .person-box{
+        height: 75%;
+        text-align: center;
+        margin-top: 3%;
+    }
+
+    .others h2{
+        text-align: center;
+        color: white;
+        font-size: 24px;
+        margin-bottom: 0%;
+        margin-top: 0%;
+    }
+    
+    .testimony p{
+        font-size: 13px;
+        line-height: 18px;
+        padding-right: 5%;
+        text-align: justify;
+        padding-left: 5%;
+    }
+    
+    .subtitle p{
+        text-align: center;
+        margin-bottom: 0%;
+        font-size: 16px;
+    }
+    
+    .person-one{
+        height: 300px;  
+        padding-left: 0%;
+        padding-bottom: 0%;
+        padding-top: 0%;
+    }
+    
+    .person-box.column.two-fifths{
+        width: 100%;
+        height: 300px;
+    } 
+    
+    .column.three-fifths{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 790px) {
+    
+    .first-checkmark img{
+        width: 20px;
+        margin-top: 60%;
+        margin-left: 50%;
+    }
+
+    .checkmark img{
+        width: 20px;
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+
+    .feature-right .first-feature h3{
+        margin-top: 16%;
+        padding-right: 10%;
+        line-height: 1;
+        font-size: 16px;
+        margin-bottom: 0%;
+    }
+
+    .feature-right .following-feature h3{
+        margin-top: 0%;
+        padding-right: 5%;
+        line-height: 1;
+        font-size: 16px;
+        padding-top: 3px;
+    }
+    
+    .first-feature.column.nine-tenth{
+        width: 40%;
+        height: 70px;
+    }
+    
+    .following-feature.column.nine-tenth {
+        width: 45%;
+        height: 70px;
+    }
+    
+    .feature-right.column.half{
+        width: 100%;
+    }
+    
+    .checkmark.column.tenth {
+        width: 5%;
+    }
+    
+    .feature-two{
+        margin-top: 5.5%;
+    }
+    
+    .mark-two{
+        margin-top: 5.5%;
+    }
+    
+    .paper{
+        height: 60%;
+    }
+    
+    .mark-three.checkmark.column.tenth {
+        padding-left: 5%;
+    } 
+    
+    .feature-three{
+        padding-left: 5%;
+    }
+    
+    .paper.column.half{
+        width: 100%;
+        text-align: center;
+    } 
+    .paper img{
+        float: none;
+        height: 100%;
+        width: 90%;
+        margin-top: 3%;
+    }
+
+    .paper .icon{
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        left: 7%;
+        top: 2%;
+    }
+
+    .paper h1{
+        position: absolute;
+        color: rgba(205,83,96, .7);
+        top: 4%;
+        left: 15%;
+        font-size: 36px;
+    }
+
+    .paper h3{
+        position: absolute;
+        padding-right: 5%;
+        top: 12%;
+        left: 7%;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .paper p{
+        position: absolute;
+        top: 20%;
+        left: 7%;
+        font-size: 14px;
+        padding-right: 10%;
+        line-height: 1.2;
+    }
+}
+
 @media (max-width: 750px) {
     .phone-box.column.third{
         width: 40%;
@@ -740,10 +1251,170 @@ button:hover {
         line-height: 1.2;
     }
     
+    
+    
+    .contact{
+        height: 90%;
+        text-align:center;
+        position: relative;
+    }
+
+    .contact h3{
+        position: absolute;
+        top: 0px;
+        z-index: 2;
+        width:400px;
+        margin-left:-200px;
+        left:50%;
+        top: 10%;
+    }
+
+    .card{
+        margin-top: 10%;
+        height: 75%;
+        width:  80%;
+        position: relative;
+    }
+
+    .contact p{
+        position: absolute;
+        top: 0px;
+        z-index: 2;
+        width:400px;
+        margin-left:-200px;
+        left:50%;
+        top: 20%;
+        
+
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .phone-icon{
+        width: 50px;
+        position: absolute;
+        left: 20%;
+        top: 45%;
+    }
+
+    .mail-icon{
+        width: 50px;
+        position: absolute;
+        left: 20%;
+        top: 55%;
+    }
+
+    .twitter-icon{
+        width: 50px;
+        position: absolute;
+        left: 20%;
+        top: 65%;
+    }
+
+    .contact h4{
+        color: #438496;
+        font-size: 24px;
+        position: absolute;
+    }
+
+    .phone-number{
+        position: absolute;
+        left: 30%;
+        top: 42%;
+    }
+
+    .email{
+        position: absolute;
+        left: 30%;
+        top: 52%;
+    }
+
+    .twitter{
+        position: absolute;
+        left: 30%;
+        top: 62%;
+    }
+    
 }
 
 
 @media (max-width: 600px) {
+
+    .contact h3{
+        position: absolute;
+        top: 0px;
+        z-index: 2;
+        width:400px;
+        margin-left:-200px;
+        left:50%;
+        top: 10%;
+    }
+
+    .card{
+        margin-top: 10%;
+        height: 75%;
+        width:  85%;
+    }
+
+    .contact p{
+        z-index: 2;
+        width:350px;
+        margin-left:-175px;
+        left:50%;
+        top: 20%;
+        
+
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .phone-icon{
+        width: 50px;
+        position: absolute;
+        left: 16%;
+        top: 45%;
+    }
+
+    .mail-icon{
+        width: 50px;
+        position: absolute;
+        left: 16%;
+        top: 55%;
+    }
+
+    .twitter-icon{
+        width: 50px;
+        position: absolute;
+        left: 16%;
+        top: 65%;
+    }
+
+    .contact h4{
+        color: #438496;
+        font-size: 20px;
+        position: absolute;
+    }
+
+    .phone-number{
+        position: absolute;
+        left: 30%;
+        top: 43%;
+    }
+
+    .email{
+        position: absolute;
+        left: 30%;
+        top: 53%;
+    }
+
+    .twitter{
+        position: absolute;
+        left: 30%;
+        top: 63%;
+    }
+    
+    
+    
     .feature.column.third{
         width: 100%;
     }
@@ -796,7 +1467,204 @@ button:hover {
     
 }
 
+@media (max-width: 550px) {
+    .first-checkmark img{
+        width: 15px;
+        margin-top: 60%;
+        margin-left: 50%;
+    }
+
+    .checkmark img{
+        width: 15px;
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+
+    .feature-right .first-feature h3{
+        margin-top: 16%;
+        padding-right: 10%;
+        line-height: 1.2;
+        font-size: 14px;
+        margin-bottom: 0%;
+    }
+
+    .feature-right .following-feature h3{
+        margin-top: 0%;
+        padding-right: 5%;
+        line-height: 1.2;
+        font-size: 14px;
+        padding-top: 3px;
+    }
+    
+    .first-feature.column.nine-tenth{
+        width: 40%;
+        height: 70px;
+    }
+    
+    .following-feature.column.nine-tenth {
+        width: 45%;
+        height: 70px;
+    }
+    
+    .feature-right.column.half{
+        width: 100%;
+    }
+    
+    .checkmark.column.tenth {
+        width: 5%;
+    }
+    
+    .feature-two{
+        margin-top: 5.5%;
+    }
+    
+    .mark-two{
+        margin-top: 5.5%;
+    }
+    
+    .paper{
+        height: 60%;
+    }
+    
+    .mark-three.checkmark.column.tenth {
+        padding-left: 5%;
+    } 
+    
+    .feature-three{
+        padding-left: 6%;
+    }
+    
+    .paper.column.half{
+        width: 100%;
+        text-align: center;
+    } 
+    .paper img{
+        float: none;
+        height: 100%;
+        width: 90%;
+        margin-top: 3%;
+    }
+
+    .paper .icon{
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        left: 7%;
+        top: 1%;
+    }
+
+    .paper h1{
+        position: absolute;
+        color: rgba(205,83,96, .7);
+        top: 2%;
+        left: 16%;
+        font-size: 28px;
+    }
+
+    .paper h3{
+        position: absolute;
+        padding-right: 5%;
+        top: 8%;
+        left: 7%;
+        font-size: 16px;
+        line-height: 1;
+    }
+
+    .paper p{
+        position: absolute;
+        top: 14%;
+        left: 7%;
+        font-size: 14px;
+        padding-right: 10%;
+        line-height: 1.1;
+    }
+}
+
+@media (max-width: 450px) {
+    .paper{
+        height: 67%;
+    }
+    
+    .contact p{
+        z-index: 2;
+        width:280px;
+        margin-left:-140px;
+        left:50%;
+        top: 20%;
+        
+
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .phone-icon{
+        width: 50px;
+        position: absolute;
+        left: 13%;
+        top: 45%;
+    }
+
+    .mail-icon{
+        width: 50px;
+        position: absolute;
+        left: 13%;
+        top: 55%;
+    }
+
+    .twitter-icon{
+        width: 50px;
+        position: absolute;
+        left: 13%;
+        top: 65%;
+    }
+
+    .contact h4{
+        color: #438496;
+        font-size: 20px;
+        position: absolute;
+    }
+
+    .phone-number{
+        position: absolute;
+        left: 30%;
+        top: 43%;
+    }
+
+    .email{
+        position: absolute;
+        left: 30%;
+        top: 53%;
+    }
+
+    .twitter{
+        position: absolute;
+        left: 30%;
+        top: 63%;
+    }
+}
+
+
 @media (max-width: 540px) {
+    
+    
+    .feature-right .first-feature h3{
+        font-size: 12px;
+    }
+
+    .feature-right .following-feature h3{
+        font-size: 12px;
+    }
+    
+    .paper h3{
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    .paper p{
+        font-size: 13px;
+        line-height: 1.3;
+    }
+    
     .feature img{
         margin-top: 10%;
         width:50px;
@@ -917,4 +1785,370 @@ button:hover {
        font-size: 18px;  
     }
     
+    .phone-image{
+        height: 300px;
+        float: none;
+        margin-top: 2%;
+    }
+    
+    .hero{
+        height: 80%;
+    }
+    
+    .hero p{
+        padding-right: 0%;
+        line-height: 14px;
+        padding-left: 1%;
+        padding-right: 2%;
+        text-align: left;
+        font-size: 12px;
+        
+    }
+    
+    .hero h3{
+        font-size: 1rem;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        text-align: center;
+        margin-left: 0%;
+    }
+    
+    .feature img{
+        margin-top: 5%;
+        width:40px;
+    }   
+
+   .feature h4{
+       margin-top: 2%;
+       font-size: 1.2rem;
+    }
+
+    .feature p{
+        padding-right: 5%; 
+        font-size: .8rem;
+        line-height: 1.2;
+        margin-bottom: 0%;
+        margin-top: 1%;
+    }
+    
+    .container{
+        margin-top: 25%;
+        padding-left: 5%;
+        padding-right: 2%;
+    }
+    
+    
+    .paper h3{
+        font-size: 11px;
+        line-height: 1.2;
+    }
+
+    .paper p{
+        font-size: 10px;
+        line-height: 1.3;
+        top: 12%;
+    }
+    
+    .paper{
+        height: 70%;
+    }
+    
+    .paper .icon{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 7%;
+        top: 1%;
+    }
+
+    .paper h1{
+        position: absolute;
+        color: rgba(205,83,96, .7);
+        top: 2%;
+        left: 16%;
+        font-size: 24px;
+    }
+    
+    .feature-right .first-feature h3{
+        font-size: 9px;
+    }
+
+    .feature-right .following-feature h3{
+        font-size: 9px;
+    }
+    
+    .first-checkmark img{
+        width: 12px;
+        margin-top: 60%;
+        margin-left: 50%;
+    }
+
+    .checkmark img{
+        width: 12px;
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+
+    .feature-right .first-feature h3{
+        margin-top: 16%;
+        padding-right: 10%;
+        line-height: 1.1;
+        font-size: 9px;
+        margin-bottom: 0%;
+    }
+
+    .feature-right .following-feature h3{
+        margin-top: 0%;
+        padding-right: 5%;
+        line-height: 1.1;
+        font-size: 9px;
+        padding-top: 3px;
+    }
+    
+    .first-feature.column.nine-tenth{
+        width: 40%;
+        height: 40px;
+    }
+    
+    .following-feature.column.nine-tenth {
+        width: 45%;
+        height: 40px;
+    }
+    
+    .feature-right.column.half{
+        width: 100%;
+    }
+    
+    .checkmark.column.tenth {
+        width: 5%;
+    }
+    
+    .feature-two{
+        margin-top: 5.5%;
+    }
+    
+    .mark-two{
+        margin-top: 5.5%;
+    }
+    
+    
+    .mark-three.checkmark.column.tenth {
+        padding-left: 5%;
+    } 
+    
+    .feature-three{
+        padding-left: 6%;
+    }
+    
+    
+    .contact h3{
+        z-index: auto;
+        width:auto; 
+        font-size: 18px;
+        
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto
+    }
+    
+    .contact p{
+        z-index: auto;
+        width:230px; 
+        
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        
+
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .phone-icon{
+        width: 30px;
+        position: absolute;
+        left: 12%;
+        top: 48%;
+    }
+
+    .mail-icon{
+        width: 30px;
+        position: absolute;
+        left: 12%;
+        top: 58%;
+    }
+
+    .twitter-icon{
+        width: 30px;
+        position: absolute;
+        left: 12%;
+        top: 68%;
+    }
+
+    .contact h4{
+        color: #438496;
+        font-size: 20px;
+        position: absolute;
+    }
+
+    .phone-number{
+        position: absolute;
+        left: 25%;
+        top: 45%;
+    }
+
+    .email{
+        position: absolute;
+        left: 25%;
+        top: 55%;
+    }
+
+    .twitter{
+        position: absolute;
+        left: 25%;
+        top: 65%;
+    }
+    
+    .contact h4{
+        font-size: 16px;
+    }
+    
+    .others{
+        height: 700px;
+        background-color: rgba(40,109,168, .7);
+        position: relative;
+    }
+    
+    .center-text{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    
+    .testimonial-section{
+        position: absolute;;
+        height: 200px;
+        right: 1%;
+        text-align: center;
+        top: 15%;
+    }
+
+    .button-one{
+        font-size: 24px;
+        margin-top: 30px;
+        color: rgba(255,255,255, .7);
+    }
+
+    .button-two{
+        font-size: 24px;
+        margin-top: 30px;
+        color: rgba(255,255,255, .7);
+    }
+
+    .button-three{
+        font-size: 24px;
+        margin-top: 30px;
+        color: rgba(255,255,255, .7);
+    }
+
+    .selected{
+        color: rgba(205,83, 96, .8);
+        font-size: 28px;
+    }
+
+    .button-one:hover{
+        font-size: 28px;
+        color: white;
+    }
+
+    .button-two:hover{
+        font-size: 28px;
+        color: white;
+    }
+
+    .button-three:hover{
+        font-size: 28px;
+        color: white;
+    }
+
+    .button-one.selected:hover{
+        font-size: 28px;
+        color: rgba(205,83, 96, .8);
+    }
+
+    .button-two.selected:hover{
+        font-size: 28px;
+        color: rgba(205,83, 96, .8);
+    }
+
+    .button-three.selected:hover{
+        font-size: 28px;
+        color: rgba(205,83, 96, .8);
+    }
+
+    .testimonial-nav{
+        display: table;
+        height: 100%;
+    }
+    
+    .one-fifth.testimonial-nav{
+        width: 35px;
+    }
+    
+    .testimonial-nav i{
+        height: 30px;
+        width: 30px;
+        padding-top: 3%;
+        padding-right: 3%;
+    }
+    
+    .center-text h1{
+        font-size: 18px;
+        margin-bottom: 0%;
+        line-height: 20px;
+    }
+
+    .person-box{
+        height: 90%;
+        text-align: center;
+        margin-top: 3%;
+        width: auto;
+    }
+
+    .others h2{
+        text-align: center;
+        color: white;
+        font-size: 24px;
+        margin-bottom: 0%;
+        margin-top: 0%;
+    }
+    
+    .testimony p{
+        font-size: 13px;
+        line-height: 18px;
+        padding-right: 5%;
+        text-align: justify;
+        padding-left: 5%;
+    }
+    
+    .subtitle p{
+        text-align: center;
+        margin-bottom: 0%;
+        font-size: 16px;
+    }
+    
+    .person-one{
+        height: 250px;  
+        padding-right: 5%;
+        padding-bottom: 0%;
+        padding-top: 0%;
+    }
+    
+    .person-box.column.two-fifths{
+        width: 100%;
+        height: 250px;
+    } 
+
+   
 }
