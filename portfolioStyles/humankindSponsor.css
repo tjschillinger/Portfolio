@@ -1864,7 +1864,7 @@ h4{
     .paper h1{
         position: absolute;
         color: rgba(205,83,96, .7);
-        top: 2%;
+        top: 3%;
         left: 16%;
         font-size: 24px;
     }
@@ -1969,21 +1969,21 @@ h4{
     .phone-icon{
         width: 30px;
         position: absolute;
-        left: 12%;
+        left: 14%;
         top: 48%;
     }
 
     .mail-icon{
         width: 30px;
         position: absolute;
-        left: 12%;
+        left: 14%;
         top: 58%;
     }
 
     .twitter-icon{
         width: 30px;
         position: absolute;
-        left: 12%;
+        left: 14%;
         top: 68%;
     }
 
@@ -1995,19 +1995,19 @@ h4{
 
     .phone-number{
         position: absolute;
-        left: 25%;
+        left: 27%;
         top: 45%;
     }
 
     .email{
         position: absolute;
-        left: 25%;
+        left: 27%;
         top: 55%;
     }
 
     .twitter{
         position: absolute;
-        left: 25%;
+        left: 27%;
         top: 65%;
     }
     
@@ -2016,7 +2016,7 @@ h4{
     }
     
     .others{
-        height: 700px;
+        height: 640px;
         background-color: rgba(40,109,168, .7);
         position: relative;
     }
