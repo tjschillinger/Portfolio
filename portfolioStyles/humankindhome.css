@@ -8,6 +8,16 @@ body, html {
    height:100%
 }
 
+button:hover {
+    cursor: pointer;
+    padding: 1.5x 1.5x;
+    font-weight: 600;
+}
+
+.nav-bar h2:hover{
+    font-weight: bolder;
+}
+
 .column {
          float: left;
          padding-left: 1rem;
