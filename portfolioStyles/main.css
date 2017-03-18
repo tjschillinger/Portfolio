@@ -201,10 +201,11 @@ button:hover {
     margin-left: 2%;
     list-style: none;
     font-size: 20px;
+    font-family: Poppins, "Times New Roman", Times, serif;
 }
 
 .attribute-right  li:before {
-    content: "• ";
+    content: "•";
     color: #75A48B;
     font-size: 5pc;
     display: inline-block;
