@@ -241,6 +241,7 @@ button:hover {
     margin-bottom: 5%;
     text-align: center;
     line-height: 34px;
+    font-family: Poppins, "Times New Roman", Times, serif;
 }
 
 .interests-right  li:before {
@@ -1342,12 +1343,12 @@ button:hover {
  @media (max-width: 400px) {
    .hero-logo h1{
      font-size: 48px;
-     margin-bottom: 20%;
+     margin-bottom: 5%;
    }
 
-   .hero-logo h1{
-     font-size: 32px;
-     margin-top: 5%;
+   .hero-logo h4{
+     font-size: 28px;
+     margin-top: 0%;
    }
 
    .hero-logo img{
