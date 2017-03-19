@@ -210,6 +210,7 @@ button:hover {
     font-size: 5pc;
     display: inline-block;
     vertical-align:middle;
+    padding-top: 2%;
 }
 
 .attribute-right  li:nth-child(odd)::before{
@@ -228,6 +229,7 @@ button:hover {
     margin-left: 5%;
     list-style: none;
     font-size: 20px;
+    font-family: Poppins, "Times New Roman", Times, serif;
 }
 
 .interests-right h1{
@@ -247,6 +249,7 @@ button:hover {
     font-size: 5pc;
     display: inline-block;
     vertical-align:middle;
+    padding-top: 2%;
 }
 
 .interests-right  li:nth-child(odd)::before{
