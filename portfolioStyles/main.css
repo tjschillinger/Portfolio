@@ -649,7 +649,7 @@ div.column.full.contact-content {
 .email a  p{
   font-size: 18px;
   position: relative;
-  bottom: 2px;
+  bottom: 1px;
 }
 
 .contact-info p{
@@ -1502,7 +1502,7 @@ div.column.full.contact-content {
    .bottom-logo img{
      height: 100px;
        width: auto;
-       margin-top: 15%;
+       margin-top: 5%;
    }
 
    .bottom-logo h1{
@@ -1577,7 +1577,7 @@ div.column.full.contact-content {
           padding: 10px 20px;
           font-size: 18px;
           margin-top: 2%;
-          margin-bottom: 10%;
+          margin-bottom: 15%;
       }
 
       .phone-number p{
@@ -1589,14 +1589,14 @@ div.column.full.contact-content {
         padding-left: 0%;
         padding-right: 0%;
         display: table;
-        height: 40px;
+        height: 30px;
       }
 
       div.column.full.contact-content.email{
         padding-left: 0%;
         padding-right: 0%;
         display: table;
-        height: 40px;
+        height: 30px;
       }
 
       div.column.full.contact-content p{
