@@ -1589,14 +1589,14 @@ div.column.full.contact-content {
         padding-left: 0%;
         padding-right: 0%;
         display: table;
-        height: 30px;
+        height: 20px;
       }
 
       div.column.full.contact-content.email{
         padding-left: 0%;
         padding-right: 0%;
         display: table;
-        height: 30px;
+        height: 20px;
       }
 
       div.column.full.contact-content p{
@@ -1611,7 +1611,13 @@ div.column.full.contact-content {
         margin-top: 10%;
       }
 
+      .phone-number a  i.fa{
+        font-size: 18px;
+      }
 
+      .email a  i.fa{
+        font-size: 18px;
+      }
 
 }
 
