@@ -1555,14 +1555,32 @@ button:hover {
           margin-bottom: 10%;
       }
 
+      .phone-number p{
+        position: relative;
+        top: 6px;
+      }
+
+      div.column.full.contact-content{
+        padding-left: 0%;
+        padding-right: 0%;
+        display: table;
+        height: 30px;
+      }
+
       div.column.full.contact-content p{
         font-size: 14px;
+        margin-bottom: 5%;
+        display: table-cell;
+        vertical-align: middle;
+        padding-left: 3%;
       }
 
       div#gallery.gallery-left h1{
         margin-bottom: 10%;
         margin-top: 10%;
       }
+
+
 
 }
 

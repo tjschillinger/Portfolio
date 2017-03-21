@@ -110,7 +110,7 @@ h1{
 h2{
     font-size: 1.5rem;
     color: black;
-    font-weight: lighter;
+    font-weight: normal;
     Font-family: Arvo, Helvetica, Arial, sans-serif;
 }
 
@@ -195,7 +195,7 @@ button:hover {
      }
 
      h3{
-        font-size: .8rem;
+        font-size: .9rem;
      }
 
      h1{
@@ -213,7 +213,8 @@ button:hover {
      }
 
      .nav-container h4{
-        font-size: .7rem;
+        font-size: .6rem;
+        padding-right: 15%;
      }
 
     .logo{
