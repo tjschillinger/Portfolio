@@ -1603,7 +1603,7 @@ div.column.full.contact-content {
         font-size: 12px;
         display: table-cell;
         vertical-align: middle;
-        padding-left: 1%;
+        padding-left: 3%;
       }
 
       div#gallery.gallery-left h1{
@@ -1622,7 +1622,7 @@ div.column.full.contact-content {
       .email a  p{
         font-size: 18px;
         position: relative;
-        bottom: 0px;
+        top: 3px;
       }
 
 }
