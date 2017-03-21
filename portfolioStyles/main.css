@@ -1557,25 +1557,26 @@ button:hover {
 
       .phone-number p{
         position: relative;
-        top: 6px;
+        top: 5px;
       }
 
       div.column.full.contact-content.phone-number{
         padding-left: 0%;
         padding-right: 0%;
         display: table;
-        height: 30px;
+        height: 25px;
       }
 
-      div.column.full.contact-content{
+      div.column.full.contact-content.email{
         padding-left: 0%;
         padding-right: 0%;
         display: table;
         height: 40px;
+        margin-bottom: 10%;
       }
 
       div.column.full.contact-content p{
-        font-size: 14px;
+        font-size: 12px;
         margin-bottom: 5%;
         display: table-cell;
         vertical-align: middle;
