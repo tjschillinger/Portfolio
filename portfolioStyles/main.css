@@ -1601,10 +1601,9 @@ div.column.full.contact-content {
 
       div.column.full.contact-content p{
         font-size: 12px;
-        margin-bottom: 5%;
         display: table-cell;
         vertical-align: middle;
-        padding-left: 3%;
+        padding-left: 1%;
       }
 
       div#gallery.gallery-left h1{
