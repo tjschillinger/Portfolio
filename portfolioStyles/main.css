@@ -605,6 +605,16 @@ button:hover {
     margin-top: 10%;
 }
 
+.wallpaper-category img{
+    height: 175px;
+    object-fit: contain;
+  }
+
+.icon-category img{
+    height: 175px;
+    object-fit: contain;
+}
+
 .contact-left{
     height: 100%;
     width: 50%;
@@ -737,10 +747,30 @@ button:hover {
           font-size: 20px;
           line-height: 32px;
       }
+
+      .wallpaper-category img{
+          height: 100px;
+          object-fit: contain;
+        }
+
+      .icon-category img{
+          height: 100px;
+          object-fit: contain;
+      }
 }
 
  @media (max-width: 1040px) and (min-width: 741px) {
      html { font-size: 112%; }
+
+     .wallpaper-category img{
+         height: 150px;
+         object-fit: contain;
+       }
+
+     .icon-category img{
+         height: 125px;
+         object-fit: contain;
+     }
 
      .bottom-logo img{
         height: 150px;
@@ -1171,9 +1201,13 @@ button:hover {
       }
 
       .wallpaper-category img{
-        height: 100px;
-        width: 100px;
-        object-fit: contain;
+          height: 100px;
+          object-fit: contain;
+        }
+
+      .icon-category img{
+          height: 100px;
+          object-fit: contain;
       }
 
       .icon-right{
@@ -1341,6 +1375,19 @@ button:hover {
  }
 
  @media (max-width: 400px) {
+
+   .wallpaper-category img{
+       height: 75px;
+       width: 100px;
+       object-fit: cover;
+     }
+
+   .icon-category img{
+       height: 75px;
+
+       object-fit: contain;
+   }
+
    .hero-logo h1{
      font-size: 48px;
      margin-bottom: 5%;
@@ -1508,6 +1555,15 @@ button:hover {
           margin-bottom: 10%;
       }
 
+      div.column.full.contact-content p{
+        font-size: 14px;
+      }
+
+      div#gallery.gallery-left h1{
+        margin-bottom: 10%;
+        margin-top: 10%;
+      }
+
 }
 
 
@@ -1516,16 +1572,6 @@ button:hover {
     .about-nav .column.half img{
         height: 275px;
         object-fit:contain;
-    }
-
-    .wallpaper-category img{
-        height: 175px;
-        object-fit: contain;
-      }
-
-    .icon-category img{
-        height: 175px;
-        object-fit: contain;
     }
 
 }

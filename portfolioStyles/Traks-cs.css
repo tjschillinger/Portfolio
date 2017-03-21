@@ -1,90 +1,9 @@
-*, *::before, *::after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-body, html {
-   height:100%
-}
-
-.column {
-         float: left;
-         padding-left: 1rem;
-         padding-right: 1rem;
-}
-
-.column.full { width: 100%; padding-left:10%;
-    padding-right:10%;}
-.column.two-thirds { width: 66.7%; }
-.column.half { width: 50%; }
-.column.third { width: 33.3%; }
-.column.fourth { width: 25%; }
-.column.flow-opposite { float: right; }
-
-.logo{
-    position:absolute;
-    left: 2%;
-    top: 2%;
-    width: 8%;
-}
-
-.logo img{
-    width: 100%;
-}
-
-h4 a{
-    text-decoration: none;
-    color: black
-}
-
-.nav-container{
-    display: table;
-    width: 50%;
-    margin:auto;
-}
-
-.nav-tabs{
-    text-align: left;
-}
-
-.nav-container h4{
-    display: table-cell;
-    vertical-align: middle;
-    padding-right: 8%;
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.nav-container a:hover{
-    color: #D6665A;
-}
-
-.hero-img{
-    margin-top: 12%;
-    width:80%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
 .half-text-left{
     padding-left: 10%;
 }
 
 .half-text-right{
     padding-right: 10%;
-}
-
-.column{
-    text-align: center;
-}
-
-p{
-    text-align: left;
 }
 
 .TextLeft{
@@ -95,28 +14,7 @@ p{
     padding-right:10%;
 }
 
-.Background{
-    background-color:#FBF7EF;
-}
-
-.Background p{
-    text-align: center;
-    margin-top:1%;
-    margin-bottom:4%;
-    font-size: 18px;
-}
-
-.Text{
-    padding-top:2%;
-    padding-bottom:2%;
-}
-
-.Image{
-    margin-top:4%;
-    margin-bottom:2%;
-}
-
-.survey-Image{
+.survey-{
     margin-top:4%;
     margin-bottom:2%;
     display: table;
@@ -134,24 +32,24 @@ p{
     width:72%;
 }
 
-.Image2{
+.2{
     margin-top:5%;
 }
 
-.Image3{
+.3{
     padding-bottom:.5%;
 }
 
-.Image4{
+.4{
     padding-top:.5%;
     padding-bottom:.5%
 }
 
-.Image5 img{
+.5 img{
     margin-top:25%
 }
 
-.ImageNoCaption{
+.NoCaption{
     margin-top:4%;
     margin-bottom:4%;
 }
@@ -161,65 +59,16 @@ p{
 }
 
 h3{
-    font-size: 2rem;
     color: #F3B040;
-    font-family: Arvo, Helvetica, Arial, sans-serif;
 }
 
 h1{
-    font-size: 2.3rem;
     color: #F3B040;
-    margin: 0%;
-    font-family: Arvo, Helvetica, Arial, sans-serif;
-}
-
-h2{
-    font-size: 1.5rem;
-    color: black;
-    font-weight: lighter;
-    font-family: Arvo, Helvetica, Arial, sans-serif;
-}
-
-h4{
-    text-align: left;
-    font-size: 1.5em;
-    margin-bottom:0%;
-    Font-family: Ubuntu, Helvetica, Arial, sans-serif;
 }
 
 .Black{
     text-align:left;
     color:F3B040;
-    font-size: 1.5rem;
-}
-
-.reflections{
-    margin-bottom: 5%
-}
-
-button {
-    background-color: #D6665A;
-    border: none;
-    color: white;
-    padding: 15px 15px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 18px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    border-radius: 15px;
-    margin-bottom: 5%;
-}
-
-button:hover {
-    cursor: pointer;
-    padding: 1.5x 1.5x;
-    font-weight: 600;
-}
-
-p{
-    font-size: 1.2rem;
-    font-weight: normal;
-    Font-family: Ubuntu, Helvetica, Arial, sans-serif;
 }
 
 @media (max-width: 1024px) {
@@ -228,26 +77,22 @@ p{
    .column.third img{
         height: auto;
         width: 70%;
-    
+
     }
-    
+
     .logo{
         position:absolute;
         left: 2%;
         top: 2%;
         width: 10%;
     }
-    
+
      .size img{
         position:absolute;
         height:auto;
-        width:80%;  
+        width:80%;
     }
-    
-    .img-background p{
-        font-size: .8rem;
-    }
-    
+
     .TextLeft{
     padding-right:10%;
     }
@@ -255,16 +100,16 @@ p{
     .TextRight{
     padding-left:10%;
     }
-    
+
     .Extra{
         width:80%;
         height:auto;
     }
-    
+
     .column.half { width: 100%; }
-    
-    
-    
+
+
+
     .half-text-left{
         padding-right: 10%;
      }
@@ -272,64 +117,29 @@ p{
      .half-text-right{
         padding-left: 10%;
      }
-     
-     p{
-        font-size: 1rem;
-     }
 
-     h3{
-        font-size: 1.7rem;
-     }
-
-     h1{
-        font-size: 2.0rem;
-     }
-
-     h2{
-        font-size: 1.2rem;
-     }
-
-     h4{
-        text-align: left;
-        font-size: 1.3em;
-        margin-bottom:0%;
-     }
-     
      .column.fourth { width: 100%; }
      .column.fourth img{
          height: 40%;
         width: 40%;
      }
-     
-     .nav-container h4{
-        font-size: .8rem;
-     }
-    
-     .Image5 img {
+
+     .5 img {
     margin-top: 0%;
     }
-    
-    .link a{
-    font-size: 1rem;
-    }
-    
-    ol li{
-        font-size:1rem;
-        text-align:left;
-    }
-    
-    .survey-Image{
-    margin-top:4%;
-    margin-bottom:2%;
-    display: table;
-    height: 250px;
-    
-}
-     
+
+    .survey-{
+      margin-top:4%;
+      margin-bottom:2%;
+      display: table;
+      height: 250px;
+
+  }
+
 }
 
 @media (max-width: 700px) {
-    .survey-Image{
+    .survey-{
         margin-top:4%;
         margin-bottom:2%;
         display: table;
@@ -339,68 +149,24 @@ p{
 
 
 @media (max-width: 400px) {
-     .img-background p{
-        font-size: .5rem;
-     }
-    
-     p{
-        font-size: .6rem;
-     }
-    
-    ol li{
-        font-size:.5rem;
-        text-align: left;
-    }
-    
-    .Black{
-        font-size: .6rem;
-    }
-
-     h3{
-        font-size: .8rem;
-     }
-
-     h1{
-        font-size: 1.5rem;
-     }
-
-     h2{
-        font-size: 1rem;
-     }
-
-     h4{
-        text-align: left;
-        font-size: .8em;
-        margin-bottom:0%;
-     }
-     
-     .nav-container h4{
-        font-size: .7rem;
-        padding-right:20px;
-     }
-    
-    .logo{
+     .logo{
         position:absolute;
         left: 2%;
         top: 2%;
         width: 10%;
     }
-    
+
      .size img{
         position:absolute;
         height:auto;
-        width:80%;  
+        width:80%;
     }
-    
-    .survey-Image{
+
+    .survey-{
         margin-top:4%;
         margin-bottom:2%;
         display: table;
         height: 200px;
     }
-    
-    .Background p{
-        font-size: .6rem;
-    }
-    
+
 }
