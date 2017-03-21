@@ -22,6 +22,10 @@ body, html {
 .column.fourth { width: 25%; }
 .column.flow-opposite { float: right; }
 
+img{
+  padding-top: 2%;
+}
+
 .logo{
     position:absolute;
     left: 2%;
@@ -109,14 +113,14 @@ h1{
     font-size: 2.3rem;
     color: #E37222;
     margin: 0%;
-    Font-family: Arvo, Helvetica, Arial, sans-serif; 
+    Font-family: Arvo, Helvetica, Arial, sans-serif;
 }
 
 h2{
     font-size: 1.5rem;
     color: black;
     font-weight: lighter;
-    Font-family: Arvo, Helvetica, Arial, sans-serif; 
+    Font-family: Arvo, Helvetica, Arial, sans-serif;
 }
 
 h4{
@@ -192,7 +196,7 @@ button:hover {
 }
 @media (max-width: 790px){
    html { font-size: 112%; }
-   
+
    .nav-bar img{
         height: 300px;
     }
@@ -200,7 +204,7 @@ button:hover {
 
 @media (max-width: 575px){
    html { font-size: 112%; }
-   
+
     .nav-bar.column.third{
         width: 100%;
     }
@@ -213,35 +217,35 @@ button:hover {
     .column.half{
         width: 100%;
     }
-    
+
     .logo-ideas.column.third {
         width: 100%;
     }
-    
+
     .logo-ideas img{
         width: 40%;
     }
-    
+
     .text-right{
         padding-left: 10%;
     }
 
     .text-left{
-        padding-right: 10%; 
+        padding-right: 10%;
     }
-    
+
     .sign-in-img.column.third{
         width: 100%;
     }
-    
+
     .home-page-img img{
         width: 60%;
     }
-    
+
     .nav-container h4{
         font-size: 1rem;
      }
-    
+
     h1{
         font-size: 2rem;
     }
@@ -251,13 +255,13 @@ button:hover {
      .img-background p{
         font-size: .5rem;
      }
-    
+
      .logo-img img{
         width: 50px;
         height: 50px;
         object-fit:cover;
      }
-    
+
      p{
         font-size: .7rem;
      }
@@ -279,18 +283,18 @@ button:hover {
         font-size: .8em;
         margin-bottom:0%;
      }
-     
+
      .nav-container h4{
         font-size: .7rem;
      }
-    
+
     .logo{
         position:absolute;
         left: 2%;
         top: 2%;
         width: 10%;
     }
-    
-    
-    
+
+
+
 }
