@@ -631,7 +631,25 @@ button:hover {
 .contact-icon {
     display:inline;
     vertical-align: middle;
+}
 
+.phone-number a  i.fa{
+  font-size: 28px;
+}
+
+div.column.full.contact-content {
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.email a  i.fa{
+  font-size: 24px;
+}
+
+.email a  p{
+  font-size: 18px;
+  position: relative;
+  bottom: 2px;
 }
 
 .contact-info p{
@@ -699,6 +717,13 @@ button:hover {
     vertical-align: middle;
 
 }
+
+.phone-number p{
+  position: relative;
+  top: 5px;
+}
+
+
 
 @media (max-width: 1270px) and (min-width: 1041px){
   .attribute-right li {
@@ -1564,7 +1589,7 @@ button:hover {
         padding-left: 0%;
         padding-right: 0%;
         display: table;
-        height: 25px;
+        height: 30px;
       }
 
       div.column.full.contact-content.email{
