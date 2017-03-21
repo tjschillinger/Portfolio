@@ -1619,6 +1619,12 @@ div.column.full.contact-content {
         font-size: 18px;
       }
 
+      .email a  p{
+        font-size: 18px;
+        position: relative;
+        bottom: 0px;
+      }
+
 }
 
 
