@@ -1569,10 +1569,12 @@ button:hover {
 
       div.column.full.contact-content p{
         font-size: 14px;
-        margin-bottom: 5%;
+        margin-bottom: 8%;
         display: table-cell;
         vertical-align: middle;
         padding-left: 3%;
+        margin-top: 0%;
+
       }
 
       div#gallery.gallery-left h1{
