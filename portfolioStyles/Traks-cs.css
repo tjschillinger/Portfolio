@@ -1,19 +1,3 @@
-.half-text-left{
-    padding-left: 10%;
-}
-
-.half-text-right{
-    padding-right: 10%;
-}
-
-.TextLeft{
-    padding-left:10%;
-}
-
-.TextRight{
-    padding-right:10%;
-}
-
 .survey-{
     margin-top:4%;
     margin-bottom:2%;
@@ -30,23 +14,6 @@
 .SizeImg1 img{
     height:auto;
     width:72%;
-}
-
-.2{
-    margin-top:5%;
-}
-
-.3{
-    padding-bottom:.5%;
-}
-
-.4{
-    padding-top:.5%;
-    padding-bottom:.5%
-}
-
-.5 img{
-    margin-top:25%
 }
 
 .NoCaption{
@@ -72,7 +39,6 @@ h1{
 }
 
 @media (max-width: 1024px) {
-   html { font-size: 120%; }
    .column.third { width: 100%; }
    .column.third img{
         height: auto;
@@ -93,14 +59,6 @@ h1{
         width:80%;
     }
 
-    .TextLeft{
-    padding-right:10%;
-    }
-
-    .TextRight{
-    padding-left:10%;
-    }
-
     .Extra{
         width:80%;
         height:auto;
@@ -108,25 +66,11 @@ h1{
 
     .column.half { width: 100%; }
 
-
-
-    .half-text-left{
-        padding-right: 10%;
-     }
-
-     .half-text-right{
-        padding-left: 10%;
-     }
-
      .column.fourth { width: 100%; }
      .column.fourth img{
          height: 40%;
         width: 40%;
      }
-
-     .5 img {
-    margin-top: 0%;
-    }
 
     .survey-{
       margin-top:4%;
