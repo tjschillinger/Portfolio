@@ -56,8 +56,8 @@ h4 a{
     color: black;
     padding-right: 8%;
     text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 24px;
+    font-weight: normal;
 }
 
 .nav-container a:hover{
@@ -85,6 +85,7 @@ h4 a{
     text-align:center;
     margin-top:1%;
     font-size: 1rem;
+    line-height: 1.2;
 }
 
 img{
