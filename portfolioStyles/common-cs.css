@@ -119,6 +119,7 @@ h2{
     font-weight: 100;
     Font-family: Ubuntu, Helvetica, Arial, sans-serif;
     text-transform: uppercase;
+    opacity: .5;
 }
 
 h4{
