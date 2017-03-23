@@ -22,16 +22,6 @@ body, html {
 .column.fourth { width: 25%; }
 .column.flow-opposite { float: right; }
 
-.half-text-left{
-    padding-left: 20%;
-    padding-right: 5%;
-}
-
-.half-text-right{
-    padding-right: 20%;
-    padding-left: 5%;
-}
-
 .logo{
     position:absolute;
     left: 2%;
@@ -100,11 +90,11 @@ img{
 }
 
 p{
-    font-size: 1.2rem;
+    font-size: 22px;
     font-weight: normal;
     text-align: left;
     Font-family: Ubuntu, Helvetica, Arial, sans-serif;
-    line-height: 1.7;
+    line-height: 1.5;
 }
 
 h3{
@@ -178,15 +168,6 @@ button:hover {
     .nav-container h4{
        font-size: .9rem;
     }
-    
-    .half-text-left{
-        padding-right: 10%;
-    }
-
-    .half-text-right{
-        padding-left: 10%;
-    }
-
 
 }
 
