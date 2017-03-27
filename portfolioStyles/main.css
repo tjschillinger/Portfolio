@@ -4,7 +4,7 @@
     padding-left: 10%;
     text-decoration: underline;
     font-weight: lighter;
-    opacity: .7;
+    color: rgba(0, 0, 0, .7);
 }
 
 .fa.fa-close:hover{
@@ -120,7 +120,7 @@ ul{
     font-weight: lighter;
     font-size: 32px;
     margin-top: -60px;
-    opacity: .7;
+    color: rgba(0, 0, 0, .7);
 }
 
 .hero-logo img{
