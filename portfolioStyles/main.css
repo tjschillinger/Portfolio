@@ -432,8 +432,9 @@ div.column.third a{
     }
     
     .hero-nav li {
-        font-size: 15px;
+        font-size: 16px;
         padding: 0% 4%;
+        font-weight: bold;
     }
     
     div.column.full h2{

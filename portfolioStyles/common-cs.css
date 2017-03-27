@@ -487,8 +487,8 @@ button:hover {
     
     ul li{
         font-size: 15px;
-        padding: 0% 3%;
-        margin: auto 0%;
+        padding: 0% 2%;
+        font-weight: bold;
     }
     
     li a{
