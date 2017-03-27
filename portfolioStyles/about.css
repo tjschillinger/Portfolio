@@ -512,4 +512,8 @@ iframe{
         height: 50px;
     }
     
+    .popup{
+        width: 90%;
+    }
+    
 }
