@@ -526,5 +526,11 @@ button:hover {
     .popup{
         width: 90%;
     }
+    
+    div.column.full.suggested-title{
+        margin-top: 10%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
 
 }
