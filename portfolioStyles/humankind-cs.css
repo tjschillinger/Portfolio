@@ -1,3 +1,8 @@
+div.column.full.title{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
 #single-img{
     padding-left: 0%;
     padding-right: 0%;
@@ -7,14 +12,12 @@
     width: 95%;
 }
 
-.phone-screen img{
-    width: 50%;
+.phone-screen{
+    height: 80%;
 }
 
-.logo-img img{
-    width: 100%;
-    height: 215px;
-    object-fit:contain;
+.phone-screen img{
+    height: 100%;
 }
 
 .SWOT-img img{
@@ -24,7 +27,12 @@
 
 .one-img img{
     width: auto;
-    height: 600px;
+    height: 800px;
+}
+
+.side-img img{
+    width: 100%;
+    height: auto;
 }
 
 .FAQ-img{
@@ -33,17 +41,17 @@
 
 .hifi-mock{
     height: auto;
-    width: 60%;
+    width: 100%;
 }
 
 .survey-img img{
     width: 100%;
-    height:200px;
     object-fit:contain;
 }
 
+
 .two-img img{
-    width: 50%;
+    width: 100%;
     height: auto;
 }
 
@@ -76,18 +84,10 @@
 }
 
 .logo-img img{
-        width: 150px;
-        height: 150px;
-        object-fit:cover;
-     }
-
-h3{
-    color: #CD5360;
+    width: auto;
+    height: 150px;
 }
 
-h1{
-    color: #CD5360;
-}
 
  @media (min-width: 640px){
    html { font-size: 112%; }
@@ -134,12 +134,14 @@ h1{
 @media (max-width: 740px) {
     .color-palette.column.fourth { width: 50%; }
     .logo-img img{
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
         object-fit:cover;
      }
 
-
+    .column.third.logo-img{
+        width: 100%;
+    }
 
     .survey-img img {
         height: auto;
@@ -152,12 +154,6 @@ h1{
         width: auto;
         height: 500px;
     }
-
-     .logo-img img{
-        width: 50px;
-        height: 50px;
-        object-fit:cover;
-     }
 
     .phone-screen.column.fourth { width: 100%; }
      .phone-screen.column.fourth img{

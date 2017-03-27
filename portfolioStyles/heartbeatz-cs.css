@@ -35,14 +35,6 @@
     object-fit:cover;
 }
 
-h3{
-    color: #F99186;
-}
-
-h1{
-    color: #F99186;
-}
-
  @media (min-width: 640px){
    html { font-size: 112%; }
 

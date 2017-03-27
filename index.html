@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="portfolioStyles/font-awesome.css">
   <link href="https://fonts.googleapis.com/css?family=Arvo|Poppins|Special+Elite|Ubuntu" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="portfolioStyles/normalize.css">
+  <link rel="stylesheet" type="text/css" href="portfolioStyles/common.css">
   <link rel="stylesheet" type="text/css" href="portfolioStyles/main.css">
 </head>
 <body>
@@ -14,10 +15,10 @@
   <div class="hero">
     <div class="hero-nav">
         <ul>
-            <li class="about-scroll">About</li>
+            <li onclick="location.href='About.html';">About</li>
             <li class="projects-scroll">Projects</li>
-            <li class="gallery-scroll">Gallery</li>
-            <li class="contact-scroll">Contact</li>
+            <li onclick="location.href='images/UX-UI_Resume.pdf';">Resume</li>
+            <li onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSdI_aOeYam8nyOfk-f7_NkroTR2pnrV1fumE5lwdYJT4ZcERQ/viewform?usp=sf_link';">Contact</li>
         </ul>
     </div>
     <div class="hero-logo">
@@ -25,317 +26,78 @@
         <div class="title">
             <h1 id="name">Tim Schillinger</h1>
             <h4 id="subtitle">UI Developer</h4>
-
         </div>
     </div>
   </div>
-<!-- About Left Side -->
-    <div class="about" id="about">
-        <div class="about-nav">
-            <div class="column full">
-                <h1>About Me</h1>
-            </div>
-            <div class="column full ">
-                <div id="attributes-selector" class="column half">
-                  <div class="attributes">
-                      <img src="images/Business_Photo.png" class="column full" alt="Attributes Image" >
-                      <h4 class="column full">Attributes</h4>
-                  </div>
-                </div>
-                <div id="interests-selector" class="column half">
-                  <div class="interests">
-                      <img src="images/Professional_photo_2.png" class=" column full center" alt="interests Image">
-                      <h4 class="column full">Interests</h4>
-                  </div>
-                </div>
-            </div>
-            <div class="column full">
-                <a href="https://drive.google.com/open?id=0B30Z4b2jX38aQnNhYzlVTW9yUXM"> <button id="resume-button" type="button">Resume</button><a/>
-            </div>
-      </div>
-    </div>
-
-  <!-- Attributes -->
-    <div class="attribute-right hidden">
-      <div class="column full logos">
-        <img class="column fifth" src="images/Sketch_logo_frame.svg.png" alt="Sketch">
-        <img class="column fifth" src="images/ico-desktop-lg.png" alt="balsamiq">
-        <img class="column fifth" src="images/Illustrator_Image.png" alt="Illustrator">
-        <img class="column fifth" src="images/invision.svg" alt="Invision">
-        <img class="column fifth" src="images/usertesting2.jpeg" alt="User Testing">
-      </div>
-      <div class="column full logos">
-        <img id="img-icon" class="column fifth" src="images/HTML5_logo_and_wordmark.svg.png" alt="Html 5">
-        <img class="column fifth" src="images/CSS.jpg" alt="CSS 3">
-        <img class="column fifth" src="images/js-logo-badge-256.png" alt="Javascript">
-        <img class="column fifth" src="images/jQurery.gif" alt="jQuery">
-        <img class="column fifth" src="images/github-512.png" alt="github">
-      </div>
-      <div class="column full interests-content">
-        <ul class="column half">
-            <li>Wireframes</li>
-            <li>User Research</li>
-            <li>Personas</li>
-            <li>Mockups</li>
-            <li>Prototypes</li>
-        </ul>
-        <ul class="column half">
-            <li>Responsive Design</li>
-            <li>Brand Strategy</li>
-            <li>HTML/CSS</li>
-            <li>JavaScript</li>
-            <li>jQuery</li>
-        </ul>
-      </div>
-    </div>
-<!-- Interests -->
-  <div class="interests-right hidden">
-    <div class="column full">
-        <H1>
-            Hello! I'm a UI Developer from Colorado Springs, who builds with intuitive and aesthetic design in mind. If that interests you, then let's talk. My other interests include:
-        </H1>
-    </div>
-    <div class="column full">
+<!-- Projects -->   
+  <a href="humankind-cs.html"><div id="humankind"  class="column ninety humankind">
+    <div class="text-middle">
         <div class="column full">
-        <ul class="notFancyFont interests-right list-left column half">
-            <li>Coffee</li>
-            <li>Hiking</li>
-            <li>Story Structure</li>
-            <li>Philosophy</li>
-        </ul>
-        <ul class="notFancyFont list-right interests-right column half">
-            <li>Behavioral Science</li>
-            <li>Gamification</li>
-            <li>The Great Courses</li>
-            <li>Writing</li>
-        </ul>
-      </div>
-  </div>
- </div>
-<!-- Projects Left Side-->
-  <div class="projects-nav" id="projects">
-    <div id="project-title" class="column full">
-        <h1>Projects</h1>
-      </div>
-      <div class="column full">
-          <h4 id="humankind">Human Kind</h4>
-      </div>
-    <div class="column full">
-        <h4 id="blocjams">heartbeatz</h4>
-     </div>
-     <div class="column full">
-         <h4 id="traks">Traks</h4>
-     </div>
-     <div class="column full">
-         <h4 id="open-hand">Open Hand</h4>
-     </div>
-     <div class="column full">
-         <h4 id="collabormate">CollaborMate</h4>
-     </div>
-  </div>
-<!-- Projects, Traks -->
-  <div class="traks-right hidden">
-      <div class="trak-right-arrow">
-          <i class="fa fa-arrow-circle-right fa"></i>
-      </div>
-      <div class="traks-left-arrow hidden">
-        <i class="fa fa-arrow-circle-left fa"></i>
-    </div>
-      <div class="project-content">
-          <div class="project-elements">
-            <div class="column full">
-                <h1>Traks</h1>
-            </div>
-            <div class="column full">
-                <h4>Platform to Save & Share Travel Experiences</h4>
-            </div>
-            <div class="column full">
-                <a href="Traks.cs.html"><button type="button">More</button></a>
-            </div>
-          </div>
-      </div>
-  </div>
-
-<!-- Projects, Bloc Jams -->
-  <div class="blocjams-right hidden">
-    <div class="blocjams-right-arrow hidden">
-        <i class="fa fa-arrow-circle-right fa"></i>
-    </div>
-    <div class="blocjams-left-arrow hidden">
-        <i class="fa fa-arrow-circle-left fa"></i>
-    </div>
-      <div class="project-content">
-          <div class="project-elements">
-            <div class="column full">
-                <h1>heartbeats</h1>
-            </div>
-            <div class="column full">
-                <h4>Music Player</h4>
-            </div>
-            <div class="column full">
-                <a href="heartbeatz.html"><button type="button">More</button></a>
-            </div>
-          </div>
-      </div>
-  </div>
-
-<!-- Projects, Human Kind -->
-  <div class="humankind-right hidden">
-    <div class="humankind-right-arrow hidden">
-        <i class="fa fa-arrow-circle-right fa"></i>
-    </div>
-      <div class="project-content">
-          <div class="project-elements">
-            <div class="column full">
-                <h1>Human Kind</h1>
-            </div>
-            <div class="column full">
-                <h4>Life Style App that Encourages Acts of Kindness</h4>
-            </div>
-            <div class="column full">
-                <a href="humankind-cs.html"> <button type="button">More</button> </a>
-            </div>
-          </div>
-      </div>
-    </div>
-<!-- Projects, Open Hand -->
-    <div class="open-hand-right hidden">
-      <div class="open-hand-right-arrow hidden">
-          <i class="fa fa-arrow-circle-right fa"></i>
-      </div>
-      <div class="open-hand-left-arrow hidden">
-          <i class="fa fa-arrow-circle-left fa"></i>
-      </div>
-          <div class="project-content">
-            <div class="project-elements">
-                <div class="column full">
-                    <h1>Open Hand</h1>
-                </div>
-                <div class="column full">
-                    <h4>Crowd-funding for Those with Emergencies</h4>
-                </div>
-                <div class="column full">
-                   <a href="OpenHand-cs.html"> <button type="button">More</button> </a>
-                </div>
-          </div>
+          <h2>Human Kind</h2>
         </div>
-      </div>
-  </div>
-<!-- Projects, Collabormate -->
-  <div class="collabormate-right hidden">
-
-    <div class="collabormate-left-arrow hidden">
-        <i class="fa fa-arrow-circle-left fa"></i>
-    </div>
-      <div class="project-content">
-            <div class="project-elements">
-                <div class="column full">
-                    <h1>CollaborMate</h1>
-                </div>
-                <div class="column full">
-                    <h4>Store & Save Media Files for Projects</h4>
-                </div>
-                <div class="column full">
-                    <a href="CollaborMate-cs.html"><button type="button">More</button></a>
-                </div>
-          </div>
-        </div>
-  </div>
-<!-- Gallery Left Side -->
-    <div class="gallery-left" id="gallery">
         <div class="column full">
-            <h1>Gallery</h1>
-        </div>
-        <div class="gallery-left-resize column full">
-            <div id="icon-selector" class="column half">
-                <div class="icon-category">
-                    <img src="images/Iconography_Image.png" alt="Icon Image" class="">
-                    <h4 class="column full" id="icon-text">Iconography</h4>
-                </div>
-            </div>
-            <div id="wallpaper-selector" class="gallery-left-resize column half">
-                <div class="wallpaper-category">
-                    <img src="images/Laptop_Image.png" alt="Wallpaper Image" class= "wallpaper-left-category">
-                    <h4 class="column full" id="wallpaper-text">Wallpapers</h4>
-                </div>
-            </div>
+          <h4>A Life Style App at Encourages Acts of Kindness</h4>
         </div>
     </div>
-<!-- Gallery, Icons -->
-   <div class="icon-right hidden" >
-    <div class="icons column full">
-       <div class="column full icon-row">
-           <div class="column third icon-row">
-               <img src="images/spartan_Image.png" alt="Icon 1">
-           </div>
-           <div class="column third icon-row">
-               <img src="images/Talk_Image.png" alt="Icon 2">
-           </div>
-           <div class="column third icon-row">
-               <img src="images/book_icon_Image.png" alt="Icon 3">
-           </div>
-       </div>
-       <div class="column full icon-row">
-           <div class="column third icon-row">
-               <img src="images/ship_Image.png" alt="Icon 4">
-           </div>
-           <div class="column third icon-row">
-               <img src="images/tent_Image.png" alt="Icon 5">
-           </div>
-           <div class="column third icon-row">
-               <img src="images/canvas_Image.png" alt="Icon 6">
-           </div>
-       </div>
-    </div>
-    <div class="column full">
-        <a href="https://drive.google.com/open?id=0B30Z4b2jX38aazBJVVJ1ZGlnSmc"> <button id="icon-button" type="button">More</button></a>
-    </div>
-  </div>
-<!-- Gallery, Wallpapers -->
-   <div class="wallpaper-right hidden" >
-        <div class="column half">
-            <img src="images/Colorado_Image.png" alt="Galery Item 1" id="top-left-img">
-            <img src="images/Fox_Image.png" alt="Galery Item 3" id="bottom-left-img">
-       </div>
-       <div class="column half">
-            <img src="images/church_Image.png" alt="Galery Item 2" id="top-right-img">
-       </div>
-       <div class="column full">
-        <a href="https://drive.google.com/file/d/0B30Z4b2jX38aY3ZDV09iQzVlZVE/view?usp=sharing">    <button type="button" id="gallery-button">More</button></a>
-       </div>
-
-
-
-  </div>
-<!-- Conact Left Side -->
-  <div class="contact-left" id="contact">
-      <div class=" bottom-logo column full">
-          <img src="images/Logo_Image.png" alt="Personal Logo">
-          <h1> Tim Schillinger</h1>
-      </div>
-    <div class="contact-info">
+  </div></a>
+  <a  href="heartbeatz.html"><div id="heartbeatz" class="column ninety heartbeatz">
+    <div class="text-middle">
         <div class="column full">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdI_aOeYam8nyOfk-f7_NkroTR2pnrV1fumE5lwdYJT4ZcERQ/viewform?usp=sf_link"> <button id="contact-button" type="button">Message Me</button> </a>
+          <h2>heartbeatz</h2>
         </div>
-        <div class="column full contact-content">
-            <a href="http://linkedin.com/in/timothy-schillinger"><i class="fa fa-linkedin-square fa-4x"></i></a>
-        <a href="https://github.com/tjschillinger"><i class="fa fa-github-square fa-4x"></i></a>
-        </div>
-        <div class="column full contact-content phone-number">
-            <a><i class="fa fa-phone-square fa contact-icon"></i><p>(309) 303-9750</p></a>
-        </div>
-        <div class="column full contact-content email">
-            <a href="mailto:schillinger.designers@gmail.com"><i class="fa fa-envelope"></i><p>schillinger.designers@gmail.com</p></a>
+        <div class="column full">
+          <h4>Music Player App</h4>
         </div>
     </div>
-  </div>
-<!-- Conact Right Side -->
-  <div class="contactRight">
-      <div class="column full">
-          <h1>Let's Build Together</h1>
-      </div>
-
-  </div>
+  </div></a>
+  <a href="Traks.cs.html"><div id="traks" class="column ninety traks">
+    <div class="text-middle">
+        <div class="column full">
+          <h2>Traks</h2>
+        </div>
+        <div class="column full">
+          <h4>Platform to Save and Share Travel Experiences</h4>
+        </div>
+    </div>
+  </div></a>
+  <a href="OpenHand-cs.html"><div id="openhand"  class="column ninety open-hand">
+    <div class="text-middle">
+        <div class="column full">
+          <h2>Open Hand</h2>
+        </div>
+        <div class="column full">
+          <h4>Crowd-funding for Those with Emergencies</h4>
+        </div>
+    </div>
+  </div></a> 
+  <a href="CollaborMate-cs.html"><div id="collabormate"  class="column ninety collabormate">
+    <div class="text-middle">
+        <div class="column full">
+          <h2>CollaborMate</h2>
+        </div>
+        <div class="column full">
+          <h4>Store and Save Media Files for Projects</h4>
+        </div>
+    </div>
+  </div></a> 
+<!-- contact -->
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdI_aOeYam8nyOfk-f7_NkroTR2pnrV1fumE5lwdYJT4ZcERQ/viewform?usp=sf_link" class="column contact">
+        <h2>Let's chat! Contact me.</h2>
+    </a>
+    <!-- footer -->
+    <div class="column full footer">
+        <div class="column full icons">
+            <div class="column third">
+                <a href="https://github.com/tjschillinger"><i class="fa fa-git-square"></i></a>
+            </div>
+            <div class="column third">
+                <a href="http://linkedin.com/in/timothy-schillinger"><i class="fa fa-linkedin-square"></i></a>
+            </div>
+            <div class="column third">
+                <a href="mailto:schillinger.designers@gmail.com"><i class="fa fa-envelope"></i></a>
+            </div>
+        </div>
+    </div>
   <script src="scripts/jquery-3.1.0.min.js"></script>
   <script src="scripts/home.js"></script>
   <script>

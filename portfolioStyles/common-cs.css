@@ -24,72 +24,77 @@ body, html {
 .column.fourth { width: 25%; }
 .column.flow-opposite { float: right; }
 
-.logo{
-    position:absolute;
-    left: 2%;
-    top: 2%;
-    width: 8%;
-}
-
-.logo img{
-    width: 100%;
-}
-
-h4 a{
-    text-decoration: none;
-    color: black;
-}
-
-.nav-container{
-    display: table;
-    width: 50%;
-    margin:auto;
-}
-
 .nav-tabs{
-    text-align: left;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    background: -webkit-linear-gradient(left top, #105A6A, rgba(16, 90, 106, .6));
 }
 
-.nav-container h4{
-    display: table-cell;
-    vertical-align: middle;
-    color: black;
-    padding-right: 8%;
+ul{
+  list-style-type:none;
+  display:flex;
+  justify-content: center;
+  padding: 0%;
+  height: 100%;
+    margin: 0%;
+}
+
+ul li{
+  display: list-item;
+  padding: 1% 3%;
+  margin: auto 3px;
+  font-size: 24px;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
     text-decoration: none;
-    font-size: 24px;
-    font-weight: normal;
+    width: 100px;
+}
+
+li a:hover{
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.2x;
 }
 
 .nav-container a:hover{
     color: #D6665A;
 }
 
-
 .hero-img{
-    margin-top: 12%;
     width:80%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 5%;
 }
 .column{
     text-align: center;
 }
 
+.top-img{
+    padding-top: 5%;
+}
+
+.top-mar-img{
+    padding-top: 2%;
+}
+
 .img-background{
-    background-color:#FBF7EF;
+    background-color: rgba(67, 132, 150, .1);
+    padding-bottom: 5%;
 }
 
 .img-background p{
     text-align:center;
-    margin-top:1%;
+    margin-top:0%;
     font-size: 1rem;
     line-height: 1.2;
-}
-
-img{
-    margin-top: 5%;
 }
 
 p{
@@ -106,12 +111,16 @@ h3{
     Font-family: Arvo, Helvetica, Arial, sans-serif;
     margin-bottom: 0%;
     text-transform: uppercase;
+    text-align: left;
+    color: #DC9B74;
 }
 
 h1{
+    margin-top: 100px;
     font-size:64px;
-    margin: 0%;
     Font-family: Arvo, Helvetica, Arial, sans-serif;
+    margin-bottom: 0%;
+    color: #D6665A;
 }
 
 h2{
@@ -121,7 +130,8 @@ h2{
     Font-family: Ubuntu, Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     opacity: .5;
-    margin-top: 0%;
+    margin-top: 3%;
+    margin-bottom: 5%;
 }
 
 h4{
@@ -129,6 +139,132 @@ h4{
     font-size: 24px;;
     margin-bottom:0%;
     Font-family: Ubuntu, Helvetica, Arial, sans-serif;
+}
+
+.column.full.suggested{
+    padding-left: 0%;
+    padding-right: 0%;
+    height: 40%;
+}
+
+.humankind{
+    background-image: url(../images/humankind_background.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: 50% 30%;
+    height: 100%;
+}
+
+.heartbeatz{
+    background-image: url(../images/Blocjams_Image.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: 50% 60%;
+    height: 100%;
+}
+
+.traks{
+    background-image: url(../images/Traks_Image.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: 50% 60%;
+    height: 100%;
+}
+
+.open-hand{
+    background-image: url(../images/Open_hand_background.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: 0% 20%;
+    height: 100%;
+}
+
+.suggested-title h3{
+    text-align: center;
+    margin-bottom: 3%;
+    margin-top: 0%;
+    font-weight: lighter;
+}
+
+div.column.third.humankind{
+    display: table;
+    text-align: center;
+    border: 3px solid white;
+}
+
+div.column.third.open-hand{
+    display: table;
+    text-align: center;
+    border: 3px solid white;
+}
+
+div.column.third.heartbeatz{
+    display: table;
+    text-align: center;
+    border: 3px solid white;
+}
+
+div.column.third.traks{
+    display: table;
+    text-align: center;
+    border: 3px solid white;
+}
+
+div.column.third.traks:hover{
+    border: 3px solid #FFBD4A;
+    cursor: pointer;
+}
+
+div.column.third.humankind:hover{
+    border: 3px solid #FFBD4A;
+    cursor: pointer;
+}
+
+div.column.third.heartbeatz:hover{
+    border: 3px solid #FFBD4A;
+    cursor: pointer;
+}
+
+div.column.third.open-hand:hover{
+    border: 3px solid #FFBD4A;
+    cursor: pointer;
+}
+
+
+
+
+.text-middle{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.text-middle h2{
+    color: white;
+    font-size: 36px;
+    opacity: 1;
+    margin-top: 0%;
+    margin-bottom: 1%;
+    text-align: center;
+    Font-family: Arvo, Helvetica, Arial, sans-serif;
+}
+
+.text-middle h4{
+    color: white;
+    font-size: 22px;
+    opacity: .9;
+    margin-top: 0%;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.column.full.cs-title{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.column.full.cs-subtitle{
+    padding-left: 0%;
+    padding-right: 0%;
 }
 
 .reflections{
@@ -146,6 +282,37 @@ button {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-radius: 15px;
     margin-bottom: 5%;
+}
+
+.footer{
+    background: -webkit-linear-gradient(left top, #105A6A, rgba(16, 90, 106, .6));
+    height: 60px;
+    color: white;
+}
+
+.icons{
+    float: right;
+    text-align: center;
+}
+
+.fa{
+    font-size: 36px;
+}
+
+div.column.third.footer-icons{
+    height: 60px;
+    display: table;
+}
+
+div.column.third.footer-icons p{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+div.column.third.footer-icons a{
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
 }
 
 button:hover {
@@ -167,20 +334,43 @@ button:hover {
        font-size: .8rem;
    }
 
-    .nav-container h4{
-       font-size: .9rem;
+}
+
+@media (max-width: 900px) {
+    div.column.third.humankind{
+        width: 100%;
+        height: 70%;
+    }
+
+    div.column.third.heartbeatz{
+        width: 100%;
+        height: 70%;
+    }
+
+    div.column.third.traks{
+        width: 100%;
+        height: 70%;
+    }
+    
+    div.column.third.open-hand{
+        width: 100%;
+        height: 70%;
     }
 
 }
 
-
 @media (max-width: 790px) {
     h3{
-       font-size: 28px;
+       font-size: 24px;
     }
-
+    
+    div.column.full.title-section{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    
     h1{
-       font-size: 48px;
+       font-size: 44px;
     }
 
     h2{
@@ -196,6 +386,15 @@ button:hover {
     p{
         font-size: 18px;
     }
+    
+    ul li{
+        font-size: 16px;
+        padding: 1% 3%;
+    }
+    
+    li a{
+        width: 70px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -203,14 +402,10 @@ button:hover {
         font-size: .7rem;
      }
 
-     .logo-img img{
-        width: 50px;
-        height: 50px;
-        object-fit:cover;
-     }
 
      p{
         font-size: 16px;
+         line-height: 1.7;
      }
 
      h3{
@@ -219,21 +414,17 @@ button:hover {
 
      h1{
         font-size: 32px;
+         margin-top: 20%;
      }
 
      h2{
-        font-size: 16px;
+        font-size: 12px;
      }
 
      h4{
         text-align: left;
         font-size: 18px;
         margin-bottom:0%;
-     }
-
-     .nav-container h4{
-        font-size: .6rem;
-        padding-right: 15%;
      }
 
     .logo{
@@ -246,6 +437,33 @@ button:hover {
     button {
         padding: 10px 10px;
         font-size: 14px;
+    }
+    
+    ul li{
+        font-size: 14px;
+        padding: 1% 1%;
+        margin: auto 0%;
+    }
+    
+    li a{
+        width: 70px;
+    }
+    
+    .nav-tabs{
+        height: 50px;
+    }
+    
+    .text-middle h2{
+        font-size: 32px;
+    }
+
+    .text-middle h4{
+        font-size: 16px;
+    }
+    
+    div.column.full.icons{
+        padding-left: 0%;
+        padding-right: 0%;
     }
 
 }
