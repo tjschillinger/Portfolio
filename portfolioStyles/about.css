@@ -431,7 +431,7 @@ button:hover {
     }
     
     .hero-text{
-        top: 60%;
+        top: 63%;
     }
     
      h1{
@@ -449,6 +449,10 @@ button:hover {
     
     .column.half{
         padding-left: 8%;
+    }
+    
+    .contact h2{
+        font-size: 24px;
     }
 
 }
