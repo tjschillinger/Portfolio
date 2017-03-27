@@ -17,7 +17,7 @@ body, html {
 .column.full { 
     width: 100%;}
 .column.two-thirds { width: 66.7%; }
-.column.half { width: 50%; }
+.column.half { width: 80%; }
 .column.third { width: 33.3%; }
 .column.fourth { width: 25%; }
 .column.flow-opposite { float: right; }
@@ -131,7 +131,6 @@ h4{
 .hero-text{
     position: absolute;
     top: 45%;
-    margin-left: 20%;
 }
 
 .column.full.hero-text{
@@ -243,6 +242,10 @@ button:hover {
     font-weight: 600;
 }
 
+.column.half{
+    padding-left: 22%;
+}
+
 @media (max-width: 1024px) {
     html { font-size: 120%; }
     
@@ -251,7 +254,7 @@ button:hover {
    }
     
     .column.half{
-        width: 60%;
+        width: 80%;
     }
 }
 
@@ -262,16 +265,17 @@ button:hover {
         padding-right: 10%;
     }
     
-    .hero-text{
-        margin-left: 10%;
+    .column.half{
+        width: 75%;
     }
     
-    .column.half{
-        width: 70%;
-    }
+        .column.half{
+    padding-left: 12%;
+}
 }
 
 @media (max-width: 790px) {
+    
     .column.half{
         width: 90%;
     }
@@ -357,12 +361,8 @@ button:hover {
         padding-right: 5%;
     }
     
-    .hero-text{
-        margin-left: 5%;
-    }
-    
     .column.half{
-        width: 90%;
+        width: 95%;
     }
     
     h3{
@@ -370,15 +370,11 @@ button:hover {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 390px) {
     .container{
         margin-top: 2%;
         padding-left: 2%;
         padding-right: 2%;
-    }
-    
-    .hero-text{
-        margin-left: 2%;
     }
     
      .img-background p{
@@ -435,7 +431,7 @@ button:hover {
     }
     
     .hero-text{
-        top: 65%;
+        top: 60%;
     }
     
      h1{
@@ -444,6 +440,15 @@ button:hover {
 
     h2{
        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    .contact{
+        background-size: 500px auto;
+    }
+    
+    .column.half{
+        padding-left: 8%;
     }
 
 }

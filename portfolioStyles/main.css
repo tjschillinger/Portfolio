@@ -393,4 +393,8 @@ div.column.third a{
     .contact h2{
         font-size: 24px;
     }
+    
+    .contact{
+        background-size: 500px auto;
+    }
 }
