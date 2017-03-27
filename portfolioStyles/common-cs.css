@@ -460,7 +460,7 @@ button:hover {
 
      h1{
         font-size: 32px;
-         margin-top: 20%;
+         margin-top: 30%;
      }
 
      h2{
@@ -510,6 +510,17 @@ button:hover {
     div.column.full.icons{
         padding-left: 0%;
         padding-right: 0%;
+    }
+    
+    .fa.fa-close{
+        font-size: 36px;
+    }
+    
+    .exit{
+        right: 0px;
+        top: 3px;
+        width:50px;
+        height: 50px;
     }
 
 }
