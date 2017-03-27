@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="portfolioStyles/font-awesome.css">
   <link href="https://fonts.googleapis.com/css?family=Arvo|Poppins|Special+Elite|Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="portfolioStyles/style.css">
+  <link rel="stylesheet" type="text/css" href="portfolioStyles/animate.css">    
   <link rel="stylesheet" type="text/css" href="portfolioStyles/normalize.css">
   <link rel="stylesheet" type="text/css" href="portfolioStyles/common.css">
   <link rel="stylesheet" type="text/css" href="portfolioStyles/main.css">
@@ -15,17 +17,17 @@
   <div class="hero">
     <div class="hero-nav">
         <ul>
-            <li onclick="location.href='About.html';">About</li>
-            <li class="projects-scroll">Projects</li>
-            <li onclick="location.href='images/UX-UI_Resume.pdf';">Resume</li>
-            <li onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSdI_aOeYam8nyOfk-f7_NkroTR2pnrV1fumE5lwdYJT4ZcERQ/viewform?usp=sf_link';">Contact</li>
+            <li class="delay" onclick="location.href='About.html';">About</li>
+            <li class="projects-scroll delay">Projects</li>
+            <li class="delay"  onclick="location.href='images/UX-UI_Resume.pdf';">Resume</li>
+            <li id="popup" class="delay openpop" >Contact</li>
         </ul>
     </div>
     <div class="hero-logo">
         <img src="images/Logo_Image.png" alt="Personal Logo">
         <div class="title">
-            <h1 id="name">Tim Schillinger</h1>
-            <h4 id="subtitle">UX Designer</h4>
+            <h1 class="enterance" id="name">Tim Schillinger</h1>
+            <h4 class="enterance"  id="subtitle">UX Designer</h4>
         </div>
     </div>
   </div>
@@ -81,9 +83,15 @@
     </div>
   </div></a> 
 <!-- contact -->
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdI_aOeYam8nyOfk-f7_NkroTR2pnrV1fumE5lwdYJT4ZcERQ/viewform?usp=sf_link" class="column contact">
+    <a id="contact-popup" class="column contact">
         <h2>Let's chat! Contact me.</h2>
     </a>
+<div class="popup">
+    <div class="exit">
+        <i class="fa fa-close b-close"></i>
+    </div>
+        <iframe allowTransparency="true" frameborder="0" style="width:100%;border:none"  src="https://timothyschillinger.wufoo.com/embed/m16crq9y12scz4l/"><a href="https://timothyschillinger.wufoo.com/forms/m16crq9y12scz4l/">Fill out my Wufoo form!</a></iframe><div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;"></div>
+</div>
     <!-- footer -->
     <div class="column full footer">
         <div class="column full icons">
@@ -99,6 +107,9 @@
         </div>
     </div>
   <script src="scripts/jquery-3.1.0.min.js"></script>
+  <script src="scripts/jquery.bpopup.min.js"></script>
+  <script src="scripts/jquery.lettering.js"></script> 
+  <script src="scripts/jquery.textillate.js"></script>     
   <script src="scripts/home.js"></script>
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

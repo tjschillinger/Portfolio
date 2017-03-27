@@ -10,11 +10,11 @@
   <link rel="stylesheet" href="portfolioStyles/about.css">
 </head>
 <body>
-    <div class="nav-tabs">
+    <div id="navbar" class="nav-tabs">
         <ul>
             <li><a href="index.html#humankind">Projects</a></li>
             <li class="projects-scroll"><a href="images/UX-UI_Resume.pdf">Resume</a></li>
-            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdI_aOeYam8nyOfk-f7_NkroTR2pnrV1fumE5lwdYJT4ZcERQ/viewform?usp=sf_link">Contact</a></li>
+            <li id="popup" class="openpop"><a href="#">Contact</a></li>
         </ul>
     </div>
     <div class="column full hero">
@@ -58,9 +58,15 @@
             <p>Although these experiences have produced flashes of the good life for me, they have taught me a bigger lesson: my life was only good when I have improved the lives of others. Moreover, I didn't achieve the good life by grabbing it for myself but by giving it to others. And isn’t that the core of good UX design? Don’t let your prejudices get in the way, conduct user research. Don’t let your narrative get in the way, build user stories. Don’t let your pride plug your ears, send out user testing.<br><br> The world is always changing and technology along with it, but people will always need someone to listen and provide thoughtful solutions. <b>Providing those solutions, for me, is living the good life.</b></p>
         </div>
     </div>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdI_aOeYam8nyOfk-f7_NkroTR2pnrV1fumE5lwdYJT4ZcERQ/viewform?usp=sf_link" class="column contact">
+    <a id="contact-popup" class="column contact">
         <h2>Let's chat! Contact me.</h2>
     </a>
+    <div class="popup">
+    <div class="exit">
+        <i class="fa fa-close b-close"></i>
+    </div>
+        <iframe allowTransparency="true" frameborder="0" style="width:100%;border:none"  src="https://timothyschillinger.wufoo.com/embed/m16crq9y12scz4l/"><a href="https://timothyschillinger.wufoo.com/forms/m16crq9y12scz4l/">Fill out my Wufoo form!</a></iframe><div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;"></div>
+</div>
     <!-- footer -->
     <div class="column full footer">
         <div class="column full icons">
@@ -75,7 +81,9 @@
             </div>
         </div>
     </div>
-    
+    <script src="scripts/jquery-3.1.0.min.js"></script>
+    <script src="scripts/jquery.bpopup.min.js"></script>
+    <script src="scripts/home.js"></script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
