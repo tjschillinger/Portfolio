@@ -1,3 +1,12 @@
+.project-title{
+    font-size: 64px;
+    text-align: center;
+    padding-left: 10%;
+    text-decoration: underline;
+    font-weight: lighter;
+    opacity: .7;
+}
+
 .fa.fa-close:hover{
     cursor: pointer;
     color: #D6665A;
@@ -292,6 +301,12 @@ div.column.third a{
 
 @media (max-width: 680px) {
     
+    .project-title{
+        font-size: 48px;
+        padding-left: 0%;
+        margin-bottom: 3%;
+    }
+    
     div.column.full h2{
         font-size: 36px;
     }
@@ -358,6 +373,10 @@ div.column.third a{
     
 @media (max-width: 550px) {
 
+    .project-title{
+        font-size: 42px;
+    }
+    
     .popup{
         width: 80%;
     }
@@ -408,6 +427,11 @@ div.column.third a{
 }
     
 @media (max-width: 400px) {
+    
+    .project-title{
+        font-size: 38px;
+    }
+    
     
     .popup{
         width: 90%;
