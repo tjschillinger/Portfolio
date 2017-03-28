@@ -1,3 +1,77 @@
+a:hover{
+    cursor: pointer;
+}
+
+.mobile-tabs{
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    display: none;
+}
+
+.fa.fa-navicon.dropbtn{
+    color: black;
+    font-size: 36px;
+}
+
+.fa.fa-navicon.dropbtn:hover{
+    color: white;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 0 0 0 15px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: fixed;
+    display: block;
+    right: 0px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    border-radius: 15px 0 0 15px;
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    font-family: Ubuntu, Helvetica, Arial, sans-serif;
+    color: black;
+    padding: 25px 25px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1; font-weight: bolder;
+color:#D6665A }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #D6665A;
+    border-radius: 0;
+}
+
 .project-title{
     margin-top: 70px;
     font-size: 64px;
@@ -58,7 +132,6 @@ a:hover{
     height: 100%;
     display: table;
     width: 100%;
-    position: relative;
 }
 
 .hero-nav li:hover {
@@ -355,15 +428,15 @@ div.column.third a{
     }
     
     .fa{
-        font-size: 24px;
+        font-size: 36px;
     }
     
     .footer{
-        height: 40px;
+        height: 70px;
     }
 
     div.column.third{
-        height: 40px;
+        height: 70px;
     }
 
     .contact h2{
@@ -378,8 +451,13 @@ div.column.third a{
     
 @media (max-width: 400px) {
     
+    .mobile-tabs{
+        display: block;
+    }
+    
     .hero-nav{
-        height: 60px;
+        display: none;
+        
     }
     
     .hero-nav li {

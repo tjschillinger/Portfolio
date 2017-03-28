@@ -22,6 +22,10 @@ body, html {
 .column.fourth { width: 25%; }
 .column.flow-opposite { float: right; }
 
+a:hover{
+    cursor: pointer;
+}
+
 .mobile-tabs{
     height: 70px;
     width: 100%;
