@@ -38,7 +38,18 @@
 }
 
 @media (max-width: 790px){
-
+    div.column.third{
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    
+    .nav-bar img{
+    width:80%;
+    height: auto;
+    object-fit:scale-down;
+}
+    
    .nav-bar img{
         height: 300px;
     }

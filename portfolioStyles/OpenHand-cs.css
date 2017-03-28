@@ -1,9 +1,5 @@
-.section-imgs img{
-    width: 100%;
-}
-
-.single-img img{
-    width: 100%;
+.small-single img{
+    width: 70%;
 }
 
 .profile-imgs img {
@@ -15,14 +11,20 @@
     .column.half{
         width: 100%;
     }
-
+    .small-single img{
+        width: 80%;
+    }
     .nav-container h4{
         font-size: .8rem;
      }
 }
 
 @media (max-width: 400px) {
-
+        
+    .small-single img{
+        width: 80%;
+    }
+    
      .logo-img img{
         width: 50px;
         height: 50px;
