@@ -88,21 +88,21 @@ a:hover{
 .column.two-thirds{
     padding-left: 0%;
     padding-right: 0%;
+    width: 80%;
 }
 
 .column.two-thirds p:hover{
     color: #D6665A;
-    cursor: pointer;
-    font-size: 20px; 
+    cursor: pointer; 
 }
 
 .column.two-thirds p{
     color: white;
     Font-family: Arvo, Helvetica, Arial, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     height: 70px;
     line-height: 70px;
-    padding-left: 15%;
+    padding-left: 13%;
     margin-top: 0%;
 }
 
@@ -232,7 +232,7 @@ h1{
 
 h2{
     font-size: 20px;
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .8);
     font-weight: 100;
     Font-family: Ubuntu, Helvetica, Arial, sans-serif;
     text-transform: uppercase;
