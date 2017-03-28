@@ -492,4 +492,8 @@ iframe{
         width: 90%;
     }
     
+    iframe{
+        height: 700px;
+    }
+    
 }

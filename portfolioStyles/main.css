@@ -32,7 +32,7 @@
 
 iframe{
     overflow: scroll;
-    height: 700px;
+    height: 650px;
 }
 
 .popup{
@@ -73,6 +73,7 @@ a:hover{
 
 .hero-nav li{
     margin: auto;
+    visibility: hidden;
 }
 
 
@@ -427,6 +428,10 @@ div.column.third a{
 }
     
 @media (max-width: 400px) {
+    
+    iframe{
+        height: 700px;
+    }
     
     .project-title{
         font-size: 38px;
