@@ -22,10 +22,110 @@ body, html {
 .column.fourth { width: 25%; }
 .column.flow-opposite { float: right; }
 
+.mobile-tabs{
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    background-color: #105A6A;
+    display: none;
+}
+
+.fa.fa-navicon.dropbtn{
+    color: white;
+}
+
+.fa.fa-navicon.dropbtn:hover{
+    color: #D6665A;
+}
+
+p a{
+    color: inherit;
+}
+
+a:hover{
+    cursor: pointer;
+    color: inherit;
+}
+
+.column.two-thirds{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.column.two-thirds p:hover{
+    color: #D6665A;
+    cursor: pointer;
+    font-size: 20px; 
+}
+
+.column.two-thirds p{
+    color: white;
+    Font-family: Arvo, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    height: 70px;
+    line-height: 70px;
+    padding-left: 15%;
+    margin-top: 0%;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: fixed;
+    display: block;
+    right: 5px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    border-radius: 15px 0 0 15px;
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    font-family: Ubuntu, Helvetica, Arial, sans-serif;
+    color: black;
+    padding: 25px 25px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1; font-weight: bolder;
+color:#D6665A }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: rgba(16, 90, 106, .2);
+}
+
+
+
 .nav-tabs{
-    height: 60px;
+    height: 70px;
     width: 100%;
     background: -webkit-linear-gradient(left top, #105A6A, rgba(16, 90, 106, .6));
+    position: fixed;
 }
 
 ul{
@@ -343,6 +443,10 @@ iframe{
         font-size: 18px;
     }
     
+    ul li{
+       font-size: 18px; 
+    }
+    
     .hero{
         background-position: right bottom fixed;
         background-size: 2500px auto;
@@ -404,7 +508,19 @@ iframe{
     }
 }
 
+@media (max-width: 400px) {
+    .mobile-tabs{
+        display: block;
+    }
+    
+    .nav-tabs{
+        display: none;
+    }
+}
 @media (max-width: 390px) {
+    
+    
+    
     .container{
         margin-top: 2%;
         padding-left: 2%;
@@ -442,7 +558,7 @@ iframe{
     }
     
     ul li{
-        font-size: 17px;
+        font-size: 16px;
         padding: 0% 3%;
         font-weight: bold;
     }
