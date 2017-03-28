@@ -38,7 +38,7 @@
 }
 
 @media (max-width: 790px){
-    div.column.third{
+    div.column.third.nav-bar{
         width: 100%;
         padding-left: 0%;
         padding-right: 0%;

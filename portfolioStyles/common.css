@@ -35,7 +35,7 @@ h2{
 .column.fourth { width: 25%; }
 .column.flow-opposite { float: right; }
 .column.fifth { width: 20%; }
-.column.ninety { width: 90%; }
+.column.ninety { width: 100%; }
 
 
 
