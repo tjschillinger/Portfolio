@@ -42,7 +42,7 @@ p a{
     color: inherit;
 }
 
-a:hover{
+p a:hover{
     cursor: pointer;
     color: inherit;
 }
@@ -155,8 +155,8 @@ li a{
 
 li a:hover{
   cursor: pointer;
-  font-weight: bold;
-  font-size: 1.2x;
+  font-weight: bolder;
+  font-size: 1.5x;
 }
 
 .nav-container a:hover{

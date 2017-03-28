@@ -65,7 +65,7 @@ li a{
 
 li a:hover{
   cursor: pointer;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 1.2x;
 }
 
