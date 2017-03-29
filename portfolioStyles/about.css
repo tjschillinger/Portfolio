@@ -157,7 +157,7 @@ li a{
 li a:hover{
   cursor: pointer;
   font-weight: bolder;
-  -webkit-transform: scale(1.2);
+  -webkit-transform: scale(1.1);
 }
 
 .nav-container a:hover{

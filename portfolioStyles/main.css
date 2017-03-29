@@ -86,7 +86,7 @@ a:hover{
   cursor: pointer;
   color: #D6665A;
   font-weight: bold;
-  -webkit-transform: scale(1.2);
+  -webkit-transform: scale(1.1);
 }
 
 .hero-nav li{
