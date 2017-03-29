@@ -133,7 +133,7 @@ a:hover{
   cursor: pointer;
   color: #D6665A;
   font-weight: bold;
-  font-size: 1.2x;
+  -webkit-transform: scale(1.2);
 }
 
 .hero-nav li{
@@ -212,6 +212,7 @@ div.column.ninety{
     background-repeat:no-repeat;
     background-size:cover;
     background-position: 50% 30%;
+    margin-top: 70px;
 }
 
 .heartbeatz{

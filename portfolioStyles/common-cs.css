@@ -24,6 +24,10 @@ body, html {
 .column.fourth { width: 25%; }
 .column.flow-opposite { float: right; }
 
+.padpad{
+    margin: 5% 0 5% 0;
+}
+
 .mobile-tabs{
     height: 70px;
     width: 100%;
@@ -66,7 +70,7 @@ li a{
 li a:hover{
   cursor: pointer;
   font-weight: bolder;
-  font-size: 1.2x;
+  -webkit-transform: scale(1.2);
 }
 
 .nav-container a:hover{
@@ -158,7 +162,7 @@ color:#D6665A }
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 .column{
     text-align: center;
@@ -209,6 +213,7 @@ p{
 h3{
     font-size: 32px;
     Font-family: Arvo, Helvetica, Arial, sans-serif;
+    margin-top: 0%;
     margin-bottom: 0%;
     text-transform: uppercase;
     text-align: left;
@@ -237,6 +242,7 @@ h4{
     text-align: left;
     font-size: 24px;;
     margin-bottom:0%;
+    margin-top: 0%;
     Font-family: Ubuntu, Helvetica, Arial, sans-serif;
 }
 
@@ -579,8 +585,10 @@ button:hover {
         font-size: 20px;
      }
 
+    
+    
      h1{
-        font-size: 32px;
+        font-size: 38px;
          margin-top: 50%;
      }
 

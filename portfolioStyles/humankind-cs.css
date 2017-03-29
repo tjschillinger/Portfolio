@@ -1,3 +1,8 @@
+.SizeImg img{
+    height:auto;
+    width:75%;
+}
+
 div.column.full.title{
     padding-left: 0%;
     padding-right: 0%;
