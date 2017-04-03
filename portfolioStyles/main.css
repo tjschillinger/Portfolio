@@ -1,7 +1,3 @@
-.hidden{
-    display: none;
-}
-
 a:hover{
     cursor: pointer;
 }
@@ -18,18 +14,22 @@ a:hover{
     font-size: 36px;
 }
 
-.fa.fa-navicon.dropbtn:hover{
+.fa.fa-navicon.selected{
     color: white;
 }
 
 .dropbtn {
-    color: white;
-    padding: 20px 20px 0 20px;
-    font-size: 20px;
+    border-radius: 0 0 0 15px;
+    background-color: white;
+    padding: 16px;
+    font-size: 16px;
     border: none;
     cursor: pointer;
-    background-color: white;
-    border-radius: 0 0 0 15px;
+}
+
+.dropbtn.active{
+    background-color: #D6665A;
+    border-radius: 0 0 0 0;
 }
 
 .dropdown {
@@ -38,9 +38,10 @@ a:hover{
     right: 0px;
 }
 
+
 .dropdown-content {
-    border-radius: 15px 0 0 15px;
-    display: none;
+    border-radius:15px  0  0 15px;
+    display: block;
     position: absolute;
     right: 0;
     background-color: #f9f9f9;
@@ -48,6 +49,7 @@ a:hover{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
+
 
 .dropdown-content a {
     font-family: Ubuntu, Helvetica, Arial, sans-serif;
@@ -57,17 +59,12 @@ a:hover{
     display: block;
 }
 
+
 .dropdown-content a:hover {background-color: #f1f1f1; font-weight: bolder;
-color:#D6665A; border-radius: 15px;}
+color:#D6665A; border-radius: 15px; }
 
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #D6665A;
-    border-radius: 0;
+.hidden{
+    display: none;
 }
 
 a{

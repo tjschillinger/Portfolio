@@ -4,7 +4,14 @@ $(".projects-scroll").click(function() {
     }, 1000);
 });
 
+$(".dropdown").click(function(){
+    $(".dropdown-content").toggleClass("hidden");
+    $(".dropbtn").toggleClass("active");
+    $(".fa.fa-navicon").toggleClass("selected");
+});
+
+
+
 $(document).ready(function() {
       $('.delay').hide().delay(3000).fadeIn(2200);
 });
-
