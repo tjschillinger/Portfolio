@@ -7,20 +7,3 @@ $(".projects-scroll").click(function() {
         scrollTop: $("#humankind").offset().top
     }, 1000);
 });
-
-$(".dropdown").click(function(e){
-    $(".dropdown-content").show();
-    $(".dropbtn").toggleClass("active");
-    $(".fa.fa-navicon").toggleClass("selected");
-     e.stopPropagation();
-});
-
-$(".dropdown").click(function(e){
-    e.stopPropagation();
-});
-
-$(document).click(function(){
-    $(".dropdown-content").hide();
-    $(".dropbtn").removeClass("active");
-    $(".fa.fa-navicon").removeClass("selected");
-});
