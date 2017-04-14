@@ -73,7 +73,7 @@ div.column.full.title{
 
 .column.fourth img{
     width: 100%;
-    height: 250px;
+    
     object-fit:scale-down;
 }
 

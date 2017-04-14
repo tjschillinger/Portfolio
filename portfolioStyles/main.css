@@ -249,6 +249,13 @@ div.column.ninety{
     background-position: 50% 60%;
 }
 
+.platemate{
+    background-image: url(../images/PlateMate_Hero.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: 50% 60%;
+}
+
 .traks{
     background-image: url(../images/Traks_Image.png);
     background-repeat:no-repeat;
