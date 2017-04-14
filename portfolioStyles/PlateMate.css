@@ -31,6 +31,7 @@
 @media (max-width: 400px) {
         
     .small-single img{
+        height: auto;
         width: 80%;
     }
     
@@ -39,5 +40,9 @@
         height: 50px;
         object-fit:cover;
      }
+    
+    .hero-img-platemate{
+        width:80%;
+    }
 
 }
