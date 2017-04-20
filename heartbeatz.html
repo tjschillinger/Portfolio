@@ -50,10 +50,20 @@
             <li><a href="Contact.html">Contact</a></li>
         </ul>
     </div>
+    
+    <div class="side-nav-3">
+                <ul>
+                    <li class="dev-scroll default"><a href="#">Development</a></li>
+                    <li class="dev-results-scroll default"><a href="#">Dev Results</a></li>
+                    <li class="branding-scroll default"><a href="#">Rebrand</a></li>
+                    <li class="results-scroll default"><a href="#">Conclusion</a></li>
+                </ul>
+    </div>
+    
     <div class="column full">
         <div class="column full title-section">
             <h1>heartbeatz</h1>
-            <h2>This music site challenged me to develop and rebrand a dynamic music player by utilizing <b>JavaScript, jQuery, Sketch, and collaboration</b>.</h2>
+            <h2>This music site challenged me to develop and rebrand a dynamic music player by utilizing <b>JavaScript, jQuery, and Sketch</b>.</h2>
         </div>
         <a href="https://tjschillinger.github.io/heartbeatz/" target="_blank"><img class="hero-img " src= "images/heartbeatz_laptop.png"></a>
         
@@ -76,7 +86,7 @@
         <h4>Solution </h4>
         <p>The core of my solution placed a heavy emphasis on using JavaScript to reduce the dependency on HTML. Moreover, I reduced the labor of JavaScript by employing jQuery. So I built a malleable library within the JavaScript files that could insert content into the static HTML files.</p>
     </div>
-    <div class = "column full">
+    <div id="dev" class = "column full">
         <h3>Technical Side</h3>
         <h4>Generating Collection Page Content</h4>
         <p>I kept my code to a minimum for the collection page's HTML by leaving the content between the section tags void.</p>
@@ -134,7 +144,7 @@
       <div class = "one-img column full img-background">
           <img src="images/techsidephoto7.png" alt="Mockup 1">
       </div>
-    <div class= "reflections column full padpad">
+    <div id="dev-results" class= "reflections column full padpad">
        <h3>Reflections</h3>
        <div>
             <h4>What I Learned</h4>
@@ -145,7 +155,7 @@
             <p>Collaboration is essential to filing down a finely-tuned solution. No matter how much you think you know about JavaScript and jQuery, there will always be more to learn.</p>
     </div>
    </div>
-<div class = "column full padpad">
+<div id="branding" class = "column full padpad">
         <h3>Rebranding</h3>
         <h4>Creative Brief</h4>
         <p>Music is passion and life without it is void. That’s why when my design team and I had an opportunity to work on a rebrand design for a responsive music site I was ecstatic! Music is what makes work seem like play and I couldn’t wait to play with the colors and designs of this site. The majority of the content would remain the same but the colors, logo, hero image, and name were up for grabs! The site was antiquated and it needed to be rebranded to bring it back to life.<br><br>My team and I immediately began brainstorming themes for the rebrand so I would know what direction to take our design. I ended up determining the rebrand theme based on our mutual feeling that music = passion and passion inspires life.<br><br>Bloc Jams, the previous site name, no longer made sense with our narrative of passion. Bloc implies something that is blocky or clunky which can be some people's love story but not ours. We needed a name that got to the heart of what we’re about -passion and music. Sound Waves, FreeStyle, SongRise, and Pump were all initial brainstorming contenders but I landed on heartbeatz to portray the interplay of music and passion.</p>
@@ -229,7 +239,7 @@
           <p>Final Version of Album Page</p>
           <img src="images/album_second_draft.png" alt="Mockup 3">
       </div>
-    <div class= "reflections column full padpad">
+    <div id="conclusion" class= "reflections column full padpad">
        <h3> Reflections</h3>
         <p>Standing back from the project my design team and I smiled. Working on a project that intended to build passion in others had consequently built passion in us. It reminded us why I love design. Design is about friendly functionality above all else but it’s also about bringing life to projects that are dying. I spend a lot of time pumping energy into designs that users may or may not thank us later for birthing them but the satisfying ones are the ones that give back to you as much as you pour into them.
         </p>
@@ -297,6 +307,7 @@
     </div>
     <script src="scripts/jquery-3.1.0.min.js"></script>   
     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/heartbeatz-scroll.js"></script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

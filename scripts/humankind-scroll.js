@@ -1,40 +1,40 @@
 $(".survey-scroll").click(function() {
     $('html, body').animate({
-        scrollTop: $("#survey").offset().top -100
+        scrollTop: $("#survey").offset().top -140
     }, 1000);
 });
 
 $(".SWOT-scroll").click(function() {
     $('html, body').animate({
-        scrollTop: $("#SWOT").offset().top -100
+        scrollTop: $("#SWOT").offset().top -140
     }, 1000);
 });
 
 $(".branding-scroll").click(function() {
     $('html, body').animate({
-        scrollTop: $("#branding").offset().top -100
+        scrollTop: $("#branding").offset().top -140
     }, 1000);
 });
 
 $(".mockups-scroll").click(function() {
     $('html, body').animate({
-        scrollTop: $("#mockups").offset().top -100
+        scrollTop: $("#mockups").offset().top -140
     }, 1000);
 });
 
 $(".conclusion-scroll").click(function() {
     $('html, body').animate({
-        scrollTop: $("#conclusion").offset().top -100
+        scrollTop: $("#conclusion").offset().top -140
     }, 1000);
 });
 
 $(document).scroll(function() {
     var scroll_top = $(document).scrollTop();
-    var survey_top = $('#survey').position().top -100;
-    var SWOT_top = $('#SWOT').position().top -100;
-    var branding_top = $('#branding').position().top -100;
-    var mockups_top = $('#mockups').position().top -100;
-    var conclusion_top = $('#conclusion').position().top -200;
+    var survey_top = $('#survey').position().top -500;
+    var SWOT_top = $('#SWOT').position().top -500;
+    var branding_top = $('#branding').position().top -500;
+    var mockups_top = $('#mockups').position().top -500;
+    var conclusion_top = $('#conclusion').position().top -500;
     var footer_top = $('.footer').position().top -900;
 /*survey*/
     if(scroll_top > survey_top && scroll_top < SWOT_top) {
