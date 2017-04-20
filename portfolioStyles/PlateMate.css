@@ -51,6 +51,11 @@
     height: auto;
 }
 
+.full-imgs img {
+    width: 100%;
+    height: auto;
+}
+
 .hero-img-platemate{
     width:50%;
     height: auto;
