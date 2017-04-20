@@ -25,6 +25,49 @@ body, html {
 .column.flow-opposite { float: right; }
 .column.fifth { width: 20%; }
 
+.side-nav-2{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    top: 70px;
+    display: none;
+}
+.side-nav-2 > ul{
+    display: table;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    -moz-box-shadow: 4px 4px 14px #000;
+  -webkit-box-shadow: 4px 4px 14px #000;
+  box-shadow: 4px 4px 14px #000;
+}
+
+.side-nav-2 ul > li a {
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+
+.side-nav-2 ul > li{
+    float: left;
+    width: 20%;
+    padding-right: 0%;
+    font-size: 12px;
+    padding-left: 0%;
+    display: table;
+    height: 100%;
+    text-align: center;
+}
+
+.side-nav ul-2 > li >a:hover{
+    color: inherit;
+}
+
+.side-nav ul-2 > li:hover{
+    opacity: 1;
+    color: #D6665A;
+}
+
 .side-nav{
     position: fixed;
     width: 180px;
@@ -32,6 +75,7 @@ body, html {
     top: 50%;
     right: 5px;
     margin-top: -150px;
+    display: block;
 }
 .side-nav > ul{
     text-align: right;
@@ -644,20 +688,20 @@ button:hover {
     }
     
     .side-nav ul > li{
-        font-size: 10px;
+        font-size: 12px;
         height: 30px;
     }
     
     .side-nav{
-        width: 100px;
+        width: 120px;
     }
 }
 
 @media (max-width: 400px) {
     
     .column.full { 
-        width: 100%; padding-left:2%;
-        padding-right:20%;
+        width: 100%; padding-left:3%;
+        padding-right:3%;
     }
     
     .hero-img{
@@ -739,13 +783,12 @@ button:hover {
         padding-right: 0%;
     }
     
-    .side-nav{
-        position: fixed;
-        width: 180px;
-        height: 200px;
-        top: 90%;
-        right: 5px;
-        margin-top: -150px;
+    .side-nav ul > li a {
+        display: none;
+    }
+    
+    .side-nav-2{
+        display: block;
     }
 
 }
