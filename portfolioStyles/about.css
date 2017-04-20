@@ -124,6 +124,11 @@ p a:hover{
     cursor: pointer;
 }
 
+.lessons{
+    font-size: 20px;
+    line-height: 1.5;
+}
+
 .column.two-thirds p{
     color: white;
     Font-family: Arvo, Helvetica, Arial, sans-serif;
@@ -491,7 +496,14 @@ div.column.third a{
         font-size: 16px;
          line-height: 1.7;
      }
-
+    
+    .lessons{
+        font-size: 16px;
+        line-height: 1.5;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    
      h3{
         font-size: 20px;
      }
