@@ -44,6 +44,8 @@ div.column.full.title{
     width: 100%;
 }
 
+
+
 .hifi-mock{
     height: auto;
     width: 100%;
@@ -133,7 +135,6 @@ div.column.full.title{
          height: auto;
      }
      
-         .column.half { width: 100%; }
 }
 
 @media (max-width: 740px) {
@@ -151,6 +152,10 @@ div.column.full.title{
     .survey-img img {
         height: auto;
     }
+    
+    .phone-screen{
+        height: 50%;
+    }
 }
 
 @media (max-width: 400px) {
@@ -165,5 +170,9 @@ div.column.full.title{
          width: 70%;
          height: auto;
      }
+    
+    .phone-screen{
+        height: 30%;
+    }
 
 }
