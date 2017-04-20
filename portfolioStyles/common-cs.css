@@ -23,6 +23,50 @@ body, html {
 .column.third { width: 33.3%; }
 .column.fourth { width: 25%; }
 .column.flow-opposite { float: right; }
+.column.fifth { width: 20%; }
+
+.side-nav{
+    position: fixed;
+    width: 180px;
+    height: 200px;
+    top: 50%;
+    right: 5px;
+    margin-top: -150px;
+}
+.side-nav > ul{
+    text-align: right;
+    
+}
+
+.side-nav ul > li{
+    float: left;
+    width: 100%;
+    padding-right: 0%;
+}
+
+.side-nav ul > li >a:hover{
+    color: inherit;
+}
+
+.side-nav ul > li:hover{
+    opacity: 1;
+    color: #D6665A;
+}
+
+.side-nav-highlight{
+    opacity: 1;
+    color: #D6665A;
+    font-weight: bolder;
+}
+
+.default{
+    opacity: .3;
+}
+
+.highlighted{
+    border: 3px solid #D6665A;
+    border-radius: 15px;
+}
 
 .padpad{
     margin: 5% 0 5% 0;
@@ -510,13 +554,23 @@ button:hover {
     
     
     .column.full { 
-        width: 100%; padding-left:10%;
-        padding-right:10%;
+        width: 100%; padding-left:5%;
+        padding-right:20%;
     }
     
    .img-background p{
        font-size: .8rem;
    }
+    
+    .side-nav ul > li{
+        font-size: 14px;
+        height: 50px;
+    }
+    
+    .side-nav{
+        right: 1px;
+        width: 150px;
+    }
 
 }
 
@@ -547,8 +601,9 @@ button:hover {
     }
     
     .open-hand{
-    background-size:cover;
-    background-position: 50% 60%;
+        background-size:cover;
+        background-position: 50% 60%;
+    }
 }
 
 @media (max-width: 790px) {
@@ -587,9 +642,23 @@ button:hover {
     .nav-tabs li a{
         width: 70px;
     }
+    
+    .side-nav ul > li{
+        font-size: 10px;
+        height: 30px;
+    }
+    
+    .side-nav{
+        width: 100px;
+    }
 }
 
 @media (max-width: 400px) {
+    
+    .column.full { 
+        width: 100%; padding-left:2%;
+        padding-right:20%;
+    }
     
     .hero-img{
         width:100%;
@@ -668,6 +737,15 @@ button:hover {
         margin-top: 10%;
         padding-left: 0%;
         padding-right: 0%;
+    }
+    
+    .side-nav{
+        position: fixed;
+        width: 180px;
+        height: 200px;
+        top: 90%;
+        right: 5px;
+        margin-top: -150px;
     }
 
 }
