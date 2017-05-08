@@ -4,6 +4,6 @@ $(document).ready(function() {
 
 $(".projects-scroll").click(function() {
     $('html, body').animate({
-        scrollTop: $("#humankind").offset().top
+        scrollTop: $("#dailywalk").offset().top -140
     }, 1000);
 });

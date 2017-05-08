@@ -1,0 +1,178 @@
+.SizeImg img{
+    height:auto;
+    width:75%;
+}
+
+div.column.full.title{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+#single-img{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+#single-img img{
+    width: 95%;
+}
+
+.phone-screen{
+    height: 80%;
+}
+
+.phone-screen img{
+    height: 100%;
+}
+
+.SWOT-img img{
+    width: 100%;
+    height: auto;
+}
+
+.one-img img{
+    width: auto;
+    height: 800px;
+}
+
+.side-img img{
+    width: 100%;
+    height: auto;
+}
+
+.FAQ-img{
+    width: 100%;
+}
+
+
+
+.hifi-mock{
+    height: auto;
+    width: 100%;
+}
+
+.survey-img img{
+    width: 100%;
+    object-fit:contain;
+}
+
+
+.two-img img{
+    width: 100%;
+    height: auto;
+}
+
+.two-img{
+    width: 50%;
+    float: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.bottom-pic{
+    margin-bottom: 2%;
+}
+
+.column.fourth img{
+    width: 100%;
+    
+    object-fit:scale-down;
+}
+
+.color-palette img{
+         height: 100%;
+         width: 100%;
+     }
+
+.front-page-img{
+    height: 400px;
+    width: 100%;
+    object-fit:cover;
+}
+
+.logo-img img{
+    width: auto;
+    height: 150px;
+}
+
+
+ @media (min-width: 640px){
+   html { font-size: 112%; }
+
+ }
+
+
+ @media (max-width: 1024px) {
+   .column.third.originals { width: 100%; }
+   .column.third.originals img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .surveys.column.half { width: 100%; }
+
+
+     .column.fourth img{
+         height: 100%;
+        width: 100%;
+     }
+
+     .home-page.column.third{
+         width: 100%;
+     }
+
+     .home-page.column.third img{
+         height: 1000px;
+         width: auto
+     }
+
+     .SWOT-img.column.third { width: 100%; padding-left: 0%; padding-right: 0%; }
+
+
+     .phone-screen.column.fourth { width: 50%; }
+     .column.fourth img{
+         width: 70%;
+         height: auto;
+     }
+     
+}
+
+@media (max-width: 740px) {
+    .color-palette.column.fourth { width: 50%; }
+    .logo-img img{
+        width: 200px;
+        height: 200px;
+        object-fit:cover;
+     }
+
+    .column.third.logo-img{
+        width: 100%;
+    }
+
+    .survey-img img {
+        height: auto;
+    }
+    
+    .phone-screen{
+        height: 50%;
+    }
+}
+
+@media (max-width: 400px) {
+
+     .one-img img{
+        width: auto;
+        height: 500px;
+    }
+
+    .phone-screen.column.fourth { width: 100%; }
+     .phone-screen.column.fourth img{
+         width: 70%;
+         height: auto;
+     }
+    
+    .phone-screen{
+        height: 30%;
+    }
+
+}
