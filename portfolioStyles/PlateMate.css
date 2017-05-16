@@ -46,6 +46,10 @@
     height: 500px;
 }
 
+.med-single img{
+    height: 800px;
+}
+
 .profile-imgs img {
     width: 70%;
     height: auto;
@@ -72,6 +76,9 @@
     .small-single img{
         width: 80%;
     }
+    
+    
+    
     .nav-container h4{
         font-size: .8rem;
      }
