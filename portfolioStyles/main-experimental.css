@@ -11,7 +11,7 @@
 /* Type */
 
 	p{
-		color: rgba(255, 255, 255, 0.75);
+		color: rgba(0, 0, 0, 0.75);
 		font-size: 14pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -68,7 +68,7 @@
 	}
 
 	strong, b {
-		color: #fff;
+		color: black;
 		font-weight: 400;
 	}
 
@@ -81,7 +81,7 @@
 	}
 
 	  h2, h3, h4, h5, h6 {
-		color: #fff;
+		color: black;
 		font-weight: 400;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
@@ -223,9 +223,19 @@
     .box {
 		border-radius: 4px;
 		margin-bottom: 2em;
-		background: #2c2c32;
+		background: white;
 		text-align: center;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+        transition: all 0.3s ease-in-out;
 	}
+.box:after {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: opacity 0.3s ease-in-out;
+}
+    
+.box:hover {
+  transform: scale(1.01, 1.01);
+}
 
 		.big-box > :last-child,
 		.big-box > :last-child > :last-child,
@@ -283,7 +293,7 @@
         .extra-big-box {
 		border-radius: 4px;
 		margin-bottom: 2em;
-		background: #2c2c32;
+		background: white;
 		text-align: center;
 	}
 
@@ -332,9 +342,25 @@
         .big-box {
 		border-radius: 4px;
 		margin-bottom: 2em;
-		background: #2c2c32;
+		background: white;
 		text-align: center;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+        transition: all 0.3s ease-in-out;
 	}
+.big-box:after {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: opacity 0.3s ease-in-out;
+}
+    
+.big-box:hover {
+  transform: scale(1.01, 1.01);
+}
+
+/* Fade in the pseudo-element with the bigger shadow */
+.big-box:hover::after {
+  opacity: 1;
+}
+
 
         .big-box .image.fit {
 			margin: 0;
@@ -379,9 +405,19 @@
         .small-box {
 		border-radius: 4px;
 		margin-bottom: 2em;
-		background: #2c2c32;
+		background: white;
 		text-align: center;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+        transition: all 0.3s ease-in-out;
 	}
+.small-box:after {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: opacity 0.3s ease-in-out;
+}
+    
+.small-box:hover {
+  transform: scale(1.01, 1.01);
+}
 
         .small-box .image.fit {
 			margin: 0;
