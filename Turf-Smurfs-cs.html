@@ -4,38 +4,66 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Turf Smurfs Case Study</title>
-  <link href="https://fonts.googleapis.com/css?family=Arvo|Poppins|Special+Elite|Ubuntu" rel="stylesheet">
   <link rel="stylesheet" href="portfolioStyles/font-awesome.css">    
   <link rel="stylesheet" type="text/css" href="portfolioStyles/normalize.css">
+  <link rel="shortcut icon" href="Landing-images/favicon//T_favicon.png">
+  <link rel="apple-touch-icon" sizes="144x144" type="image/x-icon" href="Landing-images/favicon/T_favicon.png"> 
+    
+        <!-- All CSS Plugins -->
+    <link rel="stylesheet" type="text/css" href="css/portfolio_plugin.css">
+    
+    <!-- Main CSS Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="css/portfolio_style.css">
   <link rel="stylesheet" href="portfolioStyles/common-cs.css">
   <link rel= "stylesheet" href="portfolioStyles/PlateMate.css">
-  <link rel="shortcut icon" href="images/logo_favicon.png">    
+  <link href="https://fonts.googleapis.com/css?family=Arvo|Poppins|Special+Elite|Ubuntu" rel="stylesheet">    
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700">
+    
 </head>
 <body>
-    
-   <div class="mobile-tabs">
-        <div class="column two-thirds">
-            <p><a href="index.html">Timothy Schillinger</a></p>
+    	<!-- Preloader Start -->
+    <div id="preloader">
+	  <div class="loader"></div>
+    </div>
+    <!-- Preloader End -->
+        <div class="header-top-area navigation-background">
+            <div class="container">
+                <div class="row">
+                
+                    <div class="col-sm-3 no-pad">
+                        <div class="logo">
+                            <a href="index.html">Tim Schillinger</a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-9">
+                        <div class="navigation-menu">
+                            <div class="navbar">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <div class="navbar-collapse collapse">
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li><a class="smoth-scroll" href="index.html#portfolio">Portfolio</a>
+                                        </li>
+                                        <li><a class="smoth-scroll" href="index.html#about-entry">About</a>
+                                        </li>
+                                        <li><a class="smoth-scroll" href="index.html#chat-entry">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <ul>
-            <li class="highlight"><i class="fa fa-navicon"></i>
-                <ul>
-                    <li><a href="About.html">About</a></li>
-                    <li><a href="index.html#turf-smurfs">Work</a></li>
-                    <li><a href="images/UX-UI_Resume.pdf" target="_blank">Resume</a></li>
-                </ul>
-            </li>
-        </ul>
-    </div>
     
-  <div class="nav-tabs">
-        <ul>
-            <li class="about-scroll"><a href="About.html">About</a></li>
-            <li><a href="index.html#turf-smurfs">Work</a></li>  
-            <li ><a href="images/UX-UI_Resume.pdf" target="_blank">Resume</a></li>
-            <li><a href="Contact.html">Contact</a></li>
-        </ul>
-    </div>
     <div class="side-nav-3">
                 <ul>
                     <li class="survey-scroll default"><a href="#">Research</a></li>
@@ -94,7 +122,7 @@
         <p><br><br>The landing page needed to capture user trust for them to consider booking Turf Smurf’s services. To build trust, I included Turf Smurf’s values in the beginning and also some testimonials from locals who have used their services.<br><br>I designed the navigation to be simple and my first call to action button easily navigates a user to the services page where they can not only view the services but also request a free estimate.  
         </p>
     </div>
-    <div class = "img-background column full small-single top-img">
+    <div class = "img-background column full med-single img top-img">
          <img src = "images/Turf_Landing_Balsamiq.png">
     </div>
     
@@ -108,7 +136,7 @@
         <p>You’ll notice the landing page has changed in layout to accomodate a more modern and edgy design. I also wanted to conserve more space and allow the users gaze to more easily navigate the information without having to bounce around excessively. 
       </p>
   </div>
-    <div class = "img-background column full small-single top-img">
+    <div class = "img-background column full med-single top-img">
          <img src = "images/Turf_Smurfs_Landing.png">
        </div>
     <div class = "column full padpad">
@@ -124,7 +152,7 @@
         <p>The about section did not include photos and bios of the team originally, just the companies values. This new section however, is a huge add value for users wanting a more personal introduction to the team. This also builds trust.
       </p>
   </div>
-    <div class = "img-background column full small-single top-img">
+    <div class = "img-background column full med-single top-img">
          <img src = "images/Turf_Smurfs_About.png">
        </div>
     
@@ -150,7 +178,7 @@
             </div>
         </div>
       </div></a>
-      <a  href="Daily_Walk-cs.html"><div id="dailywalk" class="column third dailywalk">
+    <a  href="Daily_Walk-cs.html"><div id="dailywalk" class="column third dailywalk">
     <div class="text-middle">
         <div class="column full cs-title">
           <h2>Daily Walk</h2>
@@ -186,7 +214,10 @@
         </div>
     </div>
     <script src="scripts/jquery-3.1.0.min.js"></script>   
-    <script src="scripts/hamburger.js"></script>
+
+
+        <script type="text/javascript" src="js/scripts.js"></script>
+        <script type="text/javascript" src="js/plugin.js"></script>
     <script src="scripts/platemate-scroll.js"></script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

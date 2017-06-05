@@ -4,38 +4,69 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Icon Creator Case Study</title>
-  <link href="https://fonts.googleapis.com/css?family=Arvo|Poppins|Special+Elite|Ubuntu" rel="stylesheet">
   <link rel="stylesheet" href="portfolioStyles/font-awesome.css">    
   <link rel="stylesheet" type="text/css" href="portfolioStyles/normalize.css">
   <link rel="stylesheet" href="portfolioStyles/common-cs.css">
   <link rel= "stylesheet" href="portfolioStyles/OpenHand-cs.css">
-  <link rel="shortcut icon" href="images/logo_favicon.png">
+  <link rel="shortcut icon" href="Landing-images/favicon//T_favicon.png">
+  <link rel="apple-touch-icon" sizes="144x144" type="image/x-icon" href="Landing-images/favicon/T_favicon.png"> 
+    
+       
+        <!-- All CSS Plugins -->
+  <link rel="stylesheet" type="text/css" href="css/portfolio_plugin.css">
+    
+    <!-- Main CSS Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="css/portfolio_style.css">
+  <link rel="stylesheet" href="portfolioStyles/common-cs.css">
+  <link rel= "stylesheet" href="portfolioStyles/PlateMate.css"> 
+  <link rel= "stylesheet" href="portfolioStyles/OpenHand-cs.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo|Poppins|Special+Elite|Ubuntu" rel="stylesheet">    
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700">
 </head>
 <body>
+    <!-- Preloader Start -->
+    <div id="preloader">
+	  <div class="loader"></div>
+    </div>
+    <!-- Preloader End -->
     
-   <div class="mobile-tabs">
-        <div class="column two-thirds">
-            <p><a href="index.html">Timothy Schillinger</a></p>
+   <div class="header-top-area">
+            <div class="container">
+                <div class="row">
+                
+                    <div class="col-sm-3 no-pad">
+                        <div class="logo">
+                            <a href="index.html">Tim Schillinger</a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-9">
+                        <div class="navigation-menu">
+                            <div class="navbar">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <div class="navbar-collapse collapse">
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li><a class="smoth-scroll" href="index.html#portfolio">Portfolio</a>
+                                        </li>
+                                        <li><a class="smoth-scroll" href="index.html#about-entry">About</a>
+                                        </li>
+                                        <li><a class="smoth-scroll" href="index.html#chat-entry">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <ul>
-            <li class="highlight"><i class="fa fa-navicon"></i>
-                <ul>
-                    <li><a href="About.html">About</a></li>
-                    <li><a href="index.html#traks">Work</a></li>
-                    <li><a href="images/UX-UI_Resume.pdf" target="_blank">Resume</a></li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-    
-  <div class="nav-tabs">
-        <ul>
-            <li class="about-scroll"><a href="About.html">About</a></li>
-            <li><a href="index.html#traks">Work</a></li>
-            <li ><a href="images/UX-UI_Resume.pdf" target="_blank">Resume</a></li>
-            <li><a href="Contact.html">Contact</a></li>
-        </ul>
-    </div>
     
     <div class="side-nav-3">
                 <ul>
@@ -158,7 +189,7 @@
             </div>
         </div>
       </div></a>
-      <a  href="Daily_Walk-cs.html"><div id="dailywalk" class="column third dailywalk">
+    <a  href="Daily_Walk-cs.html"><div id="dailywalk" class="column third dailywalk">
     <div class="text-middle">
         <div class="column full cs-title">
           <h2>Daily Walk</h2>
@@ -194,7 +225,8 @@
         </div>
     </div>
     <script src="scripts/jquery-3.1.0.min.js"></script>   
-    <script src="scripts/hamburger.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/plugin.js"></script>
     <script src="scripts/openhand-scroll.js"></script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
