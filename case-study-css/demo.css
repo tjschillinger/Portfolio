@@ -1,0 +1,92 @@
+@import url('normalize.css');
+@font-face {
+	font-family:'RaphaelIcons';
+    src: url('raphaelicons-webfont.eot');
+    src: local('☺'), 
+		url('fonts/raphaelicons-webfont.woff') format('woff'), 
+		url('fonts/raphaelicons-webfont.ttf') format('truetype'), 
+		url('fonts/raphaelicons-webfont.svgwebfontKOf9F4sx') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* General Demo Style */
+body{
+	font-family: 'Poppins', sans-serif;
+	background: #ddd;
+	font-weight: 400;
+	font-size: 15px;
+	color: #333;
+	-webkit-font-smoothing: antialiased;
+}
+a{
+	color: #555;
+	text-decoration: none;
+}
+.clr{
+	clear: both;
+	padding: 0;
+	height: 0;
+	margin: 0;
+}
+
+
+/*portfolio styles*/
+/* General Demo Style */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url('fonts/animals-webfont.eot');
+    src: url('fonts/animals-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/animals-webfont.woff') format('woff'),
+         url('fonts/animals-webfont.ttf') format('truetype'),
+         url('fonts/animals-webfont.svg#AnimalsNormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html { height: 100%; }
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/*Case Study*/
+.container-2{
+	width: 100%;
+	position: relative;
+}
+
+.container-2 > header{
+	margin: 10px;
+	padding: 20px 10px 10px 10px;
+	position: relative;
+	display: block;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    text-align: center;
+}
+.container-2 > header h1{
+	font-size: 36px;
+	line-height: 40px;
+	margin: 0;
+	position: relative;
+	font-weight: 300;
+	color: #498ea5;
+	padding: 5px 0px;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.7);
+}
+.container-2 > header h1 span{
+	font-weight: 700;
+}
+.container-2 > header p{
+	font-style: italic;
+	color: #aaa;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.7);
+}
+
