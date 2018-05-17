@@ -33,6 +33,7 @@ $(document).scroll(function() {
        $('.about-nav').addClass('home-default');
     }
     
+    
 /*mockups*/     
     if(scroll_top > contact_top && scroll_top < footer_top) {
         $('.conact-nav').removeClass('home-default');
